@@ -2,6 +2,8 @@ h1. U.N. Al-Qaida Sanctions Feed Network Visualization
 
 A version of this project is deployed here: "https://al-qaida-viz.herokuapp.com/":https://al-qaida-viz.herokuapp.com/
 
+See this related project: "https://github.com/johnfkraus/un-sanc-viz":https://github.com/johnfkraus/un-sanc-viz
+
 h2.  Data Sources
 
 U.N. website: "http://www.un.org/sc/committees/1267/":http://www.un.org/sc/committees/1267/
