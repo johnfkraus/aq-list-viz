@@ -15,16 +15,16 @@ Development url: "http://localhost:63342/aq-list-viz/index.html":http://localhos
 
 h2.  Preparing the data
 
+Note: The United Nations published data format may have changed over time, which could break the code in this application.
 
-Download the AQList.xml file from here:
-
+Download the AQList.xml file from the link shown above under Data Sources.
 
 Using the AQList-to-d3.xsl stylesheet, transform the AQList.xml to the AQ-d3.xml format.
 
 Convert the AQ-d3.xml file to JSON with the following filename: al-qaeda.json, and put the new JSON file in the data directory.
 
 Remove the root node from the al-qaida.json file.
-Make sure the al-qaida.json data file start off like this:
+Make sure the al-qaida.json data file starts off with something like this:
 
 <pre>
 {
@@ -42,12 +42,11 @@ Make sure the al-qaida.json data file start off like this:
 
 
 
-
-
 h2. Running
 
 Running apache2 on codio.
 http://shadow-context.codio.io:3000/
+
 or
 
 Running build-in HTTP server on custom port 63342 in WebStorm.
@@ -76,3 +75,5 @@ h2.  To Do
 
 Import the narrative pages and collect additional nodes.
 Add click to documentation for each node.
+Forks of this application may be found in various repos in https://github.com/johnfkraus/
+
