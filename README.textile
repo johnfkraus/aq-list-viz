@@ -1,3 +1,5 @@
+!aq-list-viz-screenshot.png!
+
 !aq-list-viz_screen_shot_01.png!:https://al-qaida-viz.herokuapp.com
 
 h1. U.N. Al-Qaida Sanctions Feed Network Visualization
