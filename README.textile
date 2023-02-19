@@ -5,7 +5,7 @@
 
 h1. U.N. Al-Qaida Sanctions Feed Network Visualization
 
-A version of this project is deployed here: "http://johns15puzzle.com.s3-website-us-east-1.amazonaws.com/#":http://johns15puzzle.com.s3-website-us-east-1.amazonaws.com/#
+A version of this project is deployed here: "http://johns15puzzle.com.s3-website-us-east-1.amazonaws.com/#":http://johns15puzzle.com.s3-website-us-east-1.amazonaws.com/
 
 h2.  Data Sources
 
