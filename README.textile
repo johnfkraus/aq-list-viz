@@ -1,11 +1,11 @@
-!aq-list-viz_screen_shot_01.png!:https://al-qaida-viz.herokuapp.com
+!aq-list-viz_screen_shot_01.png!:http://johns15puzzle.com.s3-website-us-east-1.amazonaws.com/#
 
 
 !aq-list-viz-screenshot.png!
 
 h1. U.N. Al-Qaida Sanctions Feed Network Visualization
 
-A version of this project is deployed here: "https://al-qaida-viz.herokuapp.com/":https://al-qaida-viz.herokuapp.com/
+A version of this project is deployed here: "http://johns15puzzle.com.s3-website-us-east-1.amazonaws.com/#":http://johns15puzzle.com.s3-website-us-east-1.amazonaws.com/#
 
 h2.  Data Sources
 
