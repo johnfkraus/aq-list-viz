@@ -78,3 +78,11 @@ Forks of this application may be found in various repos in https://github.com/jo
 See this related project: "https://github.com/johnfkraus/un-sanc-viz":https://github.com/johnfkraus/un-sanc-viz
 
 
+To run:
+
+node index.js
+
+Browse to localhost:3000
+
+
+
