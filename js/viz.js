@@ -9,6 +9,7 @@ Network = function () {
     maxRadius, maxRadiusSelect, moveToRadialLayout, neighboring, network, node, nodeColors, nodeColors2, nodeColorsForNoLongerListed, nodeCounts, nodesG, radialTick, radius2,
     searchTerm, setFilter, setLayout, setMaxRadius, setSort, setupData, setupData2, showDetails, showingDoc, showTheDoc, sort, sortedTargets,
     strokeFor, tooltip, update, updateCenters, updateLinks, updateNodes, width;
+  var consoleLog = true;
   var docClosePadding = 8;
   var topStuffNegativeMargin = 10;
 
@@ -1275,9 +1276,20 @@ $(function () {
     }
 
     // LOAD THE JSON DATA FILE HERE
-    return d3.json("data/output/data.json", function (json) {
-      return myNetwork("#svg", json);
-    });
+    // return d3.json("data/output/data.json", function (json) {
+    // return myNetwork("#svg", json);
+    // });
+
+    // return (jsonData, function (json) {
+    let myJsonData =  jsonData.replace(/\\/g, '\\');
+
+    let myJsonData2 = JSON.parse(myJsonData);
+      // let myJsonData2 = myJsonData.replace(/\\/g, '\\');
+      //return myNetwork("#svg", JSON.parse(jsonData));
+      return myNetwork("#svg", myJsonData2);
+
+
+      //});
   }
 );
 // end of function()
