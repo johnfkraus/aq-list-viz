@@ -1,7 +1,7 @@
 // app-test.js
 //=============
 var linenums = require('./linenums.js');
-var consoleLog = false;
+var consoleLog = true; // false;
 var utilities_aq_viz = require('./utilities_aq_viz');
 var logger = require('./tracer-logger-config.js').logger;
 //var logger = require('tracer').colorConsole({level:'info'});

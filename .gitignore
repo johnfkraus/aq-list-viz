@@ -40,3 +40,4 @@ terminal*.txt
 .idea/
 .idea/*
 
+.DS_Store
