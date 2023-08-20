@@ -21,22 +21,23 @@
     "fs-extra": "^0.12.0",
     "gulp": "^3.8.10",
     "gulp-markdown": "^1.0.0",
-    "urllib-sync": "",
     "jquery": ">=3.4.0",
     "json-patch": "^0.5.0",
     "markdown": "^0.5.0",
     "markdown-js": "^0.0.3",
+    "npm": "^9.8.1",
     "object-inspect": "^1.0.0",
     "request-enhanced": "^0.1.1",
     "request-sync": "^1.0.0",
     "sync-request": "^1.0.1",
     "tracer": "0.7.3",
+    "urllib-sync": "",
     "xml2js": "^0.4.4",
     "xml2json": "^0.5.1"
   },
   "engines": {
-    "node": "v18.17.1", 
-    "npm": "9.6.7"
+    "node": "v18.17.1",
+    "npm": "9.8.1"
   },
   "devDependencies": {
     "coffee-script": "^1.8.0"
@@ -63,4 +64,3 @@
   },
   "homepage": "http://www.johnfkraus.com"
 }
-
