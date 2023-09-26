@@ -19,7 +19,6 @@
     "file-exists": "^0.1.1",
     "filewalker": "^0.1.2",
     "fs-extra": "^0.12.0",
-    "gulp": "^3.8.10",
     "gulp-markdown": "^1.0.0",
     "jquery": ">=3.4.0",
     "json-patch": "^0.5.0",
@@ -40,7 +39,8 @@
     "npm": "9.8.1"
   },
   "devDependencies": {
-    "coffee-script": "^1.8.0"
+    "coffee-script": "^1.8.0",
+    "gulp": "^4.0.2"
   },
   "scripts": {
     "test": "test"
