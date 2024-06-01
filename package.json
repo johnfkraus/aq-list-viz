@@ -1,6 +1,6 @@
 {
   "name": "aq-list-viz",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Network Visualization of U.N. al-qaida sanctions list\"",
   "main": "app.js",
   "directories": {
@@ -57,10 +57,9 @@
     "d3",
     "force-directed graph"
   ],
-  "author": "John Kraus <johnkraus3@gmail.com> (http://al-qaida-viz.herokuapp.com/)",
+  "author": "John Kraus <johnkraus3@gmail.com> (https://al-qaida-sanctions.com/)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/johnfkraus/aq-list-viz/issues"
-  },
-  "homepage": "http://www.johnfkraus.com"
+  }
 }
