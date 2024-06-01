@@ -4,6 +4,9 @@ Click on a node to see details:
 
 !aq-list-viz-screenshot.png!
 
+https://al-qaida-sanctions.com/
+
+
 h1. U.N. Al-Qaida Sanctions Feed Network Visualization
 
 

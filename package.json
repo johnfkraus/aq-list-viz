@@ -35,8 +35,8 @@
     "xml2json": "^0.5.1"
   },
   "engines": {
-    "node": "v18.17.1",
-    "npm": "9.8.1"
+    "node": "v18.20.3",
+    "npm": "10.7.0"
   },
   "devDependencies": {
     "coffee-script": "^1.8.0",
