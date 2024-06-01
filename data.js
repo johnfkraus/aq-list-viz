@@ -174,7 +174,7 @@ let jsonData = `{
    "REFERENCE_NUMBER": "QI.A.289.11",
    "LISTED_ON": "2011-02-09T00:00:00",
    "NAME_ORIGINAL_SCRIPT": "سعید جان عبد السلام",
-   "COMMENTS1": "In approximately 2005, ran a \"basic training\" camp for Al-Qaida (QE.A.4.01.) in Pakistan.",
+   "COMMENTS1": "In approximately 2005, ran a \'basic training\' camp for Al-Qaida (QE.A.4.01.) in Pakistan.",
    "NATIONALITY": {
     "VALUE": "Afghan"
    },
@@ -9019,7 +9019,7 @@ let jsonData = `{
     },
     {
      "TYPE_OF_DOCUMENT": "National Identification Number",
-     "NOTE": "German identity document (\"Bundespersonalausweis\") No. 1336597587"
+     "NOTE": "German identity document (\'Bundespersonalausweis\') No. 1336597587"
     }
    ],
    "SORT_KEY": "BAHAJI SAID",
@@ -21803,7 +21803,7 @@ let jsonData = `{
    "ENTITY_ALIAS": [
     {
      "QUALITY": "a.k.a.",
-     "ALIAS_NAME": "\"The Base\""
+     "ALIAS_NAME": "\'The Base\'"
     },
     {
      "QUALITY": "a.k.a.",
@@ -22029,7 +22029,7 @@ let jsonData = `{
    "UN_LIST_TYPE": "Al-Qaida",
    "REFERENCE_NUMBER": "QE.A.5.01",
    "LISTED_ON": "2001-10-06T00:00:00",
-   "COMMENTS1": "Headquarters are in Pakistan. Operations in Afghanistan: Herat Jalalabad, Kabul, Kandahar, Mazar Sherif. Also operations in Kosovo, Chechnya. Involved in the financing of Al-Qaida and the Taliban. Until 21 Oct. 2008, this entity appeared also as \"Aid Organization of the Ulema, Pakistan\" (QE.A.73.02), listed on 24 Apr. 2002 and amended on 25 Jul. 2006. The two entries Al Rashid Trust (QE.A.5.01) and Aid Organization of the Ulema, Pakistan (QE.A.73.02) were consolidated into this entity on 21 Oct. 2008. Founded by Mufti Rashid Ahmad Ledahyanoy (deceased). Associated with Jaish-i-Mohammed (QE.J.19.01). Banned in Pakistan since Oct. 2001. Despite the closure of its offices in Pakistan in February 2007 it has continued its activities. Review pursuant to Security Council resolution 1822 (2008) was concluded on 6 May 2010.",
+   "COMMENTS1": "Headquarters are in Pakistan. Operations in Afghanistan: Herat Jalalabad, Kabul, Kandahar, Mazar Sherif. Also operations in Kosovo, Chechnya. Involved in the financing of Al-Qaida and the Taliban. Until 21 Oct. 2008, this entity appeared also as \'Aid Organization of the Ulema, Pakistan\' (QE.A.73.02), listed on 24 Apr. 2002 and amended on 25 Jul. 2006. The two entries Al Rashid Trust (QE.A.5.01) and Aid Organization of the Ulema, Pakistan (QE.A.73.02) were consolidated into this entity on 21 Oct. 2008. Founded by Mufti Rashid Ahmad Ledahyanoy (deceased). Associated with Jaish-i-Mohammed (QE.J.19.01). Banned in Pakistan since Oct. 2001. Despite the closure of its offices in Pakistan in February 2007 it has continued its activities. Review pursuant to Security Council resolution 1822 (2008) was concluded on 6 May 2010.",
    "LIST_TYPE": {
     "VALUE": "UN List"
    },
