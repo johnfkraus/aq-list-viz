@@ -44,7 +44,7 @@
     <script src="js/config.js"></script>
     <script src="js/objects.js"></script>
 </head>
-<body>
+<body style="background-color: transparent !important">
 <div id="container" class="container">
     <table id="top-stuff">
         <tr>
@@ -53,7 +53,7 @@
                     <img src="images/image001-103x89.gif"/>
                 </a>
             </td>
-            <td class="mainTitleTd">
+            <td id="mainTitleTd" style="width: 22%;">
                 <div class="mainTitleDiv"><a
                         href="http://www.un.org/sc/committees/1267/AQList.xml" id="AQList.xml" target="_blank"
                         style="text-decoration: none;">U.N. Al-Qaida Sanctions List</a>
@@ -63,43 +63,44 @@
                                          target="_blank"
                                          style="text-decoration: none;"><span
                         style="font-size: 10px; line-height: 120%;"
-                        id="dateGeneratedByUN"></span></a></div>
+                        id="dateGeneratedByUN"></span>
+                </a></div>
                 <div class="noPadMar">
                     <span style="line-height: 120%; font-size: 10px; padding-left: 2px;">A Thing by <a
-                            href="mailto:john@johnfkraus.com?Subject=Cowabunga!" id="johnkraus" target="_blank"
+                            href="mailto:johnkraus3@gmail.com?Subject=Cowabunga!" id="johnkraus" target="_blank"
                             style="text-decoration: none;">John Kraus</a></span>
                 </div>
             </td>
-            <td align="center" style="display: none;">
-                <div id="list_selection" class="control">
-                    <h3>Name</h3>
-                    <select id="list_select">
-                        <option value="al-qaida.json">Al-Qaida List</option>
-                    </select>
-                </div>
-            </td>
-            <td align="center" style="display: none;">
-                <div id="layouts" class="control">
-                    <h3>Layout</h3>
-                    <a id="force" class="active">Force Directed</a>
-                    <a id="radial" style="color: #ddd; background-color: #aaa;">Radial</a>
-                </div>
-            </td>
-            <td align="right" style="display: none;">
-                <div id="filters" class="control">
-                    <h3>Filter</h3>
-                    <a id="all" class="active">All</a>
-                    <a id="popular">Well-known</a>
-                    <a id="obscure">Obscure</a>
-                </div>
-                <div id="sorts" class="control" style="display: none;">
-                    <h3>Sort</h3>
-                    <a id="songs" class="active">Names</a>
-                    <a id="links">Links</a>
-                </div>
-            </td>
-            <td>
-                <div id="searchDiv" class="control" style="padding-top: 4px;">
+<!--            <td id="searchIdsNamesDisplayNone" style="display: none;">-->
+<!--                <div id="list_selection" class="control">-->
+<!--                    <h3>Name</h3>-->
+<!--                    <select id="list_select">-->
+<!--                        <option value="al-qaida.json">Al-Qaida List</option>-->
+<!--                    </select>-->
+<!--                </div>-->
+<!--            </td>-->
+<!--            <td align="center" style="display: none;">-->
+<!--                <div id="layouts" class="control">-->
+<!--                    <h3>Layout</h3>-->
+<!--                    <a id="force" class="active">Force Directed</a>-->
+<!--                    <a id="radial" style="color: #ddd; background-color: #aaa;">Radial</a>-->
+<!--                </div>-->
+<!--            </td>-->
+<!--            <td align="right" style="display: none;">-->
+<!--                <div id="filters" class="control">-->
+<!--                    <h3>Filter</h3>-->
+<!--                    <a id="all" class="active">All</a>-->
+<!--                    <a id="popular">Well-known</a>-->
+<!--                    <a id="obscure">Obscure</a>-->
+<!--                </div>-->
+<!--                <div id="sorts" class="control" style="display: none;">-->
+<!--                    <h3>Sort</h3>-->
+<!--                    <a id="songs" class="active">Names</a>-->
+<!--                    <a id="links">Links</a>-->
+<!--                </div>-->
+<!--            </td>-->
+            <td id="searchDivTd" style="width: 23%">
+                <div id="searchDiv" class="control" style="padding-top: 4px; padding-right: 10px;">
                     <form id="searchIdsForm" action="" method="post">
                         <div class="tableRow">
                             <div class="searchIdsNames">Search IDs</div>
@@ -144,8 +145,8 @@
                         <select id="force_charge_select" style="width: 60px;">
                             <option value="0">0</option>
                             <option value="-25">-25</option>
-                            <option value="-50">-50</option>
-                            <option selected="selected" value="-75">-75</option>
+                            <option selected="selected" value="-50">-50</option>
+                            <option value="-75">-75</option>
                             <option value="-100">-100</option>
                             <option value="-125">-125</option>
                             <option value="-150">-150</option>
@@ -252,11 +253,12 @@
         <div id="doc" class="doc">
             <div id="line1">
                 <span id="name">
-                </span><span>&nbsp;&nbsp;</span>
-               <span id="nameOriginalScript">
+                </span>
+                <span>&nbsp;&nbsp;</span>
+                <span id="nameOriginalScript">
                </span>
                 <span>&nbsp;&nbsp;</span>
-                 <span id="id">
+                <span id="id">
             </div>
             <div class="line2">
                 <span><b>Narrative Summary of the Reasons for Listing:</b></span>
@@ -272,12 +274,12 @@
 
             <div id="dateOfBirthDiv">
                 <span style="font-weight: bold;">Individual date of birth: </span>
-                 <span id="indivDateOfBirth">Not available
+                <span id="indivDateOfBirth">Not available
                 </span>
             </div>
             <div id="placeOfBirthDiv">
                 <span style="font-weight: bold;">Individual place of birth: </span>
-                 <span id="indivPlaceOfBirth">Not available
+                <span id="indivPlaceOfBirth">Not available
                 </span>
             </div>
             <div id="aliasDiv">
@@ -285,18 +287,18 @@
                     Aliases (quality)&nbsp;</span>
                 <span class="boldListing" id="aliasCount"></span>
                 <span class="boldListing">:&nbsp;</span>
-                 <span id="aliasString">
+                <span id="aliasString">
                 </span>
             </div>
             <div id="dateListedDiv">
                 <span style="font-weight: bold;">Date listed: </span>
-                 <span id="dateListed">
+                <span id="dateListed">
                 </span>
             </div>
 
             <div id="datesUpdatedDiv">
                 <span style="font-weight: bold;">Date(s) updated: </span>
-                 <span id="dateUpdated">
+                <span id="dateUpdated">
                 </span>
             </div>
 
@@ -327,7 +329,7 @@ s
 <script>
     (function () {
         'use strict';
-        var blob = new Blob([jsonData], { type: 'text/javascript' });
+        var blob = new Blob([jsonData], {type: 'text/javascript'});
         var blobUrl = URL.createObjectURL(blob);
         /*        <!-- $.get(blobUrl, function (jsonData) {
                     var geoLayer = L.geoCsv(csvContents, { firstLineTitles: true, fieldSeparator: ';' });

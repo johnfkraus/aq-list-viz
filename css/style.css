@@ -18,17 +18,21 @@ a, a:visited {
 
 /* 940px;  match value in js */
 #container {
+    /*background-color: transparent !important*/
     width: 100%;
     margin: auto;
 }
 
 #svg {
-    max-height: 960px;
+    /*max-height: 960px;*/
+    /*max-height: 1300px;*/
+    height: 3vh;
     overflow: scroll;
 }
 
-.mainTitleTd {
+#mainTitleTd {
     padding: 5px;
+    max-width: 300px;
 }
 
 .mainTitleDiv {
@@ -42,6 +46,7 @@ a, a:visited {
 }
 
 .noPadMar {
+    width: auto;
     padding: 0;
     margin: 0;
     line-height: 11px;
@@ -51,8 +56,13 @@ form {
     margin: 0;
 }
 
+table, tbody, tr, td, a, form, td.div, td.div.form {
+    background-color: transparent !important
+}
+
 .tableRow {
     display: table-row;
+    background-color: transparent !important
 }
 
 .searchIdsNames {
@@ -74,7 +84,7 @@ form {
 
 #highlightType {
     padding-top: 5px;
-    width: 130px;
+    width: 100px;
 }
 
 .control {
@@ -200,7 +210,7 @@ td#unLogo {
     padding: 5px;
     width: 100%;
     margin-bottom: 0;
-    background-color: transparent;
+    background-color: transparent !important;
 }
 
 #top-stuff td {
