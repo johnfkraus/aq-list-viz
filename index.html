@@ -10,21 +10,21 @@
 <!--<![endif]-->
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>U.N. Al-Qaida Sanctions List Network Visualization</title>
+    <title>U.N. Al-Qaida Sanctions Visualization</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta charset="UTF-8">
     <meta name="dc.title"
           content="Security Council Committee established pursuant to Resolution 1267 (1999) concerning Al-Qaida and the Taliban and Associated Individuals and Entities">
     <meta name="dc.description"
-          content="This is the United Nations site for the Security Council Sanctions Committee 1267. You will find here some information as well as links to related materials.">
+          content="United Nations created a web site for Security Council Sanctions Committee 1267 where sanctions data is published.">
     <meta name="dc.subject"
-          content=" Taliban, Al-Qaida, Sanctions Committee, United Nations 1267 Committee, Resolution 1267">
+          content=" Taliban, Al-Qaida, Sanctions Committee, United Nations 1267 Committee, Resolution 1267, Terrorism, Money Laundering, James G. Reichek">
     <meta name="dc.publisher" content="United Nations">
     <meta name="dc.date.created" content="2007-01-31">
     <meta name="author" content="United Nations Web Services Section">
     <meta name="dc.format" content="text/html">
     <meta name="dc.language" content="EN">
-    <meta name="dc.rights" content="Copyright &copy; United Nations 2007">
+    <meta name="dc.rights" content="Copyright &copy; United Nations 2007, 2024">
     <meta name="author" content="John Kraus">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <!-- CSS concatenated and minified via ant build script-->
@@ -33,12 +33,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/graph.css">
     <!-- end CSS-->
-    <!--script src="js/libs/modernizr-2.0.6.min.js"></script-->
     <script src="js/libs/modernizr.custom.99838.js"></script>
     <script src="js/utilities.js"></script>
-    <!--
-    <script src="js/json-pruned.js"></script>
-    -->
     <script src="js/libs/underscore.js"></script>
     <script src="js/libs/backbone.js"></script>
     <script src="js/config.js"></script>
@@ -47,10 +43,10 @@
 <body style="background-color: transparent !important">
 <div id="container" class="container">
     <table id="top-stuff">
-        <tr>
-            <td id="unLogo">
-                <a href="http://www.un.org/sc/committees/1267/">
-                    <img src="images/image001-103x89.gif"/>
+        <tr id="rowOfControls">
+            <td id="unLogo" style="horiz-align: center;">
+                <a style="margin-left: 10px;"id="un-logo-link" href="http://www.un.org/sc/committees/1267/">
+                    <img style="margin:auto; horiz-align: center;" src="images/image001-103x89.gif"/>
                 </a>
             </td>
             <td id="mainTitleTd" style="width: 22%;">
@@ -71,34 +67,6 @@
                             style="text-decoration: none;">John Kraus</a></span>
                 </div>
             </td>
-<!--            <td id="searchIdsNamesDisplayNone" style="display: none;">-->
-<!--                <div id="list_selection" class="control">-->
-<!--                    <h3>Name</h3>-->
-<!--                    <select id="list_select">-->
-<!--                        <option value="al-qaida.json">Al-Qaida List</option>-->
-<!--                    </select>-->
-<!--                </div>-->
-<!--            </td>-->
-<!--            <td align="center" style="display: none;">-->
-<!--                <div id="layouts" class="control">-->
-<!--                    <h3>Layout</h3>-->
-<!--                    <a id="force" class="active">Force Directed</a>-->
-<!--                    <a id="radial" style="color: #ddd; background-color: #aaa;">Radial</a>-->
-<!--                </div>-->
-<!--            </td>-->
-<!--            <td align="right" style="display: none;">-->
-<!--                <div id="filters" class="control">-->
-<!--                    <h3>Filter</h3>-->
-<!--                    <a id="all" class="active">All</a>-->
-<!--                    <a id="popular">Well-known</a>-->
-<!--                    <a id="obscure">Obscure</a>-->
-<!--                </div>-->
-<!--                <div id="sorts" class="control" style="display: none;">-->
-<!--                    <h3>Sort</h3>-->
-<!--                    <a id="songs" class="active">Names</a>-->
-<!--                    <a id="links">Links</a>-->
-<!--                </div>-->
-<!--            </td>-->
             <td id="searchDivTd" style="width: 23%">
                 <div id="searchDiv" class="control" style="padding-top: 4px; padding-right: 10px;">
                     <form id="searchIdsForm" action="" method="post">
@@ -121,7 +89,6 @@
                         <input type="radio" checked name="noneEntIndiv" value="">&nbsp;None<br>
                         <input type="radio" name="noneEntIndiv" value="QE.">&nbsp;Entities<br>
                         <input type="radio" name="noneEntIndiv" value="QI.">&nbsp;Individuals<br/>
-                        <!--input type="radio" name="noneEntIndiv" value="1"><span style="color: #ddd;">&nbsp;No longer listed</span-->
                     </form>
                     <form id="checkHighlight">
                         <input type="checkbox" name="noLongerListed" value="1">&nbsp;No longer listed<br>
@@ -137,7 +104,7 @@
                         <select id="node_color_select" style="width: 120px;">
                             <option selected="selected" value="name">Name (random)</option>
                             <option value="natnlty">Nationality</option>
-                            <!--option value="noLongerListed">No Longer Listed</option-->
+
                         </select>
                     </div>
                     <div class="force_selection control">
@@ -161,7 +128,6 @@
                             <option value="-1000">-1000</option>
                         </select>
                     </div>
-
 
                     <div class="circle_radius_max control" style="">
                         <h5>Maximum circle<br> radius</h5>
@@ -195,7 +161,6 @@
                             <option value="2000">2000px</option>
                         </select>
                     </div>
-
 
                     <div class="force_selection control" style="">
                         <h5>Link<br> distance</h5>
@@ -237,14 +202,12 @@
     </table>
     <!-- here we are inside the element div#container.container  -->
     <!-- inside the following div#svg element, d3 will render 'svg/g#nodes/circle.node, for example:
-
       <circle class="node"
         cx="686.4488903704053"
         cy="132.70452655191878"
         r="15.58421442819249"
         style="fill: rgb(127, 127, 127); stroke: rgb(110, 152, 160); stroke-width: 1px;">
       </circle>
-
       -->
     <div id="svg"></div>
     <div id="doc-container">
@@ -304,7 +267,7 @@
 
         </div>
     </div>
-    <!--/div-->
+
     <footer>
         <!--
         <p style="font-size: 12px; font-weight: bold;">A Thing by John Kraus</p>

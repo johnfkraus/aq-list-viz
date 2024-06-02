@@ -1,6 +1,10 @@
 # un-sanc-viz
 
-Deployment notes for Digital Ocean, 2024.
+Try this: https://owen31302.gitbook.io/github-education/digital-ocean/deploy-node-js-on-digitalocean-droplet-using-docker
+
+
+
+Deployment notes for Digital Ocean, May 2024.
 
 https://www.linkedin.com/pulse/deploying-nodejs-app-digitalocean-server-hayk-simonyan/
 
@@ -149,5 +153,7 @@ If you like Certbot, please consider supporting our work by:
 * Donating to EFF:                    https://eff.org/donate-le
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 root@al-qaida-sanctions:/etc/nginx/sites-available#
+
+https://pm2.keymetrics.io/docs/usage/process-management/
 
 

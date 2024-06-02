@@ -101,7 +101,6 @@ table, tbody, tr, td, a, form, td.div, td.div.form {
     cursor: pointer;
     margin-right: 3px;
     text-decoration: none;
-
 }
 
 .control a:hover {
@@ -202,11 +201,11 @@ div#line2 {
 }
 
 td#unLogo {
-    width: 103px;
+    width: 90px;
 }
 
 #top-stuff {
-    z-index: 10;
+    /*z-index: 10;*/
     padding: 5px;
     width: 100%;
     margin-bottom: 0;
@@ -214,9 +213,7 @@ td#unLogo {
 }
 
 #top-stuff td {
-
     padding: 0 3px 0 3px;
-
 }
 
 #doc-close {

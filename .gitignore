@@ -44,3 +44,5 @@ terminal*.txt
 .idea
 .idea/*
 .idea/workspace.xml
+
+archives
