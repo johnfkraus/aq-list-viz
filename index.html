@@ -282,12 +282,11 @@
 
 <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> -->
 <script src="js/libs/jquery-1.7.2.js"></script>
-s
 <script defer src="js/plugins.js"></script>
 <script src="js/libs/d3.v2.js"></script>
 <script src="js/Tooltip.js"></script>
 <script src="js/Document.js"></script>
-<script src="data.js"></script>
+<script type="text/javascript" src="data.js"></script>
 <script type="text/javascript" src="js/viz.js"></script>
 <script>
     (function () {
@@ -298,9 +297,9 @@ s
                     var geoLayer = L.geoCsv(csvContents, { firstLineTitles: true, fieldSeparator: ';' });
                     map.addLayer(geoLayer);
                 });  */
-        console.log(jsonData);
-        console.log(blob);
-        console.log(blobUrl);
+        // console.log(jsonData);
+        // console.log(blob);
+        // console.log(blobUrl);
     })();
 </script>
 

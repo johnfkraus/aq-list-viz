@@ -450,7 +450,10 @@ Network = function () {
       // determine radius of each node circle
 
       var circleRadiusResult = circleRadius(Math.pow(n.linkCount * 3, 0.9));
-      console.log('n.id = ', n.id, '; n.linkCount = ', n.linkCount, '; circleRadius(Math.pow(n.linkCount * 3, 0.9)) = ', circleRadius(Math.pow(n.linkCount * 3, 0.9)));
+
+      // uncomment for debugging d3
+
+      // console.log('n.id = ', n.id, '; n.linkCount = ', n.linkCount, '; circleRadius(Math.pow(n.linkCount * 3, 0.9)) = ', circleRadius(Math.pow(n.linkCount * 3, 0.9)));
 
       return n.radius = circleRadius(Math.pow(n.linkCount * 3, 0.9));
     });
@@ -944,11 +947,10 @@ Network = function () {
         showDocument(d, content, d3.event);
 
       }
-      //    });
 
     });
 
-//     console.log("content =  ", content, "\nd3.event = ", d3.event + "\n\n");
+    // console.log("content =  ", content, "\nd3.event = ", d3.event + "\n\n");
     //  highlight neighboring nodes
     //  watch out - don't mess with node if search is currently matching
     return d3.select(this);
@@ -1015,12 +1017,12 @@ Network = function () {
     var curr_year = d.getFullYear();
     var dateString = curr_date + " " + m_names[curr_month]
       + " " + curr_year;
-    console.log("viz.js 947 vizFormatDate() dateString = ", dateString);
+    // console.log("viz.js 947 vizFormatDate() dateString = ", dateString);
     return dateString;
   };
 
   function resize(showDoc) {
-    console.log("viz.js 1120 resize(showDoc = ", showDoc, ")");
+    // console.log("viz.js 1120 resize(showDoc = ", showDoc, ")");
     var docHeight = 0,
       svgHeight = 0,
       docContainer = $('#doc-container'),
