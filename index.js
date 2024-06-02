@@ -5,5 +5,6 @@ var app = express();
 
 // app.use(express.static(__dirname + '/public'));
 app.use(express.static(__dirname + '/'));
-console.log("process.env.PORT = ", process.env.PORT);
+var port = 3000;
+console.log("process.env.PORT = ", process.env.PORT, "; port = ", port);
 app.listen(process.env.PORT || 3000);

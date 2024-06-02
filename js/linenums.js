@@ -1,4 +1,4 @@
-// linenums.js
+// linenums.js, called by some other aq javascript files.
 
 Object.defineProperty(global, '__stack', {
   get: function () {
