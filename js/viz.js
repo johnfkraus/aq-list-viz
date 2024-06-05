@@ -67,9 +67,9 @@ Network = function () {
     var genDateString = vizFormatDate(data.dateGenerated);
     var dateStringHardSpaces = genDateString.replace(/\s/g, "&nbsp;");
     var result = "List published by the United Nations on " + dateStringHardSpaces;
-    var genDate = function (data) {
-      document.getElementById("dateGeneratedByUN").innerHTML = result;
-    }(data);
+    // var genDate = function (data) {
+    //   document.getElementById("dateGeneratedByUN").innerHTML = result;
+    // }(data);
     if (consoleLog) {
       console.log("docClosePadding = ", docClosePadding);
     }
