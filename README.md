@@ -1,6 +1,6 @@
 # aq-list-viz
 
-## United Nations Al-Qaida Sanctions Visualization
+## United Nations Al-Qaida Sanctions D3 Force-Directed Graph Visualization
 
 Deployed Website: https://al-qaida-sanctions.com/
 
