@@ -26,7 +26,7 @@ npm install
 
 node index.js
 ```
-Browse to localhost:3000.
+Browse to localhost:3000
 
 
 
