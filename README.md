@@ -4,7 +4,8 @@
 
 Deployed Website: https://al-qaida-sanctions.com/
 
-This application uses NodeJs and the [D3 JavaScript library](https://d3js.org/) to render a force-directed graph showing the relationships between individuals and entities from the public [United Nations Al-Qaida Sanctions List](https://www.un.org/securitycouncil/sanctions/1267). The data is sourced from the U.N. website and transformed into JSON format for use in the visualization.
+This application uses NodeJs and the [D3 JavaScript library](https://d3js.org/) to render a force-directed graph showing the relationships between individuals and entities from the public [United Nations Al-Qaida Sanctions List](https://www.un.org/securitycouncil/sanctions/1267). The [data](data/AQList.xml)
+ is sourced from the U.N. website and transformed into JSON format for use in the visualization.
 
 Hover over a graph node to view data on a sanctioned individual or organization:
 
