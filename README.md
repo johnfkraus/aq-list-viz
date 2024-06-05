@@ -1,6 +1,6 @@
 # aq-list-viz
 
-## United Nations Al-Qaida Sanctions List Visualization
+## United Nations Al-Qaida Sanctions Visualization
 
 Deployed Website: https://al-qaida-sanctions.com/
 
