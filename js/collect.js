@@ -16,12 +16,12 @@ var useLocalNarrativeFiles = false;
 var logger = require('./tracer-logger-config.js').logger;
 var logModulus = utilities_aq_viz.logModulus;
 var substringChars = utilities_aq_viz.truncateToNumChars;
-var linenums = require('./linenums.js');
+var linenums = require('../archives/linenums.js');
 var responseBody;
 var individualsHtmlUnicodeString;
 var entitiesHtmlUnicodeString;
 var iterators = require('async-iterators');
-var missingNodes = require('./missing_nodes.js'),
+var missingNodes = require('../archives/missing_nodes.js'),
   async = require('async'),
   re = require('request-enhanced'),
   request = require('request'),

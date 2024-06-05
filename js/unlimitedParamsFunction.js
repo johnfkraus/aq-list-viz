@@ -4,7 +4,7 @@ var fsOptions = {
 };
 var fse = require('fs-extra');
 var dateFormat = require('dateformat');
-var linenums = require('./linenums.js');
+var linenums = require('../archives/linenums.js');
 // var __line = __line || {};
 var consoleLog = true;
 require('console-stamp')(console, '[HH:MM:ss.l]');
