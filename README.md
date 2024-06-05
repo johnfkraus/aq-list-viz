@@ -2,108 +2,31 @@
 
 ## United Nations Al-Qaida Sanctions List Visualization
 
-This application uses the [D3 JavaScript library](https://d3js.org/) to render a force-directed graph showing the relationships between individuals and entities on the United Nations Al-Qaida Sanctions List. The data is sourced from the U.N. website and transformed into JSON format for use in the visualization.
+Deployed Website: https://al-qaida-sanctions.com/
 
+This application uses NodeJs and the [D3 JavaScript library](https://d3js.org/) to render a force-directed graph showing the relationships between individuals and entities from the public [United Nations Al-Qaida Sanctions List](https://www.un.org/securitycouncil/sanctions/1267). The data is sourced from the U.N. website and transformed into JSON format for use in the visualization.
 
+Hover over a graph node to view data on a sanctioned individual or organization:
 
-![image info](./images/aq-list-viz_screen_shot_01.png)
+![Hover over a node](./images/hover-screenshot.png)
 
-!aq-list-viz_screen_shot_01.png!
+Click on a graph node to see additional details regarding the sanction entity at the bottom of the screen:
 
-Click on a node to see details:
+![Click on a node](./images/aq-list-viz-screenshot-click.png)
 
-!aq-list-viz-screenshot.png!
+To run this app on your local machine, follow these steps:
 
+```shell
+git clone https://github.com/johnfkraus/aq-list-viz.git
 
-h1. U.N. Al-Qaida Sanctions Feed Network Visualization
+cd aq-list-viz
 
-h2. Deployed Website
-
-https://al-qaida-sanctions.com/
-
-h2.  Data Sources
-
-U.N. website: "http://www.un.org/sc/committees/1267/":http://www.un.org/sc/committees/1267/
-
-U.N. Sanctions List in XML format: "http://www.un.org/sc/committees/1267/AQList.xml":http://www.un.org/sc/committees/1267/AQList.xml
-
-Development url: "http://localhost:63342/aq-list-viz/index.html":http://localhost:63342/aq-list-viz/index.html
-
-h2.  Preparing the data
-
-Note: The United Nations published data format may have changed over time, which could break the code in this application.
-
-Download the AQList.xml file from the link shown above under Data Sources.
-
-Using the AQList-to-d3.xsl stylesheet, transform the AQList.xml to the AQ-d3.xml format.
-
-Convert the AQ-d3.xml file to JSON with the following filename: al-qaeda.json, and put the new JSON file in the data directory.
-
-Remove the root node from the al-qaida.json file.
-Make sure the al-qaida.json data file starts off with something like this:
-
-<pre>
-{
-  "nodes": [
-    {
-      "match": 1,
-      "name": "Fahd Mohammed Ahmed al-Quso (no longer listed)",
-      "artist": "QI.A.288.10",
-      "id": "QI.A.288.10",
-      "playcount": 100
-    }, {
-    ...
-    }
-</pre>
-
-
-
-h2. Running
-
-Running apache2 on codio.
-http://shadow-context.codio.io:3000/
-
-or
-
-Running build-in HTTP server on custom port 63342 in WebStorm.
-http://localhost:63342/aqlist-visualization/index.html
-
-Running in xampp/tomcat/webapps.
-
-
-Interesting irrelevant facts:
-
-You can start up a local webserver by using python's simple server:
-
-<pre>
-python -m SimpleHTTTPServer -p 3000
-</pre>
-
-or @thin@ in ruby
-
-<pre>
-thin start
-# might have to run 'bundle install' first
-</pre>
-
-
-h2.  To Do
-
-Import the narrative pages and collect additional nodes.
-Add click to documentation for each node.
-Forks of this application may be found in various repos in https://github.com/johnfkraus/
-See this related project: "https://github.com/johnfkraus/un-sanc-viz":https://github.com/johnfkraus/un-sanc-viz
-
-
-To run:
+npm install
 
 node index.js
+```
+Browse to localhost:3000.
 
-Browse to localhost:3000
-
-
-Fixes:
-Does max circle radius work?
 
 
 
