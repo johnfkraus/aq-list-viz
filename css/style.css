@@ -201,7 +201,7 @@ div#line2 {
 }
 
 td#unLogo {
-    width: 90px;
+    /*width: 90px;*/
 }
 
 #top-stuff {
@@ -224,4 +224,12 @@ td#unLogo {
 
 .boldListing {
     font-weight: bold;
+}
+
+/*updated june 2024*/
+
+.viz-param-label {
+    font-weight: 700;
+    font-size: 12px;
+    margin: 0;
 }

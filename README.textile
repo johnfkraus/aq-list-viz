@@ -92,4 +92,9 @@ node index.js
 Browse to localhost:3000
 
 
+Fixes:
+Does max circle radius work?
+
+
+
 

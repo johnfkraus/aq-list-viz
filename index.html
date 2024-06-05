@@ -14,18 +14,14 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta charset="UTF-8">
     <meta name="dc.title"
-          content="Security Council Committee established pursuant to Resolution 1267 (1999) concerning Al-Qaida and the Taliban and Associated Individuals and Entities">
+          content="Data from a Security Council Committee established pursuant to Resolution 1267 (1999) concerning Al-Qaida and the Taliban and Associated Individuals and Entities">
     <meta name="dc.description"
-          content="United Nations created a web site for Security Council Sanctions Committee 1267 where sanctions data is published.">
+          content="The United Nations Web Services Section created a web site for Security Council Sanctions Committee 1267 where sanctions data is published. https://www.un.org/securitycouncil/sanctions/1267; https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries">
     <meta name="dc.subject"
-          content=" Taliban, Al-Qaida, Sanctions Committee, United Nations 1267 Committee, Resolution 1267, Terrorism, Money Laundering, James G. Reichek">
-    <meta name="dc.publisher" content="United Nations">
-    <meta name="dc.date.created" content="2007-01-31">
-    <meta name="author" content="United Nations Web Services Section">
-    <meta name="dc.format" content="text/html">
+          content=" Taliban, Al-Qaida, Al-Queda, Sanctions Committee, United Nations 1267 Committee, Resolution 1267, Terrorism, Money Laundering, James G. Reichek">
+    <meta name="data publisher" content="United Nations">
     <meta name="dc.language" content="EN">
-    <meta name="dc.rights" content="Copyright &copy; United Nations 2007, 2024">
-    <meta name="author" content="John Kraus">
+    <meta name="website creator" content="John Kraus">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <!-- CSS concatenated and minified via ant build script-->
     <link rel="stylesheet" href="css/reset.css">
@@ -43,15 +39,28 @@
 <body style="background-color: transparent !important">
 <div id="container" class="container">
     <table id="top-stuff">
+        <colgroup>
+            <col span="1" style="width: 110px;">
+            <!--            <col span="1" style="width: 70%;">-->
+            <!--            <col span="1" style="width: 15%;">-->
+        </colgroup>
+        <thead></thead>
+        <tbody>
+
+
         <tr id="rowOfControls">
-            <td id="unLogo" style="horiz-align: center;">
-                <a style="margin-left: 10px;"id="un-logo-link" href="http://www.un.org/sc/committees/1267/">
-                    <img style="margin:auto; horiz-align: center;" src="images/image001-103x89.gif"/>
-                </a>
+
+            <td id="unLogo" style="horiz-align: center; width:107px!important;">
+                <div style="max-width: 110px;">
+
+                    <a style="padding: 5px;" id="un-logo-link" href="http://www.un.org/sc/committees/1267/">
+                        <img alt="U.N. Logo" style="horiz-align: center;" src="images/un-logo-103x89.gif"/>
+                    </a>
+                </div>
             </td>
             <td id="mainTitleTd" style="width: 22%;">
                 <div class="mainTitleDiv"><a
-                        href="http://www.un.org/sc/committees/1267/AQList.xml" id="AQList.xml" target="_blank"
+                        href="https://www.un.org/securitycouncil/sanctions/1267" id="AQList.xml" target="_blank"
                         style="text-decoration: none;">U.N. Al-Qaida Sanctions List</a>
                     <br/>Network Visualization
                 </div>
@@ -59,7 +68,7 @@
                     <a id="AQList.xml"
                        href="http://www.un.org/sc/committees/1267/AQList.xml"
                        target="_blank"
-                        style="text-decoration: none;">
+                       style="text-decoration: none;">
                             <span id="dateGeneratedByUN"
                                   style="font-size: 10px; line-height: 120%;">
                             </span>
@@ -81,14 +90,15 @@
                     </form>
                     <form id="searchNamesForm" action="" method="post">
                         <div class="tableRow">
-                            <div class="searchIdsNames">Search names</div>
+                            <div class="searchIdsNames">Search Names</div>
                             <input type="text" class="text-input" id="searchInputName" value=""/>
                         </div>
                     </form>
                 </div>
             </td>
-            <td id="highlightType">
-                <div>Subset Highlighting
+            <td id="highlightType" style="width: 120px;">
+                <div>
+                    <h4>Subset Highlighting</h4>
                     <form id="highlight"> <!--  action="highlight"  -->
                         <input type="radio" checked name="noneEntIndiv" value="">&nbsp;None<br>
                         <input type="radio" name="noneEntIndiv" value="QE.">&nbsp;Entities<br>
@@ -99,110 +109,117 @@
                     </form>
                 </div>
             </td>
-            <td align="center" style="width: 350px;">
-                <div>
+            <td style="text-align: center">
+                <div style="width:270px;">
                     <h4>Visualization parameters</h4>
+                    <div class="controls" style="width: 290px;">
 
-                    <div id="node_color" class="control" style="float: left;">
-                        <h5>Node<br> color</h5>
-                        <select id="node_color_select" style="width: 120px;">
-                            <option selected="selected" value="name">Name (random)</option>
-                            <option value="natnlty">Nationality</option>
+                        <div id="node_color" class="control" style="float: left;">
+                            <h5>Node color<br /> based on</h5>
+                            <select id="node_color_select" style="width: 120px;">
+                                <option selected="selected" value="name">Name (random)</option>
+                                <option value="natnlty">Nationality</option>
 
-                        </select>
-                    </div>
-                    <div class="force_selection control">
-                        <h5>Force<br> charge</h5>
-                        <select id="force_charge_select" style="width: 60px;">
-                            <option value="0">0</option>
-                            <option value="-25">-25</option>
-                            <option selected="selected" value="-50">-50</option>
-                            <option value="-75">-75</option>
-                            <option value="-100">-100</option>
-                            <option value="-125">-125</option>
-                            <option value="-150">-150</option>
-                            <option value="-175">-175</option>
-                            <option value="-200">-200</option>
-                            <option value="-225">-225</option>
-                            <option value="-250">-250</option>
-                            <option value="-275">-275</option>
-                            <option value="-300">-300</option>
-                            <option value="-400">-400</option>
-                            <option value="-500">-500</option>
-                            <option value="-1000">-1000</option>
-                        </select>
+                            </select>
+                        </div>
+                        <div class="force_selection control">
+                            <!--                        <h5>Force<br> charge</h5>-->
+                            <!--                        <label class="viz-param-label" for="force-charge-select" style="font-weight: 700; font-size: 12px; margin: 0;">Force<br />Charge</label>-->
+                            <label class="viz-param-label" for="force-charge-select">Force<br/>Charge</label>
+                            <select id="force_charge_select" style="width: 60px;">
+                                <option value="0">0</option>
+                                <option value="-25">-25</option>
+                                <option selected="selected" value="-50">-50</option>
+                                <option value="-75">-75</option>
+                                <option value="-100">-100</option>
+                                <option value="-125">-125</option>
+                                <option value="-150">-150</option>
+                                <option value="-175">-175</option>
+                                <option value="-200">-200</option>
+                                <option value="-225">-225</option>
+                                <option value="-250">-250</option>
+                                <option value="-275">-275</option>
+                                <option value="-300">-300</option>
+                                <option value="-400">-400</option>
+                                <option value="-500">-500</option>
+                                <option value="-1000">-1000</option>
+                            </select>
+                        </div>
+
+                        <div class="circle_radius_max control" style="display: none;">
+                            <!--                        <h5>Maximum circle<br> radius</h5>-->
+                            <label class="viz-param-label" for="max_radius_select">Maximum Circle<br> Radius</label>
+                            <select id="max_radius_select" style="width: 75px;">
+                                <option value="12">12px</option>
+                                <option value="15">15px</option>
+                                <option value="20">20px</option>
+                                <option value="25">25px</option>
+                                <option value="30">30px</option>
+                                <option selected="selected" value="35">35px</option>
+                                <option value="40">40px</option>
+                                <option value="45">45px</option>
+                                <option value="50">50px</option>
+                                <option value="55">55px</option>
+                                <option value="60">60px</option>
+                                <option value="70">70px</option>
+                                <option value="80">80px</option>
+                                <option value="90">90px</option>
+                                <option value="100">100px</option>
+                                <option value="125">125px</option>
+                                <option value="150">150px</option>
+                                <option value="200">200px</option>
+                                <option value="300">300px</option>
+                                <option value="400">400px</option>
+                                <option value="500">500px</option>
+                                <option value="600">600px</option>
+                                <option value="700">700px</option>
+                                <option value="800">800px</option>
+                                <option value="900">900px</option>
+                                <option value="1000">1000px</option>
+                                <option value="2000">2000px</option>
+                            </select>
+                        </div>
+
+                        <div class="force_selection control" style="">
+                            <h5>Link<br> distance</h5>
+                            <select id="link_distance_select" style="width: 75px;">
+                                <option value="0">0px</option>
+                                <option value="5">5px</option>
+                                <option value="10">10px</option>
+                                <option value="15">15px</option>
+                                <option value="20">20px</option>
+                                <option value="25">25px</option>
+                                <option value="30">30px</option>
+                                <option value="35">35px</option>
+                                <option value="40">40px</option>
+                                <option value="45">45px</option>
+                                <option value="50">50px</option>
+                                <option value="55">55px</option>
+                                <option value="60">60px</option>
+                                <option value="70">70px</option>
+                                <option value="80">80px</option>
+                                <option value="90">90px</option>
+                                <option value="100">100px</option>
+                                <option value="125">125px</option>
+                                <option value="150">150px</option>
+                                <option value="200">200px</option>
+                                <option value="300">300px</option>
+                                <option selected="selected" value="400">400px</option>
+                                <option value="500">500px</option>
+                                <option value="600">600px</option>
+                                <option value="700">700px</option>
+                                <option value="800">800px</option>
+                                <option value="900">900px</option>
+                                <option value="1000">1000px</option>
+                                <option value="2000">2000px</option>
+                            </select>
+                        </div>
                     </div>
 
-                    <div class="circle_radius_max control" style="">
-                        <h5>Maximum circle<br> radius</h5>
-                        <select id="max_radius_select" style="width: 75px;">
-                            <option value="12">12px</option>
-                            <option value="15">15px</option>
-                            <option value="20">20px</option>
-                            <option value="25">25px</option>
-                            <option value="30">30px</option>
-                            <option selected="selected" value="35">35px</option>
-                            <option value="40">40px</option>
-                            <option value="45">45px</option>
-                            <option value="50">50px</option>
-                            <option value="55">55px</option>
-                            <option value="60">60px</option>
-                            <option value="70">70px</option>
-                            <option value="80">80px</option>
-                            <option value="90">90px</option>
-                            <option value="100">100px</option>
-                            <option value="125">125px</option>
-                            <option value="150">150px</option>
-                            <option value="200">200px</option>
-                            <option value="300">300px</option>
-                            <option value="400">400px</option>
-                            <option value="500">500px</option>
-                            <option value="600">600px</option>
-                            <option value="700">700px</option>
-                            <option value="800">800px</option>
-                            <option value="900">900px</option>
-                            <option value="1000">1000px</option>
-                            <option value="2000">2000px</option>
-                        </select>
-                    </div>
-
-                    <div class="force_selection control" style="">
-                        <h5>Link<br> distance</h5>
-                        <select id="link_distance_select" style="width: 75px;">
-                            <option value="0">0px</option>
-                            <option value="5">5px</option>
-                            <option value="10">10px</option>
-                            <option value="15">15px</option>
-                            <option value="20">20px</option>
-                            <option value="25">25px</option>
-                            <option value="30">30px</option>
-                            <option value="35">35px</option>
-                            <option value="40">40px</option>
-                            <option value="45">45px</option>
-                            <option value="50">50px</option>
-                            <option value="55">55px</option>
-                            <option value="60">60px</option>
-                            <option value="70">70px</option>
-                            <option value="80">80px</option>
-                            <option value="90">90px</option>
-                            <option value="100">100px</option>
-                            <option value="125">125px</option>
-                            <option value="150">150px</option>
-                            <option value="200">200px</option>
-                            <option value="300">300px</option>
-                            <option selected="selected" value="400">400px</option>
-                            <option value="500">500px</option>
-                            <option value="600">600px</option>
-                            <option value="700">700px</option>
-                            <option value="800">800px</option>
-                            <option value="900">900px</option>
-                            <option value="1000">1000px</option>
-                            <option value="2000">2000px</option>
-                        </select>
-                    </div>
                 </div>
             </td>
         </tr>
+        </tbody>
     </table>
     <!-- here we are inside the element div#container.container  -->
     <!-- inside the following div#svg element, d3 will render 'svg/g#nodes/circle.node, for example:
@@ -285,11 +302,11 @@
 <!--! end of #container -->
 
 <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> -->
-<script src="js/libs/jquery-1.7.2.js"></script>
+<script type="text/javascript" src="js/libs/jquery-1.7.2.js"></script>
 <script defer src="js/plugins.js"></script>
-<script src="js/libs/d3.v2.js"></script>
-<script src="js/Tooltip.js"></script>
-<script src="js/Document.js"></script>
+<script type="text/javascript" src="js/libs/d3.v2.js"></script>
+<script type="text/javascript" src="js/Tooltip.js"></script>
+<script type="text/javascript" src="js/Document.js"></script>
 <script type="text/javascript" src="data.js"></script>
 <script type="text/javascript" src="js/viz.js"></script>
 <script>
