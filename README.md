@@ -2,6 +2,10 @@
 
 ## United Nations Al-Qaida Sanctions List Visualization
 
+This application uses the [D3 JavaScript library](https://d3js.org/) to render a force-directed graph showing the relationships between individuals and entities on the United Nations Al-Qaida Sanctions List. The data is sourced from the U.N. website and transformed into JSON format for use in the visualization.
+
+
+
 ![image info](./images/aq-list-viz_screen_shot_01.png)
 
 !aq-list-viz_screen_shot_01.png!
