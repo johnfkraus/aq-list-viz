@@ -130,7 +130,7 @@ var collect = function () {
           var res = requestSync('GET', aqListUrl);
           AQList_xml = res.body.toString();
         } catch (err) {
-          var backupRawXmlFileName = __dirname + '/../data/backup/AQList.xml';
+          var backupRawXmlFileName = __dirname + '/../data/backup/AQList-2014-12.xml';
           logger.error(__filename, 'line', __line, '; Error: ', err, '; reading stored backup file:', backupRawXmlFileName);
           AQList_xml = fse.readFileSync(backupRawXmlFileName, fsOptions); //, function (err, data) {
         }
@@ -141,16 +141,16 @@ var collect = function () {
         callback();
       },
 
-      // write AQList.xml to local file and archive_historical directory
+      // write AQList-2014-12.xml to local file and xml_archive_historical directory
       function (callback) {
-        var fileNameAndPathForProcessing = __dirname + '/../data/output/AQList.xml';
+        var fileNameAndPathForProcessing = __dirname + '/../data/output/AQList-2014-12.xml';
         syncWriteFileAQListXML(AQList_xml, fileNameAndPathForProcessing);
-        var fileNameAndPathForArchive = __dirname + '/../data/archive/AQList.xml';
+        var fileNameAndPathForArchive = __dirname + '/../data/archive/AQList-2014-12.xml';
         syncWriteFileAQListXML(AQList_xml, fileNameAndPathForArchive);
         callback();
       },
 
-      // convert AQList.xml to json and store in var 'data'
+      // convert AQList-2014-12.xml to json and store in var 'data'
       function (callback) {
         if (consoleLog) {
           logger.debug('\n ', __filename, 'line', __line, ' function #:', ++functionCount);
@@ -170,10 +170,10 @@ var collect = function () {
         callback();
       },
 
-      // current data file: AQList.xml
+      // current data file: AQList-2014-12.xml
       // read local copy of XML file that was downloaded from UN web site
       function (callback) {
-        var readRawXmlFileName = __dirname + '/../data/output/AQList.xml';
+        var readRawXmlFileName = __dirname + '/../data/output/AQList-2014-12.xml';
         if (consoleLog) {
           logger.debug('\n ', __filename, 'line', __line, '; function #', ++functionCount);
         }
@@ -226,7 +226,7 @@ var collect = function () {
       // put all the individual and entity nodes in a single array and add a property to identify node as indiv or ent
       // from local file, add no-longer-listed and otherwise missing ents and indivs to nodes
       // normalize indiv.indivDobString, indiv.indivPlaceOfBirthString, indiv.indivAliasString
-      // archive a dated copy of AQList.xml for potential future time series analysis
+      // archive a dated copy of AQList-2014-12.xml for potential future time series analysis
       // normalize reference numbers, ids, name strings, nationality.
       function (callback) {
         if (consoleLog) {
@@ -268,7 +268,7 @@ var collect = function () {
 
         });
         var generatedFileDateString = dateFormat(data.dateGenerated, 'yyyy-mm-dd');
-        var archiveFileNameAndPath = __dirname + '/../data/archive_historical/AQList-' + generatedFileDateString + '.xml';
+        var archiveFileNameAndPath = __dirname + '/../data/xml_archive_historical/AQList-' + generatedFileDateString + '.xml';
         syncWriteFileAQListXML(data, archiveFileNameAndPath);
         createDateGeneratedMessage();
         delete data.entities;
@@ -926,7 +926,7 @@ var collect = function () {
 };
 
 var syncWriteFileAQListXML = function (data, localFileNameAndPath) {
-//  var myFile = __dirname + '/../data/output/AQList.xml';
+//  var myFile = __dirname + '/../data/output/AQList-2014-12.xml';
   try {
 //    fse.writeFileSync(localFileNameAndPath, AQList_xml, fsOptions);
     fse.writeFileSync(localFileNameAndPath, data, fsOptions);
@@ -1519,7 +1519,7 @@ var createDateGeneratedMessage = function () {
   dateFormat.masks.shortDate = 'mm-dd-yyyy';
   dateFormat.masks.friendly_display = 'dddd, mmmm dS, yyyy';
   generatedFileDateString = vizFormatDateSetup(dateAqListGenerated);
-  var message = 'Collected AQList.xml labeled as generated on: ' + dateAqListGeneratedString + ' [' + dateAqListGenerated + ']';
+  var message = 'Collected AQList-2014-12.xml labeled as generated on: ' + dateAqListGeneratedString + ' [' + dateAqListGenerated + ']';
   data.message = message;
   logger.debug([__filename, ' line ', __line + '; ', message].join(''));
 };
