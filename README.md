@@ -2,6 +2,7 @@
 
 ## United Nations Al-Qaida Sanctions List Visualization
 
+![image info](./images/aq-list-viz_screen_shot_01.png)
 
 !aq-list-viz_screen_shot_01.png!
 
