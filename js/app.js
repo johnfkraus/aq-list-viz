@@ -3,7 +3,7 @@
 var linenums = require('../archives/linenums.js');
 var consoleLog = true; // false;
 var utilities_aq_viz = require('./utilities_aq_viz');
-var logger = require('./tracer-logger-config.js').logger;
+var logger = require('../archives/tracer-logger-config.js').logger;
 //var logger = require('tracer').colorConsole({level:'info'});
 // var logger = require('./tracer-logger-config.js');
 // var logger = require('./libs/logger.js');
@@ -23,7 +23,7 @@ var async = require('async'),
 //    .parseString;
 
 var collect = require('./collect.js');
-var filewalker = require('./filewalker.js');
+var filewalker = require('../archives/filewalker.js');
 
 var functionCount = 0;
 var __filename = __filename || {};

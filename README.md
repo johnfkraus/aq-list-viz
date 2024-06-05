@@ -24,7 +24,7 @@ cd aq-list-viz
 
 npm install
 
-node index.js
+npm start
 ```
 Browse to localhost:3000
 

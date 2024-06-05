@@ -7,6 +7,9 @@
     "doc": "doc",
     "test": "test"
   },
+  "config": {
+    "port": "3000"
+  },
   "dependencies": {
     "async": "^0.9.0",
     "backpack-node": "^0.1.25",
@@ -43,6 +46,7 @@
     "gulp": "^4.0.2"
   },
   "scripts": {
+    "start": "node index.js",
     "test": "test"
   },
   "repository": {

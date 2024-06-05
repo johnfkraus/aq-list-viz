@@ -13,7 +13,7 @@ var consoleLog = false;
 // skip downloading 300+ narrative files and use locally stored files instead; for debugging
 var useLocalNarrativeFiles = false;
 
-var logger = require('./tracer-logger-config.js').logger;
+var logger = require('../archives/tracer-logger-config.js').logger;
 var logModulus = utilities_aq_viz.logModulus;
 var substringChars = utilities_aq_viz.truncateToNumChars;
 var linenums = require('../archives/linenums.js');
