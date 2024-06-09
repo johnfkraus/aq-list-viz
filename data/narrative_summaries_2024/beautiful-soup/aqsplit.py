@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 import os
+import sys
 
 from os import listdir
 
@@ -17,8 +18,10 @@ with open(filename, 'r') as f:
 
 soup = BeautifulSoup(html_doc, 'html.parser')
 
-# span_emptyspace = soup.find_all('span', class_='emptyspace')
-# print('len(span_emptyspace) = ',  len(span_emptyspace))
+span_emptyspace = soup.find_all('span', class_='emptyspace')
+print('len(span_emptyspace) = ',  len(span_emptyspace))
+
+sys.exit()
 
 # for emptyless in (td for td in soup.find_all('td') if td.find('span', class_='emptyspace')):
 #     print(emptyless)
