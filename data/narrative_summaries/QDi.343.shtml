@@ -1,11 +1,11 @@
 <tr class="rowtext">
  <td>
-  <strong>
+  <span class_="id">
    QDi.343
-  </strong>
-  <strong>
+  </span>
+  <span class_="name">
    Name:
-  </strong>
+  </span>
   1: ASHRAF 2: MUHAMMAD 3: YUSUF 4: 'UTHMAN 'ABD AL-SALAM
   <br/>
   <strong>
@@ -99,8 +99,6 @@
                      for Al-Qaida, Al-Nusrah Front for the People of the Levant (QDe.137) and Al-Qaida in
                      Iraq (AQI) (QDe.115).Review pursuant to Security Council resolution 2368 (2017) was
                      concluded on 24 November 2020. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals
-   <span class="emptyspace">
-   </span>
    <a href="https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals">
     click here
    </a>

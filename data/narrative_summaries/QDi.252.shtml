@@ -1,11 +1,11 @@
 <tr class="rowtext">
  <td>
-  <strong>
+  <span class_="id">
    QDi.252
-  </strong>
-  <strong>
+  </span>
+  <span class_="name">
    Name:
-  </strong>
+  </span>
   1: AHMED 2: DEGHDEGH 3: na 4: na
   <br/>
   <strong>
@@ -82,8 +82,6 @@
                      Al-Qaida in the Islamic Maghreb (QDe.014). Mother’s name is Zakia Chebira. Father’s name
                      is Lakhdar. Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021. INTERPOL-UN Security
                      Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals
-   <span class="emptyspace">
-   </span>
    <a href="https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals">
     click here
    </a>

@@ -1,11 +1,11 @@
 <tr class="rowtext">
  <td>
-  <strong>
+  <span class_="id">
    QDi.434
-  </strong>
-  <strong>
+  </span>
+  <span class_="name">
    Name:
-  </strong>
+  </span>
   1: MAULAWI 2: RAJAB 3: na 4: na
   <br/>
   <span>
@@ -59,8 +59,6 @@
     Other information:
    </strong>
    Senior leader of the Islamic State in Iraq and the Levant - Khorasan (ISIL - K) (QDe.161).
-   <span class="emptyspace">
-   </span>
   </span>
  </td>
 </tr>

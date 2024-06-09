@@ -1,11 +1,11 @@
 <tr class="rowtext">
  <td>
-  <strong>
+  <span class_="id">
    QDi.432
-  </strong>
-  <strong>
+  </span>
+  <span class_="name">
    Name:
-  </strong>
+  </span>
   1: ASHRAF 2: AL-QIZANI 3: na 4: na
   <br/>
   <strong>
@@ -85,8 +85,6 @@
    Senior member of Islamic State in Iraq and the Levant (ISIL), listed as Al-Qaida in Iraq (QDe.115). Recruited for ISIL and
                      instructed individuals to perpetrate terrorist acts via online video. 
                      INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals
-   <span class="emptyspace">
-   </span>
    <a href="https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals">
     click here
    </a>

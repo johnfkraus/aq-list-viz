@@ -1,11 +1,11 @@
 <tr class="rowtext">
  <td>
-  <strong>
+  <span class_="id">
    QDi.018
-  </strong>
-  <strong>
+  </span>
+  <span class_="name">
    Name:
-  </strong>
+  </span>
   1: ABDUL MANAN AGHA 2: na 3: na 4: na
   <br/>
   <strong>
@@ -78,8 +78,6 @@
    Pakistan. Review pursuant to Security Council resolution 1822 (2008) was
                      concluded on 15 Jun. 2010. Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. Review
                      pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.
-   <span class="emptyspace">
-   </span>
   </span>
  </td>
 </tr>

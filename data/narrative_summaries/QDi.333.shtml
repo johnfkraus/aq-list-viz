@@ -1,11 +1,11 @@
 <tr class="rowtext">
  <td>
-  <strong>
+  <span class_="id">
    QDi.333
-  </strong>
-  <strong>
+  </span>
+  <span class_="name">
    Name:
-  </strong>
+  </span>
   1: SEIFALLAH 2: BEN OMAR 3: BEN MOHAMED 4: BEN HASSINE
   <br/>
   <strong>
@@ -127,8 +127,6 @@
                      al-Shari'a in Tunisia (AAS-T) (QDe.143). Arrest warrant issued by Tunisian Court of First
                      Instance on 23 Aug. 2013. Review pursuant to Security Council resolution 2368 (2017) was concluded on 24 November 2020. INTERPOL-UN
                      Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals
-   <span class="emptyspace">
-   </span>
    <a href="https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals">
     click here
    </a>

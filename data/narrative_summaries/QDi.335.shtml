@@ -1,11 +1,11 @@
 <tr class="rowtext">
  <td>
-  <strong>
+  <span class_="id">
    QDi.335
-  </strong>
-  <strong>
+  </span>
+  <span class_="name">
    Name:
-  </strong>
+  </span>
   1: ‘ABD AL-RAHMAN 2: KHALAF 3: ‘UBAYD JUDAY’ 4: AL-‘ANIZI
   <br/>
   <span>
@@ -96,8 +96,6 @@
                      2022.
                      
                      INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals
-   <span class="emptyspace">
-   </span>
    <a href="https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals">
     click here
    </a>

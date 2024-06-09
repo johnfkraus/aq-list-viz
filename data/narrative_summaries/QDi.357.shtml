@@ -1,11 +1,11 @@
 <tr class="rowtext">
  <td>
-  <strong>
+  <span class_="id">
    QDi.357
-  </strong>
-  <strong>
+  </span>
+  <span class_="name">
    Name:
-  </strong>
+  </span>
   1: ASEEL 2: MUTHANA 3: na 4: na
   <br/>
   <span>
@@ -79,8 +79,6 @@
                      Republic. Wanted by the authorities of the United Kingdom. Physical description: hair colour: brown/black.
                      Review pursuant to Security Council resolution 2368 (2017) was concluded on 24 November 2020. INTERPOL-UN Security Council
                      Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals
-   <span class="emptyspace">
-   </span>
    <a href="https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals">
     click here
    </a>

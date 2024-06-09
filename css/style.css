@@ -173,12 +173,13 @@ line.link {
 }
 
 span#name {
-    font-size: 30px;
+    font-size: 28px;
 
 }
 
 span#id {
     font-weight: bold;
+    font-size: 14px;
 }
 
 span#nameOriginalScript {
@@ -236,4 +237,9 @@ td#unLogo {
 
 tr.rowtext td {
     padding-bottom: 30px;
+}
+
+span.oscr {
+    font-size: 18px;
+    color: green;
 }

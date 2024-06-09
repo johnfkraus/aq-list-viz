@@ -1,11 +1,11 @@
 <tr class="rowtext">
  <td>
-  <strong>
+  <span class_="id">
    QDi.410
-  </strong>
-  <strong>
+  </span>
+  <span class_="name">
    Name:
-  </strong>
+  </span>
   1: SHANE 2: DOMINIC 3: CRAWFORD 4: na
   <br/>
   <span>
@@ -134,8 +134,6 @@
                      eye colour: brown; hair colour: dark; complexion: light brown; build: medium; height: 174cm; weight: 64kg; speaks English,
                      Arabic. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.  INTERPOL-UN Security
                      Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals
-   <span class="emptyspace">
-   </span>
    <a href="https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals">
     click here
    </a>

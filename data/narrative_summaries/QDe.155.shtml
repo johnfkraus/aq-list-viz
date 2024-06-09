@@ -1,11 +1,11 @@
 <tr class="rowtext">
  <td>
-  <strong>
+  <span class_="id">
    QDe.155
-  </strong>
-  <strong>
+  </span>
+  <span class_="name">
    Name:
-  </strong>
+  </span>
   Jaysh Khalid Ibn al Waleed
   <br/>
   <span>
@@ -51,8 +51,6 @@
    Joined the Islamic State in Iraq and the Levant (ISIL), listed as Al-Qaida in Iraq (QDe.115), in May 2015. Review pursuant
                      to Security Council resolution 2610 (2021) was concluded on 8 November 2022.  INTERPOL-UN Security Council Special Notice
                      web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals
-   <span class="emptyspace">
-   </span>
    <a href="https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Entities">
     click here
    </a>
