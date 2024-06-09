@@ -64,9 +64,9 @@ Network = function () {
   //  Initializes visualization and starts force layout
   network = function (selection, data) {
     var viz;
-    var genDateString = vizFormatDate(data.dateGenerated);
-    var dateStringHardSpaces = genDateString.replace(/\s/g, "&nbsp;");
-    var result = "List published by the United Nations on " + dateStringHardSpaces;
+    // var genDateString = vizFormatDate(data.dateGenerated);
+    // var dateStringHardSpaces = genDateString.replace(/\s/g, "&nbsp;");
+    // var result = "List published by the United Nations on " + dateStringHardSpaces;
     // var genDate = function (data) {
     //   document.getElementById("dateGeneratedByUN").innerHTML = result;
     // }(data);
@@ -467,7 +467,7 @@ Network = function () {
       console.log("456 circleRadiusResult = ", circleRadiusResult);
       // uncomment for debugging d3
 
-      // console.log('n.id = ', n.id, '; n.linkCount = ', n.linkCount, '; circleRadius(Math.pow(n.linkCount * 3, 0.9)) = ', circleRadius(Math.pow(n.linkCount * 3, 0.9)));
+       console.log('n.id = ', n.id, '; n.linkCount = ', n.linkCount, '; circleRadius(Math.pow(n.linkCount * 3, 0.9)) = ', circleRadius(Math.pow(n.linkCount * 3, 0.9)));
 
       return n.radius = circleRadius(Math.pow(n.linkCount * 3, 0.9));
     });

@@ -233,3 +233,7 @@ td#unLogo {
     font-size: 12px;
     margin: 0;
 }
+
+tr.rowtext td {
+    padding-bottom: 30px;
+}
