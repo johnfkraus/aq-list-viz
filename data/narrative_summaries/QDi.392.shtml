@@ -3,14 +3,14 @@
   <span class_="id">
    QDi.392
   </span>
-  <span class_="name">
+  <span class="name" id="doc_name">
    Name:
   </span>
   1: FAYSAL 2: AHMAD 3: BIN ALI 4: AL-ZAHRANI
   <br/>
-  <strong>
+  <span class_="nameOrigScriptKey">
    Name (original script):
-  </strong>
+  </span>
   <span class="oscr">
    فيصل احمد بن علي الزهراني
    <br/>
@@ -85,16 +85,14 @@
                      						
                      						amended on 1 May 2019, 8 Nov. 2022, 21 Jul. 2023
                      						)
-   <strong>
+   <span class_="otherInformation">
     Other information:
-   </strong>
-   Reportedly deceased. Was the lead oil and gas division official of Islamic State in Iraq and the Levant (ISIL), listed as
-                     Al-Qaida in Iraq (QDe.115), for Al Barakah Governorate, Syrian Arab Republic, as of May 2015. Review pursuant to Security
-                     Council resolution 2253 (2015) was concluded on 21 Feb. 2019. Review pursuant to Security Council resolution 2610 (2021) was
-                     concluded on 8 November 2022. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals
-   <a href="https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals">
-    click here
-   </a>
+   </span>
+   <span class="otherInformationText" id="otherInfoTextId">
+    Reportedly deceased. Was the lead oil and gas division official of Islamic State in Iraq and the Levant (ISIL), listed as Al-Qaida in Iraq (QDe.115), for Al Barakah Governorate, Syrian Arab Republic, as of May 2015. Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.
+   </span>
+   <div class="moreInfoLinkDiv">
+   </div>
   </span>
  </td>
 </tr>

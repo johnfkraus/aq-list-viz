@@ -3,7 +3,7 @@
   <span class_="id">
    QDi.434
   </span>
-  <span class_="name">
+  <span class="name" id="doc_name">
    Name:
   </span>
   1: MAULAWI 2: RAJAB 3: na 4: na
@@ -55,10 +55,14 @@
    <span style="direction: ltr; unicode-bidi: embed">
     26 Apr. 2023
    </span>
-   <strong>
+   <span class_="otherInformation">
     Other information:
-   </strong>
-   Senior leader of the Islamic State in Iraq and the Levant - Khorasan (ISIL - K) (QDe.161).
+   </span>
+   <span class="otherInformationText" id="otherInfoTextId">
+    Senior leader of the Islamic State in Iraq and the Levant - Khorasan (ISIL - K) (QDe.161).
+   </span>
+   <div class="moreInfoLinkDiv">
+   </div>
   </span>
  </td>
 </tr>

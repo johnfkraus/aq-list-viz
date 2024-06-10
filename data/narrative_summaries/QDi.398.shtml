@@ -3,7 +3,7 @@
   <span class_="id">
    QDi.398
   </span>
-  <span class_="name">
+  <span class="name" id="doc_name">
    Name:
   </span>
   1: RUSTAM 2: MAGOMEDOVICH 3: ASELDEROV 4: na
@@ -75,17 +75,14 @@
                      						
                      						amended on 9 Aug. 2017, 1 May 2019, 15 Nov. 2021
                      						)
-   <strong>
+   <span class_="otherInformation">
     Other information:
-   </strong>
-   Led a group of over 160 terrorist fighters, which operates in the Republics of Dagestan, Chechnya and Ingushetia, Russian
-                     Federation. Killed on 3 December 2016 in Makhachkala, the Republic of Dagestan, Russian Federation. Photo available for inclusion
-                     in the INTERPOL-UN Security Council Special Notice. Review pursuant to Security Council resolution 2253 (2015) was concluded
-                     on 21 Feb. 2019. Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021. INTERPOL-UN
-                     Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals
-   <a href="https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals">
-    click here
-   </a>
+   </span>
+   <span class="otherInformationText" id="otherInfoTextId">
+    Led a group of over 160 terrorist fighters, which operates in the Republics of Dagestan, Chechnya and Ingushetia, Russian Federation. Killed on 3 December 2016 in Makhachkala, the Republic of Dagestan, Russian Federation. Photo available for inclusion in the INTERPOL-UN Security Council Special Notice. Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021.
+   </span>
+   <div class="moreInfoLinkDiv">
+   </div>
   </span>
  </td>
 </tr>

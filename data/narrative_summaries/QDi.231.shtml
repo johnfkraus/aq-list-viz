@@ -3,14 +3,14 @@
   <span class_="id">
    QDi.231
   </span>
-  <span class_="name">
+  <span class="name" id="doc_name">
    Name:
   </span>
   1: SALEM 2: NOR ELDIN 3: AMOHAMED 4: AL-DABSKI
   <br/>
-  <strong>
+  <span class_="nameOrigScriptKey">
    Name (original script):
-  </strong>
+  </span>
   <span class="oscr">
    سالم نور الدين امحمد الدبيسكي
    <br/>
@@ -87,17 +87,14 @@
                      						
                      						amended on 13 Dec. 2011, 1 May 2019, 8 Nov. 2022
                      						)
-   <strong>
+   <span class_="otherInformation">
     Other information:
-   </strong>
-   Mother's name is Kalthoum Abdul Salam al-Shaftari. Senior member of
-                     Libyan Islamic Fighting Group (QDe.011) and member of Al-Qaida (QDe.004). Review
-                     pursuant to Security Council resolution 1822 (2008) was concluded on 24 Nov.
-                     2009. Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. Review pursuant to Security
-                     Council resolution 2610 (2021) was concluded on 8 November 2022. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals
-   <a href="https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals">
-    click here
-   </a>
+   </span>
+   <span class="otherInformationText" id="otherInfoTextId">
+    Mother's name is Kalthoum Abdul Salam al-Shaftari. Senior member of Libyan Islamic Fighting Group (QDe.011) and member of Al-Qaida (QDe.004). Review pursuant to Security Council resolution 1822 (2008) was concluded on 24 Nov. 2009. Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.
+   </span>
+   <div class="moreInfoLinkDiv">
+   </div>
   </span>
  </td>
 </tr>

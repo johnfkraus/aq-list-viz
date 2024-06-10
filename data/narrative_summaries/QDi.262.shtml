@@ -3,7 +3,7 @@
   <span class_="id">
    QDi.262
   </span>
-  <span class_="name">
+  <span class="name" id="doc_name">
    Name:
   </span>
   1: REDOUANE 2: EL HABHAB 3: na 4: na
@@ -76,14 +76,14 @@
                      						
                      						amended on 30 Jan. 2009, 24 Mar. 2009, 15 Nov. 2012, 15 Nov. 2021
                      						)
-   <strong>
+   <span class_="otherInformation">
     Other information:
-   </strong>
-   Released from custody in Germany in Apr. 2012. Review pursuant to Security Council resolution 2368 (2017) was concluded on
-                     15 November 2021. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals
-   <a href="https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals">
-    click here
-   </a>
+   </span>
+   <span class="otherInformationText" id="otherInfoTextId">
+    Released from custody in Germany in Apr. 2012. Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021.
+   </span>
+   <div class="moreInfoLinkDiv">
+   </div>
   </span>
  </td>
 </tr>

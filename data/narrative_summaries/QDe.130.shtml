@@ -3,14 +3,14 @@
   <span class_="id">
    QDe.130
   </span>
-  <span class_="name">
+  <span class="name" id="doc_name">
    Name:
   </span>
   HARAKAT-UL JIHAD ISLAMI
   <br/>
-  <strong>
+  <span class_="nameOrigScriptKey">
    Name (original script):
-  </strong>
+  </span>
   <span class="oscr">
    حرکت الجہاد الاسلامی
    <br/>
@@ -71,17 +71,14 @@
     13 Dec. 2011, 24 Nov. 2020
    </span>
    )
-   <strong>
+   <span class_="otherInformation">
     Other information:
-   </strong>
-   Was established in Afghanistan in 1980. In 1993, Harakat-ul Jihad Islami merged
-                     with Harakat ul-Mujahidin (QDe.008) to form Harakat ul-Ansar. In 1997, Harakat-ul
-                     Jihad Islami split from Harakat ul-Ansar and resumed using its former name.
-                     Operations are in India, Pakistan and Afghanistan. Banned in Pakistan. Review pursuant to Security Council resolution 2368
-                     (2017) was concluded on 24 November 2020. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals
-   <a href="https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Entities">
-    click here
-   </a>
+   </span>
+   <span class="otherInformationText" id="otherInfoTextId">
+    Was established in Afghanistan in 1980. In 1993, Harakat-ul Jihad Islami merged with Harakat ul-Mujahidin (QDe.008) to form Harakat ul-Ansar. In 1997, Harakat-ul Jihad Islami split from Harakat ul-Ansar and resumed using its former name. Operations are in India, Pakistan and Afghanistan. Banned in Pakistan. Review pursuant to Security Council resolution 2368 (2017) was concluded on 24 November 2020.
+   </span>
+   <div class="moreInfoLinkDiv">
+   </div>
   </span>
  </td>
 </tr>

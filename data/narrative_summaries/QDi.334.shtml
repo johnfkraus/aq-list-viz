@@ -3,7 +3,7 @@
   <span class_="id">
    QDi.334
   </span>
-  <span class_="name">
+  <span class="name" id="doc_name">
    Name:
   </span>
   1: ‘ABD AL-RAHMAN 2: BIN ‘UMAYR 3: AL-NU’AYMI 4: na
@@ -112,14 +112,14 @@
                      						
                      						amended on 15 Feb. 2017, 23 Mar. 2021
                      						)
-   <strong>
+   <span class_="otherInformation">
     Other information:
-   </strong>
-   Financier and facilitator for Al-Qaida (QDe.004) and Al-Qaida in Iraq
-                     (QDe.115). INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals
-   <a href="https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals">
-    click here
-   </a>
+   </span>
+   <span class="otherInformationText" id="otherInfoTextId">
+    Financier and facilitator for Al-Qaida (QDe.004) and Al-Qaida in Iraq (QDe.115).
+   </span>
+   <div class="moreInfoLinkDiv">
+   </div>
   </span>
  </td>
 </tr>

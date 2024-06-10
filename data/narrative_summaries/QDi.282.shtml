@@ -3,14 +3,14 @@
   <span class_="id">
    QDi.282
   </span>
-  <span class_="name">
+  <span class="name" id="doc_name">
    Name:
   </span>
   1: QASIM 2: MOHAMED 3: MAHDI 4: AL-RIMI
   <br/>
-  <strong>
+  <span class_="nameOrigScriptKey">
    Name (original script):
-  </strong>
+  </span>
   <span class="oscr">
    قاسم محمد مهدي الريمي
    <br/>
@@ -113,16 +113,14 @@
                      						
                      						amended on 15 Apr. 2014, 24 Jun. 2016, 24 Nov. 2020
                      						)
-   <strong>
+   <span class_="otherInformation">
     Other information:
-   </strong>
-   Mother’s name: Fatima Muthanna Yahya. Photo available for inclusion in the INTERPOL-UN Security Council Special Notice. Leader
-                     of Al-Qaida in the Arabian Peninsula (QDe.129) since Jun. 2015, pledged loyalty to Aiman al-Zawahiri (QDi.006). Review pursuant
-                     to Security Council resolution 2368 (2017) was concluded on 24 November 2020. INTERPOL-UN Security Council Special Notice
-                     web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals
-   <a href="https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals">
-    click here
-   </a>
+   </span>
+   <span class="otherInformationText" id="otherInfoTextId">
+    Mother’s name: Fatima Muthanna Yahya. Photo available for inclusion in the INTERPOL-UN Security Council Special Notice. Leader of Al-Qaida in the Arabian Peninsula (QDe.129) since Jun. 2015, pledged loyalty to Aiman al-Zawahiri (QDi.006). Review pursuant to Security Council resolution 2368 (2017) was concluded on 24 November 2020.
+   </span>
+   <div class="moreInfoLinkDiv">
+   </div>
   </span>
  </td>
 </tr>

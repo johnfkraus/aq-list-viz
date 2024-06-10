@@ -3,14 +3,14 @@
   <span class_="id">
    QDi.415
   </span>
-  <span class_="name">
+  <span class="name" id="doc_name">
    Name:
   </span>
   1: ADNAN 2: ABOU WALID 3: AL-SAHRAOUI 4: na
   <br/>
-  <strong>
+  <span class_="nameOrigScriptKey">
    Name (original script):
-  </strong>
+  </span>
   <span class="oscr">
    عدنان أبو وليد الصحراوي
    <br/>
@@ -91,16 +91,14 @@
                      						
                      						amended on 8 Nov. 2022, 2 Feb. 2023
                      						)
-   <strong>
+   <span class_="otherInformation">
     Other information:
-   </strong>
-   Reportedly Deceased. Former spokesperson of the Mouvement pour l’Unification et le Jihad en Afrique de l’Ouest (MUJAO) (QDe.134).
-                     Emir of the Al-Mourabitoun (QDe.141) group in Mali. Pledged allegiance to Islamic State in Iraq and the Levant (ISIL), listed
-                     as Al-Qaida in Iraq (QDe.115) in May 2015. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November
-                     2022. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals
-   <a href="https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals">
-    click here
-   </a>
+   </span>
+   <span class="otherInformationText" id="otherInfoTextId">
+    Reportedly Deceased. Former spokesperson of the Mouvement pour l’Unification et le Jihad en Afrique de l’Ouest (MUJAO) (QDe.134). Emir of the Al-Mourabitoun (QDe.141) group in Mali. Pledged allegiance to Islamic State in Iraq and the Levant (ISIL), listed as Al-Qaida in Iraq (QDe.115) in May 2015. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.
+   </span>
+   <div class="moreInfoLinkDiv">
+   </div>
   </span>
  </td>
 </tr>

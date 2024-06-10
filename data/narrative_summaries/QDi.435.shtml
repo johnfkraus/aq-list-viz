@@ -3,7 +3,7 @@
   <span class_="id">
    QDi.435
   </span>
-  <span class_="name">
+  <span class="name" id="doc_name">
    Name:
   </span>
   1: SULTAN AZIZ 2: AZAM 3: na 4: na
@@ -55,14 +55,14 @@
    <span style="direction: ltr; unicode-bidi: embed">
     26 Apr. 2023
    </span>
-   <strong>
+   <span class_="otherInformation">
     Other information:
-   </strong>
-   Spokesperson of the Islamic State in Iraq and the Levant - Khorasan (ISIL - K) (QDe.161). INTERPOL-UN Security Council Special
-                     Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals
-   <a href="https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals">
-    click here
-   </a>
+   </span>
+   <span class="otherInformationText" id="otherInfoTextId">
+    Spokesperson of the Islamic State in Iraq and the Levant - Khorasan (ISIL - K) (QDe.161).
+   </span>
+   <div class="moreInfoLinkDiv">
+   </div>
   </span>
  </td>
 </tr>

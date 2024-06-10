@@ -3,14 +3,14 @@
   <span class_="id">
    QDe.011
   </span>
-  <span class_="name">
+  <span class="name" id="doc_name">
    Name:
   </span>
   LIBYAN ISLAMIC FIGHTING GROUP
   <br/>
-  <strong>
+  <span class_="nameOrigScriptKey">
    Name (original script):
-  </strong>
+  </span>
   <span class="oscr">
    الجماعة الاسلامية المقاتلة الليبية
    <br/>
@@ -41,16 +41,14 @@
     5 Mar. 2009, 13 Dec. 2011, 24 Nov. 2020
    </span>
    )
-   <strong>
+   <span class_="otherInformation">
     Other information:
-   </strong>
-   Members in Afghanistan merged with Al-Qaida (QDe.004) in Nov. 2007.
-                     Review pursuant to Security Council resolution 1822 (2008) was concluded on 21 Jun.
-                     2010. Review pursuant to Security Council resolution 2368 (2017) was concluded on 24 November 2020. INTERPOL-UN Security Council
-                     Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals
-   <a href="https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Entities">
-    click here
-   </a>
+   </span>
+   <span class="otherInformationText" id="otherInfoTextId">
+    Members in Afghanistan merged with Al-Qaida (QDe.004) in Nov. 2007. Review pursuant to Security Council resolution 1822 (2008) was concluded on 21 Jun. 2010. Review pursuant to Security Council resolution 2368 (2017) was concluded on 24 November 2020.
+   </span>
+   <div class="moreInfoLinkDiv">
+   </div>
   </span>
  </td>
 </tr>

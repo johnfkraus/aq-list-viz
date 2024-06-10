@@ -3,14 +3,14 @@
   <span class_="id">
    QDi.366
   </span>
-  <span class_="name">
+  <span class="name" id="doc_name">
    Name:
   </span>
   1: TARKHAN 2: ISMAILOVICH 3: GAZIEV 4: na
   <br/>
-  <strong>
+  <span class_="nameOrigScriptKey">
    Name (original script):
-  </strong>
+  </span>
   <span class="oscr">
    Тархан Исмаилович Газиев
    <br/>
@@ -121,18 +121,14 @@
                      						
                      						amended on 10 Dec. 2015, 6 Sep. 2016, 15 Nov. 2021
                      						)
-   <strong>
+   <span class_="otherInformation">
     Other information:
-   </strong>
-   As at Aug. 2015, leads Jamaat Tarkhan, a terrorist group that forms part of the
-                     Islamic State in Iraq and the Levant, listed as Al-Qaida in Iraq (QDe.115). Wanted
-                     by the authorities of the Russian Federation for terrorist crimes committed in its
-                     territory, including through an international arrest warrant. Photo available for
-                     inclusion in the INTERPOL-UN Security Council Special Notice. Review pursuant to Security Council resolution 2368 (2017) was
-                     concluded on 15 November 2021. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals
-   <a href="https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals">
-    click here
-   </a>
+   </span>
+   <span class="otherInformationText" id="otherInfoTextId">
+    As at Aug. 2015, leads Jamaat Tarkhan, a terrorist group that forms part of the Islamic State in Iraq and the Levant, listed as Al-Qaida in Iraq (QDe.115). Wanted by the authorities of the Russian Federation for terrorist crimes committed in its territory, including through an international arrest warrant. Photo available for inclusion in the INTERPOL-UN Security Council Special Notice. Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021.
+   </span>
+   <div class="moreInfoLinkDiv">
+   </div>
   </span>
  </td>
 </tr>

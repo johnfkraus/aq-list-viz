@@ -3,7 +3,7 @@
   <span class_="id">
    QDi.389
   </span>
-  <span class_="name">
+  <span class="name" id="doc_name">
    Name:
   </span>
   1: ABU UBAYDAH 2: YUSUF 3: AL-ANABI 4: na
@@ -99,16 +99,14 @@
                      						
                      						amended on 15 Nov. 2021
                      						)
-   <strong>
+   <span class_="otherInformation">
     Other information:
-   </strong>
-   A leader of the Organization of Al-Qaida in the Islamic Maghreb (AQIM)
-                     (QDe.014). Photo available for inclusion in the INTERPOL-UN Security Council Special
-                     Notice. Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021. INTERPOL-UN Security
-                     Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals
-   <a href="https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals">
-    click here
-   </a>
+   </span>
+   <span class="otherInformationText" id="otherInfoTextId">
+    A leader of the Organization of Al-Qaida in the Islamic Maghreb (AQIM) (QDe.014). Photo available for inclusion in the INTERPOL-UN Security Council Special Notice. Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021.
+   </span>
+   <div class="moreInfoLinkDiv">
+   </div>
   </span>
  </td>
 </tr>

@@ -3,14 +3,14 @@
   <span class_="id">
    QDi.081
   </span>
-  <span class_="name">
+  <span class="name" id="doc_name">
    Name:
   </span>
   1: RAMZI 2: MOHAMED 3: ABDULLAH 4: BINALSHIBH
   <br/>
-  <strong>
+  <span class_="nameOrigScriptKey">
    Name (original script):
-  </strong>
+  </span>
   <span class="oscr">
    رمزي محمد عبد الله بن الشيبة
    <br/>
@@ -111,16 +111,14 @@
                      						
                      						amended on 26 Nov. 2004, 25 Jul. 2006, 2 Jul. 2007, 27 Jul. 2007, 23 Dec. 2010, 6 Dec. 2019
                      						)
-   <strong>
+   <span class_="otherInformation">
     Other information:
-   </strong>
-   Arrested in Karachi, Pakistan, 30 Sep. 2002. In custody of the United
-                     States of America, as of May 2010. Review pursuant to Security Council resolution 1822
-                     (2008) was concluded on 25 May 2010. Review pursuant to Security Council resolution 2368 (2017) was concluded on 4 Dec. 2019
-                     INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals
-   <a href="https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals">
-    click here
-   </a>
+   </span>
+   <span class="otherInformationText" id="otherInfoTextId">
+    Arrested in Karachi, Pakistan, 30 Sep. 2002. In custody of the United States of America, as of May 2010. Review pursuant to Security Council resolution 1822 (2008) was concluded on 25 May 2010. Review pursuant to Security Council resolution 2368 (2017) was concluded on 4 Dec. 2019
+   </span>
+   <div class="moreInfoLinkDiv">
+   </div>
   </span>
  </td>
 </tr>

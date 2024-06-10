@@ -3,7 +3,7 @@
   <span class_="id">
    QDe.133
   </span>
-  <span class_="name">
+  <span class="name" id="doc_name">
    Name:
   </span>
   JEMMAH ANSHORUT TAUHID (JAT)
@@ -57,20 +57,14 @@
     17 Jul. 2018, 15 Nov. 2021
    </span>
    )
-   <strong>
+   <span class_="otherInformation">
     Other information:
-   </strong>
-   A group affiliated with the Islamic State in Iraq and the Levant (ISIL), listed
-                     as Al-Qaida in Iraq (QDe.115), that has perpetrated attacks in Indonesia. Founded
-                     and led by Abu Bakar Ba'asyir (QDi.217). Established on 27 Jul. 2008 in Solo,
-                     Indonesia. Had been associated with Jemmah Islamiya (JI) (QDe.092). Review pursuant
-                     to Security Council resolution 2253 (2015) was concluded on 7 June 2018. Website:
-                     http://ansharuttauhid.com/
-                     Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021. INTERPOL-UN Security Council
-                     Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals
-   <a href="https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Entities">
-    click here
-   </a>
+   </span>
+   <span class="otherInformationText" id="otherInfoTextId">
+    A group affiliated with the Islamic State in Iraq and the Levant (ISIL), listed as Al-Qaida in Iraq (QDe.115), that has perpetrated attacks in Indonesia. Founded and led by Abu Bakar Ba'asyir (QDi.217). Established on 27 Jul. 2008 in Solo, Indonesia. Had been associated with Jemmah Islamiya (JI) (QDe.092). Review pursuant to Security Council resolution 2253 (2015) was concluded on 7 June 2018. Website: http://ansharuttauhid.com/ Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021.
+   </span>
+   <div class="moreInfoLinkDiv">
+   </div>
   </span>
  </td>
 </tr>

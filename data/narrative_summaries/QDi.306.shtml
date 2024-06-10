@@ -3,14 +3,14 @@
   <span class_="id">
    QDi.306
   </span>
-  <span class_="name">
+  <span class="name" id="doc_name">
    Name:
   </span>
   1: MUSTAFA 2: HAJJI 3: MUHAMMAD 4: KHAN
   <br/>
-  <strong>
+  <span class_="nameOrigScriptKey">
    Name (original script):
-  </strong>
+  </span>
   <span class="oscr">
    مصطفى حجي محمد خان
    <br/>
@@ -95,15 +95,14 @@
                      						
                      						amended on 15 Nov. 2021
                      						)
-   <strong>
+   <span class_="otherInformation">
     Other information:
-   </strong>
-   Al-Qaida (QDe.004) facilitator, courier and operative. As of 2010,
-                     facilitated activities for senior Pakistan-based Al-Qaida operatives. Review pursuant to Security Council resolution 2368
-                     (2017) was concluded on 15 November 2021. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals
-   <a href="https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals">
-    click here
-   </a>
+   </span>
+   <span class="otherInformationText" id="otherInfoTextId">
+    Al-Qaida (QDe.004) facilitator, courier and operative. As of 2010, facilitated activities for senior Pakistan-based Al-Qaida operatives. Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021.
+   </span>
+   <div class="moreInfoLinkDiv">
+   </div>
   </span>
  </td>
 </tr>

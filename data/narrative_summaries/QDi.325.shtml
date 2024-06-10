@@ -3,7 +3,7 @@
   <span class_="id">
    QDi.325
   </span>
-  <span class_="name">
+  <span class="name" id="doc_name">
    Name:
   </span>
   1: ABOU 2: MOHAMED 3: AL ADNANI 4: na
@@ -114,18 +114,14 @@
                      						
                      						amended on 1 May 2019, 15 Nov. 2021
                      						)
-   <strong>
+   <span class_="otherInformation">
     Other information:
-   </strong>
-   Official spokesman of Islamic State in Iraq and the Levant (ISIL), listed
-                     as Al-Qaida in Iraq (QDe.115), and emir of ISIL in Syria, closely associated with Abu
-                     Mohammed al-Jawlani (QDi.317) and Abu Bakr al-Baghdadi, listed as Ibrahim Awwad Ibrahim
-                     Ali al-Badri al-Samarrai (QDi.299). Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019.
-                     Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021. INTERPOL-UN Security Council
-                     Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals
-   <a href="https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals">
-    click here
-   </a>
+   </span>
+   <span class="otherInformationText" id="otherInfoTextId">
+    Official spokesman of Islamic State in Iraq and the Levant (ISIL), listed as Al-Qaida in Iraq (QDe.115), and emir of ISIL in Syria, closely associated with Abu Mohammed al-Jawlani (QDi.317) and Abu Bakr al-Baghdadi, listed as Ibrahim Awwad Ibrahim Ali al-Badri al-Samarrai (QDi.299). Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021.
+   </span>
+   <div class="moreInfoLinkDiv">
+   </div>
   </span>
  </td>
 </tr>

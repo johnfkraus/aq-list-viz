@@ -3,7 +3,7 @@
   <span class_="id">
    QDi.414
   </span>
-  <span class_="name">
+  <span class="name" id="doc_name">
    Name:
   </span>
   1: ABDULPATTA 2: ESCALON 3: ABUBAKAR 4: na
@@ -97,15 +97,14 @@
                      						
                      						amended on 30 Oct. 2023
                      						)
-   <strong>
+   <span class_="otherInformation">
     Other information:
-   </strong>
-   Facilitator for the Islamic State in Iraq and the Levant (ISIL), listed as Al-Qaida in Iraq (QDe.115). Gender: male. Review
-                     pursuant to Security Council resolution 2610 (2021) was concluded on 30 October 2023.  INTERPOL-UN Security Council Special
-                     Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals
-   <a href="https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals">
-    click here
-   </a>
+   </span>
+   <span class="otherInformationText" id="otherInfoTextId">
+    Facilitator for the Islamic State in Iraq and the Levant (ISIL), listed as Al-Qaida in Iraq (QDe.115). Gender: male. Review pursuant to Security Council resolution 2610 (2021) was concluded on 30 October 2023.
+   </span>
+   <div class="moreInfoLinkDiv">
+   </div>
   </span>
  </td>
 </tr>

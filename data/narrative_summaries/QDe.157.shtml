@@ -3,7 +3,7 @@
   <span class_="id">
    QDe.157
   </span>
-  <span class_="name">
+  <span class="name" id="doc_name">
    Name:
   </span>
   AL-KAWTHAR MONEY EXCHANGE
@@ -45,17 +45,14 @@
     30 Oct. 2023
    </span>
    )
-   <strong>
+   <span class_="otherInformation">
     Other information:
-   </strong>
-   Money exchange business and owned by Umar Mahmud Irhayyim al-Kubaysi (QDi.412) as of mid-2016. Facilitated financial transactions
-                     on behalf of companies associated with Islamic State in Iraq and the Levant (ISIL), listed as Al-Qaida in Iraq (QDe.115).
-                     Established in 2000 under License number 202, issued on 17 May 2000, and since withdrawn. 
-                     Review pursuant to Security Council resolution 2610 (2021) was concluded on 30 October 2023. 
-                     INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals
-   <a href="https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Entities">
-    click here
-   </a>
+   </span>
+   <span class="otherInformationText" id="otherInfoTextId">
+    Money exchange business and owned by Umar Mahmud Irhayyim al-Kubaysi (QDi.412) as of mid-2016. Facilitated financial transactions on behalf of companies associated with Islamic State in Iraq and the Levant (ISIL), listed as Al-Qaida in Iraq (QDe.115). Established in 2000 under License number 202, issued on 17 May 2000, and since withdrawn. Review pursuant to Security Council resolution 2610 (2021) was concluded on 30 October 2023.
+   </span>
+   <div class="moreInfoLinkDiv">
+   </div>
   </span>
  </td>
 </tr>

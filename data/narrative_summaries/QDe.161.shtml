@@ -3,7 +3,7 @@
   <span class_="id">
    QDe.161
   </span>
-  <span class_="name">
+  <span class="name" id="doc_name">
    Name:
   </span>
   ISLAMIC STATE IN IRAQ AND THE LEVANT - KHORASAN (ISIL-K)
@@ -83,18 +83,14 @@
     1 Apr. 2022
    </span>
    )
-   <strong>
+   <span class_="otherInformation">
     Other information:
-   </strong>
-   Islamic State of Iraq and the Levant - Khorasan (ISIL - K) was formed on
-                     January 10, 2015 by a former Tehrik-e Taliban Pakistan (TTP) (QDe.132) commander and
-                     was established by former Taliban faction commanders who swore an oath of allegiance
-                     to the Islamic State of Iraq and the Levant (listed as Al-Qaida in Iraq (QDe.115)).
-                     ISIL – K has claimed responsibility for numerous attacks in both Afghanistan and
-                     Pakistan.  INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals
-   <a href="https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Entities">
-    click here
-   </a>
+   </span>
+   <span class="otherInformationText" id="otherInfoTextId">
+    Islamic State of Iraq and the Levant - Khorasan (ISIL - K) was formed on January 10, 2015 by a former Tehrik-e Taliban Pakistan (TTP) (QDe.132) commander and was established by former Taliban faction commanders who swore an oath of allegiance to the Islamic State of Iraq and the Levant (listed as Al-Qaida in Iraq (QDe.115)). ISIL – K has claimed responsibility for numerous attacks in both Afghanistan and Pakistan.
+   </span>
+   <div class="moreInfoLinkDiv">
+   </div>
   </span>
  </td>
 </tr>

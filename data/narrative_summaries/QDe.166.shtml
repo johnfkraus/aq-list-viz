@@ -3,14 +3,14 @@
   <span class_="id">
    QDe.166
   </span>
-  <span class_="name">
+  <span class="name" id="doc_name">
    Name:
   </span>
   ISLAMIC STATE IN IRAQ AND THE LEVANT - YEMEN
   <br/>
-  <strong>
+  <span class_="nameOrigScriptKey">
    Name (original script):
-  </strong>
+  </span>
   <span class="oscr">
    الدولة الإسلامية في العراق والشام - اليمن
    <br/>
@@ -53,15 +53,14 @@
    <span style="direction: ltr; unicode-bidi: embed">
     4 Mar. 2020
    </span>
-   <strong>
+   <span class_="otherInformation">
     Other information:
-   </strong>
-   Formed in November 2014 upon acceptance of oaths of allegiance by Abu Bakr Al-Baghdadi, listed as Ibrahim Awwad Ibrahim Ali
-                     Al-Badri Al-Samarrai (QDi.299). Associated with Islamic State in Iraq and the Levant, listed as Al-Qaida in Iraq (QDe.115).
-                     INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals
-   <a href="https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Entities">
-    click here
-   </a>
+   </span>
+   <span class="otherInformationText" id="otherInfoTextId">
+    Formed in November 2014 upon acceptance of oaths of allegiance by Abu Bakr Al-Baghdadi, listed as Ibrahim Awwad Ibrahim Ali Al-Badri Al-Samarrai (QDi.299). Associated with Islamic State in Iraq and the Levant, listed as Al-Qaida in Iraq (QDe.115).
+   </span>
+   <div class="moreInfoLinkDiv">
+   </div>
   </span>
  </td>
 </tr>

@@ -3,14 +3,14 @@
   <span class_="id">
    QDi.289
   </span>
-  <span class_="name">
+  <span class="name" id="doc_name">
    Name:
   </span>
   1: SAID JAN 2: ‘ABD AL-SALAM 3: na 4: na
   <br/>
-  <strong>
+  <span class_="nameOrigScriptKey">
    Name (original script):
-  </strong>
+  </span>
   <span class="oscr">
    سعید جان عبد السلام
    <br/>
@@ -125,15 +125,14 @@
                      						
                      						amended on 1 May 2019, 8 Nov. 2022, 14 Nov. 2023
                      						)
-   <strong>
+   <span class_="otherInformation">
     Other information:
-   </strong>
-   In approximately 2005, ran a "basic training" camp for Al-Qaida (QDe.004) in Pakistan.  Review pursuant to Security Council
-                     resolution 2253 (2015) was concluded on 21 Feb. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded
-                     on 8 November 2022. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals
-   <a href="https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals">
-    click here
-   </a>
+   </span>
+   <span class="otherInformationText" id="otherInfoTextId">
+    In approximately 2005, ran a "basic training" camp for Al-Qaida (QDe.004) in Pakistan. Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.
+   </span>
+   <div class="moreInfoLinkDiv">
+   </div>
   </span>
  </td>
 </tr>

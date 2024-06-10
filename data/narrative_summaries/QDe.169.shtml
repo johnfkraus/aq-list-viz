@@ -3,7 +3,7 @@
   <span class_="id">
    QDe.169
   </span>
-  <span class_="name">
+  <span class="name" id="doc_name">
    Name:
   </span>
   Islamic State In Iraq And the Levant In South-East Asia
@@ -35,14 +35,14 @@
    <span style="direction: ltr; unicode-bidi: embed">
     27 Jan. 2023
    </span>
-   <strong>
+   <span class_="otherInformation">
     Other information:
-   </strong>
-   Formed in June 2016 upon announcement by now-deceased Isnilon Hapilon (QDi.204). Associated with Islamic State in Iraq and
-                     the Levant, listed as Al-Qaida in Iraq (QDe.115). INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals
-   <a href="https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Entities">
-    click here
-   </a>
+   </span>
+   <span class="otherInformationText" id="otherInfoTextId">
+    Formed in June 2016 upon announcement by now-deceased Isnilon Hapilon (QDi.204). Associated with Islamic State in Iraq and the Levant, listed as Al-Qaida in Iraq (QDe.115).
+   </span>
+   <div class="moreInfoLinkDiv">
+   </div>
   </span>
  </td>
 </tr>

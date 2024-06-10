@@ -3,14 +3,14 @@
   <span class_="id">
    QDi.129
   </span>
-  <span class_="name">
+  <span class="name" id="doc_name">
    Name:
   </span>
   1: DJAMEL 2: MOUSTFA 3: na 4: na
   <br/>
-  <strong>
+  <span class_="nameOrigScriptKey">
    Name (original script):
-  </strong>
+  </span>
   <span class="oscr">
    جمال مصطفى
    <br/>
@@ -200,17 +200,14 @@
                      						
                      						amended on 7 Sep. 2007, 7 Apr. 2008, 25 Jan. 2010, 16 May 2011, 1 May 2019, 8 Nov. 2022
                      						)
-   <strong>
+   <span class_="otherInformation">
     Other information:
-   </strong>
-   Father's name is Djelalli Moustfa. Mother's name is Kadeja Mansore.
-                     Deported from Germany to Algeria in Sep. 2007.
-                     Review pursuant to Security Council resolution 1822 (2008) was concluded on 19 Oct.
-                     2009. Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. Review pursuant to Security
-                     Council resolution 2610 (2021) was concluded on 8 November 2022.  INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals
-   <a href="https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals">
-    click here
-   </a>
+   </span>
+   <span class="otherInformationText" id="otherInfoTextId">
+    Father's name is Djelalli Moustfa. Mother's name is Kadeja Mansore. Deported from Germany to Algeria in Sep. 2007. Review pursuant to Security Council resolution 1822 (2008) was concluded on 19 Oct. 2009. Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.
+   </span>
+   <div class="moreInfoLinkDiv">
+   </div>
   </span>
  </td>
 </tr>

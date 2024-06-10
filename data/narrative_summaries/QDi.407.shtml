@@ -3,7 +3,7 @@
   <span class_="id">
    QDi.407
   </span>
-  <span class_="name">
+  <span class="name" id="doc_name">
    Name:
   </span>
   1: OMAN 2: ROCHMAN 3: na 4: na
@@ -92,16 +92,14 @@
                      						
                      						amended on 8 Nov. 2022, 2 Feb. 2023
                      						)
-   <strong>
+   <span class_="otherInformation">
     Other information:
-   </strong>
-   De facto leader for all Islamic State in Iraq and the Levant, listed as Al-Qaida in Iraq (QDe.115), supporters in Indonesia,
-                     despite his incarceration in Indonesia since December 2010. Sentenced to death by the Indonesian Supreme Court. Review pursuant
-                     to Security Council resolution 2610 (2021) was concluded on 8 November 2022. INTERPOL-UN Security Council Special Notice web
-                     link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals
-   <a href="https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals">
-    click here
-   </a>
+   </span>
+   <span class="otherInformationText" id="otherInfoTextId">
+    De facto leader for all Islamic State in Iraq and the Levant, listed as Al-Qaida in Iraq (QDe.115), supporters in Indonesia, despite his incarceration in Indonesia since December 2010. Sentenced to death by the Indonesian Supreme Court. Review pursuant to Security Council resolution 2610 (2021) was concluded on 8 November 2022.
+   </span>
+   <div class="moreInfoLinkDiv">
+   </div>
   </span>
  </td>
 </tr>

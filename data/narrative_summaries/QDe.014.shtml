@@ -3,14 +3,14 @@
   <span class_="id">
    QDe.014
   </span>
-  <span class_="name">
+  <span class="name" id="doc_name">
    Name:
   </span>
   THE ORGANIZATION OF AL-QAIDA IN THE ISLAMIC MAGHREB
   <br/>
-  <strong>
+  <span class_="nameOrigScriptKey">
    Name (original script):
-  </strong>
+  </span>
   <span class="oscr">
    تنظيم القا عدة ببلاد المغرب الاسلامي
    <br/>
@@ -78,16 +78,14 @@
     26 Apr. 2007, 7 Apr. 2008, 17 Jul. 2009, 13 Dec. 2011, 24 Nov. 2020
    </span>
    )
-   <strong>
+   <span class_="otherInformation">
     Other information:
-   </strong>
-   Headed by Abdelmalek Droukdel (QDi.232). Zone of operation includes
-                     Algeria and parts of Mali, Mauritania, Niger, Tunisia and Morocco. Review pursuant to
-                     Security Council resolution 1822 (2008) was concluded on 21 Jun. 2010. Review pursuant to Security Council resolution 2368
-                     (2017) was concluded on 24 November 2020. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals
-   <a href="https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Entities">
-    click here
-   </a>
+   </span>
+   <span class="otherInformationText" id="otherInfoTextId">
+    Headed by Abdelmalek Droukdel (QDi.232). Zone of operation includes Algeria and parts of Mali, Mauritania, Niger, Tunisia and Morocco. Review pursuant to Security Council resolution 1822 (2008) was concluded on 21 Jun. 2010. Review pursuant to Security Council resolution 2368 (2017) was concluded on 24 November 2020.
+   </span>
+   <div class="moreInfoLinkDiv">
+   </div>
   </span>
  </td>
 </tr>

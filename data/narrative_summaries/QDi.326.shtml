@@ -3,7 +3,7 @@
   <span class_="id">
    QDi.326
   </span>
-  <span class_="name">
+  <span class="name" id="doc_name">
    Name:
   </span>
   1: HAMID 2: HAMAD 3: HAMID 4: AL-‘ALI
@@ -68,18 +68,14 @@
                      						
                      						amended on 23 Mar. 2021, 15 Nov. 2021
                      						)
-   <strong>
+   <span class_="otherInformation">
     Other information:
-   </strong>
-   A Kuwait-based financier, recruiter and facilitator for Islamic State in Iraq
-                     and the Levant, listed as Al-Qaida in Iraq (QDe.115), and Jabhat al-Nusrah, listed
-                     as Al-Nusrah Front for the People of the Levant (QDe.137). Associated with Ibrahim
-                     Awwad Ibrahim Ali al-Badri al-Samarrai (QDi.299) and Abu Mohammed al-Jawlani
-                     (QDi.317). Review pursuant to Security Council resolution 2368 (2017) was concluded
-                     on 15 November 2021. INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals
-   <a href="https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals">
-    click here
-   </a>
+   </span>
+   <span class="otherInformationText" id="otherInfoTextId">
+    A Kuwait-based financier, recruiter and facilitator for Islamic State in Iraq and the Levant, listed as Al-Qaida in Iraq (QDe.115), and Jabhat al-Nusrah, listed as Al-Nusrah Front for the People of the Levant (QDe.137). Associated with Ibrahim Awwad Ibrahim Ali al-Badri al-Samarrai (QDi.299) and Abu Mohammed al-Jawlani (QDi.317). Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021.
+   </span>
+   <div class="moreInfoLinkDiv">
+   </div>
   </span>
  </td>
 </tr>

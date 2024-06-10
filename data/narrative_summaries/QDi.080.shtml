@@ -3,14 +3,14 @@
   <span class_="id">
    QDi.080
   </span>
-  <span class_="name">
+  <span class="name" id="doc_name">
    Name:
   </span>
   1: SAID 2: BAHAJI 3: na 4: na
   <br/>
-  <strong>
+  <span class_="nameOrigScriptKey">
    Name (original script):
-  </strong>
+  </span>
   <span class="oscr">
    سعيد باهاجى
    <br/>
@@ -93,17 +93,14 @@
                      						
                      						amended on 26 Nov. 2004, 9 Sep. 2005, 2 Jul. 2007, 23 Dec. 2010, 9 Sep. 2014, 1 May 2019, 15 Nov. 2021
                      						)
-   <strong>
+   <span class_="otherInformation">
     Other information:
-   </strong>
-   Deputy head of the media committee of Al-Qaida (QDe.004) as at Apr. 2010. German authorities issued an arrest warrant for
-                     him on 21 Sep. 2001. Review pursuant to Security Council resolution 1822 (2008) was concluded on 20 May 2010. Reportedly deceased
-                     in September 2013 in the Afghanistan/Pakistan border area. Review pursuant to Security Council resolution 2253 (2015) was
-                     concluded on 21 Feb. 2019. Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021. INTERPOL-UN
-                     Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals
-   <a href="https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals">
-    click here
-   </a>
+   </span>
+   <span class="otherInformationText" id="otherInfoTextId">
+    Deputy head of the media committee of Al-Qaida (QDe.004) as at Apr. 2010. German authorities issued an arrest warrant for him on 21 Sep. 2001. Review pursuant to Security Council resolution 1822 (2008) was concluded on 20 May 2010. Reportedly deceased in September 2013 in the Afghanistan/Pakistan border area. Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021.
+   </span>
+   <div class="moreInfoLinkDiv">
+   </div>
   </span>
  </td>
 </tr>

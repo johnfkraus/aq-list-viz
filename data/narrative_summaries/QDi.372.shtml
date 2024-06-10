@@ -3,7 +3,7 @@
   <span class_="id">
    QDi.372
   </span>
-  <span class_="name">
+  <span class="name" id="doc_name">
    Name:
   </span>
   1: GULMUROD 2: KHALIMOV 3: na 4: na
@@ -61,16 +61,14 @@
                      						
                      						amended on 24 Nov. 2020
                      						)
-   <strong>
+   <span class_="otherInformation">
     Other information:
-   </strong>
-   Syria-based military expert, member and recruiter of Islamic State in Iraq and the Levant, listed as Al-Qaida in Iraq (QDe.115).
-                     Wanted by the Government of Tajikistan.
-                     Review pursuant to Security Council resolution 2368 (2017) was concluded on 24 November 2020. INTERPOL-UN Security Council
-                     Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals
-   <a href="https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals">
-    click here
-   </a>
+   </span>
+   <span class="otherInformationText" id="otherInfoTextId">
+    Syria-based military expert, member and recruiter of Islamic State in Iraq and the Levant, listed as Al-Qaida in Iraq (QDe.115). Wanted by the Government of Tajikistan. Review pursuant to Security Council resolution 2368 (2017) was concluded on 24 November 2020.
+   </span>
+   <div class="moreInfoLinkDiv">
+   </div>
   </span>
  </td>
 </tr>

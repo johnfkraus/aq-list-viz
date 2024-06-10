@@ -3,7 +3,7 @@
   <span class_="id">
    QDi.324
   </span>
-  <span class_="name">
+  <span class="name" id="doc_name">
    Name:
   </span>
   1: ABDUL MOHSEN 2: ABDALLAH 3: IBRAHIM 4: AL CHAREKH
@@ -68,16 +68,14 @@
                      						
                      						amended on 1 May 2019, 15 Nov. 2021
                      						)
-   <strong>
+   <span class_="otherInformation">
     Other information:
-   </strong>
-   A long time facilitator and financier for Al-Qaida (QDe.004), appointed as a regional leader of Jabhat al-Nusrah, listed as
-                     Al-Nusrah Front for the People of the Levant (QDe.137). Review pursuant to Security Council resolution 2253 (2015) was concluded
-                     on 21 Feb. 2019. Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021. INTERPOL-UN
-                     Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals
-   <a href="https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals">
-    click here
-   </a>
+   </span>
+   <span class="otherInformationText" id="otherInfoTextId">
+    A long time facilitator and financier for Al-Qaida (QDe.004), appointed as a regional leader of Jabhat al-Nusrah, listed as Al-Nusrah Front for the People of the Levant (QDe.137). Review pursuant to Security Council resolution 2253 (2015) was concluded on 21 Feb. 2019. Review pursuant to Security Council resolution 2368 (2017) was concluded on 15 November 2021.
+   </span>
+   <div class="moreInfoLinkDiv">
+   </div>
   </span>
  </td>
 </tr>
