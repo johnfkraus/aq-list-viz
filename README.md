@@ -9,11 +9,11 @@ This application uses NodeJs and the [D3 JavaScript library](https://d3js.org/) 
 
 Hover over a graph node to view data on a sanctioned individual or organization:
 
-![Hover over a node](./images/hover-screenshot.png)
+![Hover over a node](./images/nusrat.png)
 
 Click on a graph node to see additional details regarding the sanction entity at the bottom of the screen:
 
-![Click on a node](./images/aq-list-viz-screenshot-click.png)
+![Click on a node](./images/al-qaida-in-iraq.png)
 
 To run this app on your local machine, follow these steps:
 
