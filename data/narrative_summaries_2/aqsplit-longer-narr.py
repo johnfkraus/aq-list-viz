@@ -1,3 +1,4 @@
+# create list of reference numbers and links from html tables in HTML pages.
 from bs4 import BeautifulSoup
 import os
 import sys

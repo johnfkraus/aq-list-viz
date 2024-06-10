@@ -53,6 +53,14 @@ for fragment in aq_list:
         name_element.replace_with(new_tag)
 
 
+    x_element = fragment.find('strong')
+    x = fragment.find('strong').get_text()
+    print("X = " , x)
+    new_tag = soup.new_tag("span", class_="x")
+    new_tag.string = name
+    if name_element:
+        name_element.replace_with(new_tag)
+
 
 
     fragment_filename = id.strip() + ".shtml"
