@@ -293,7 +293,7 @@ Network = function () {
         .search(searchRegEx);
       if (searchTermName.length > 0 && match >= 0) {
         element.style("fill", "#F38630")
-          .style("stroke-width", 2.0)
+          .style("stroke-width", 6.0)   // MATCH LINE 351
           .style("stroke", "#555")
           .r === "44";
 
@@ -348,7 +348,7 @@ Network = function () {
         .search(searchRegEx);
       if (searchTermId.length > 0 && match >= 0) {
         element.style("fill", "#F38630")
-          .style("stroke-width", 2.0)
+          .style("stroke-width", 6.0)   // modified from 2.0
           .style("stroke", "#555");
         return d.searched = true;
       } else {
@@ -371,7 +371,7 @@ Network = function () {
         .search(searchRegEx);
       if (searchTermListedOrNot.length > 0 && match >= 0) {
         element.style("fill", "#F38630")
-          .style("stroke-width", 2.0)
+          .style("stroke-width", 6.0)  // MATCH LINE 351
           .style("stroke", "#555");
         return d.searched = true;
       } else {
@@ -395,7 +395,7 @@ Network = function () {
         .search(searchRegEx);
       if (searchTermName.length > 0 && match >= 0) {
         element.style("fill", "#F38630")
-          .style("stroke-width", 2.0)
+          .style("stroke-width", 6.0) // MATCH LINE 351
           .style("stroke", "#555");
         return d.searched = true;
       } else {
@@ -669,14 +669,14 @@ Network = function () {
     curNodes = mapNodes(curNodes);
     return allLinks.filter(function (l) {
       if ((typeof l.target === 'undefined') && (l.target) === null) {
-        console.log('filename: viz.js, line approx. 616;  Error null target where l.source.id = ', l.source.id, '; l.source = ', JSON.stringify(l.source));
+        console.log('filename: viz.js, line approx. 672;  Error null target where l.source.id = ', l.source.id, '; l.source = ', JSON.stringify(l.source));
       }
       try {
         if ((typeof l.target.id === 'undefined') && (l.target.id) === null) {
-          console.log('filename: viz.js, line approx. 620; Error null target id where l.source.id = ', l.source.id, '; l.source = ', JSON.stringify(l.source));
+          console.log('filename: viz.js, line approx. 676; Error null target id where l.source.id = ', l.source.id, '; l.source = ', JSON.stringify(l.source));
         }
       } catch (err) {
-        console.log('filename: viz.js, line approx. 623;  Error: ', err, '; null target id where l.source.id = ', l.source.id, '; l.source = ', JSON.stringify(l.source).substring(0, 100));
+        console.log('filename: viz.js, line approx. 679;  Error: ', err, '; null target id where l.source.id = ', l.source.id, '; l.source = ', JSON.stringify(l.source).substring(0, 100));
       }
       try {
         if ((typeof curNodes.get(l.target.id) !== 'undefined') && (curNodes.get(l.target.id) !== null)) {
@@ -1085,7 +1085,7 @@ Network = function () {
         if (!n.searched) {
           return 1.0;
         } else {
-          return 2.0;
+          return 6.0;  // match value from line 351
         }
       });
     if (link) {
@@ -1213,7 +1213,7 @@ $(function () {
         return myNetwork.updateSearchName(searchTermName);
       });
 
-    // "No Longer Listed" checkbox
+    // "No Longer Listed" checkbox, (OBE as of 2024)
     $("input[name='noLongerListed']").change(function (e) {
       // e = jQuery.Event
       if (myNetwork.consoleLog) {

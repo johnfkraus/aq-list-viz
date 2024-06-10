@@ -21,7 +21,7 @@ function Document() { // }, width) {
     $('span#name').html('Document.js' + d.name);
     $('span#id').html(d.id);
     $('span#nameOriginalScript').html(d.NAME_ORIGINAL_SCRIPT);
-    $('span#narrative').html(d.COMMENTS1);
+    // $('span#narrative').html(d.COMMENTS1);
     if (d.indiv0OrEnt1 == 0 && d.INDIVIDUAL_DATE_OF_BIRTH !== 'undefined') {
       $('span#indivDob').html(d.INDIVIDUAL_DATE_OF_BIRTH);
 
