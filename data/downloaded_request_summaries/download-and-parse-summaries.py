@@ -12,6 +12,7 @@ import re
 # give each field label an id so they can be styled separately
 # give each div class="field-items" an id so they can be styled separately
 # if local script name == name, delete local script name.
+# parse all the summary files to extract additional links, add the links to the json.
 
 
 with open('summary-links.csv', newline='') as f:
