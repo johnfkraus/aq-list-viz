@@ -13,7 +13,8 @@ import re
 # give each div class="field-items" an id so they can be styled separately
 # if local script name == name, delete local script name.
 # parse all the summary files to extract additional links, add the links to the json.
-
+# add search by nationality
+# add fields from json: DOB, etc.
 
 with open('summary-links.csv', newline='') as f:
     reader = csv.reader(f)
