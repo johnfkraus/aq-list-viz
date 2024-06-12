@@ -30,12 +30,12 @@ for row in link_data:
     # skip header row
     if ref_num == "ref_num":
         continue
+    # the URL is in the third column
     url = row[2]
 
     filename = ref_num + ".shtml"
     print("filename = ", filename)
-
-    print("url = ", url)
+    print("summary page url = ", url)
     response = requests.get(url, headers=headers)  # , params=query_parameters)
     # print(response.headers)
     # print("response_url = ", response.url)
@@ -44,12 +44,34 @@ for row in link_data:
 
     soup = BeautifulSoup(response.text, 'html.parser')
 
-    nonBreakSpace = u'\xa0'
-    soup = soup.replace(nonBreakSpace, ' ')
+    # nonBreakSpace = u'\xa0'
+    # soup = soup.replace(nonBreakSpace, ' ')
 
     header_elements = soup.find_all('header')
     for header in header_elements:
         soup.find('header').decompose() # .replace_with(t)
+
+    # create id for div.field-name
+    for divFieldLabel in soup.findAll("div", {"class": "field-label"}):
+        txt = divFieldLabel.text
+        if "Reason for listing" in txt:
+            new_tag = soup.new_tag("div", attrs={"class": "field-label", "id": "reasonForListing"})
+            new_tag.string = txt
+            divFieldLabel.replace_with(new_tag)
+
+    # fieldNames = soup.find_all('div', class_="field-name")
+    # for fieldName in fieldNames:
+    #     txt = fieldName.text
+
+    # soup.find('strong').replace_with(t)
+
+    # new_tag = soup.new_tag("span", attrs={"class": "name", "id": "doc_name"})
+
+    # new_tag = soup.new_tag("a", attrs={"class": "classname", "href": "#", "id": "link1"})
+
+    # new_tag.string = name
+    # if name_element:
+    #     name_element.replace_with(new_tag)
 
     if soup.find('span', class_="submitted"): # .decompose()
         soup.find('span', class_="submitted").decompose()
