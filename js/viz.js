@@ -904,7 +904,7 @@ Network = function () {
     content = '<p class="main"><span>' + d.name + '</span></p>';
     content += '<hr class="tooltip-hr">';
     content += '<p class="main"><span>ID: ' + d.id + '&nbsp;&nbsp; Links: ' + d.linkCount + '</span></p>';
-    if (d.natnlty) {
+    if (d.natnlty && d.natnlty != 0) {
       content += '<hr class="tooltip-hr">';
       content += '<p class="main"><span>Nationality: ' + d.natnlty;
       content += '</span></p>';

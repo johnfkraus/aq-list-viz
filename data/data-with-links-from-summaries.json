@@ -1,4 +1,4 @@
-let rawJsonData = `{
+{
   "nodes": [
     {
       "DATAID": 113219,
@@ -13869,7 +13869,7 @@ let rawJsonData = `{
       "id": "QDi.426",
       "summary_link": "https://www.un.org/securitycouncil/content/amir-muhammad-sa%E2%80%99id-abdal-rahman-al-salbi",
       "name": "Amir Muhammad Sa\u2019id Abdal-Rahman al-Salbi",
-      "NAME_ORIGINAL_SCRIPT": "\u0623\u0645\u06cc\u0631 \u0645\u062d\u0645\u062f \u0633\u0639\u06cc\u062f \u0639\u0628\u062f\\\\n \u0627\u0644\u0631\u062d\u0645\u0646 \u0627\u0644\u0633\u0644\u0628\u064a",
+      "NAME_ORIGINAL_SCRIPT": "\u0623\u0645\u06cc\u0631 \u0645\u062d\u0645\u062f \u0633\u0639\u06cc\u062f \u0639\u0628\u062f\\n \u0627\u0644\u0631\u062d\u0645\u0646 \u0627\u0644\u0633\u0644\u0628\u064a",
       "indiv0OrEnt1": 0,
       "noLongerListed": 0,
       "narrativeFileName": "QDi.426.shtml",
@@ -19958,7 +19958,7 @@ let rawJsonData = `{
       "id": "QDe.134",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/entity/mouvement-pour-l%E2%80%99unification-et-le-jihad-en",
       "name": "MOUVEMENT POUR L\u2019UNIFICATION ET LE JIHAD EN AFRIQUE DE L\u2019OUEST (MUJAO)",
-      "NAME_ORIGINAL_SCRIPT": "\u062d\u0631\u0643\u0629 \u0627\u0644\u062a\u0648\u062d\u064a\u062f \u0648\u0627\u0644\u062c\u0647\u0627\u062f \u0641\u064a\\\\n \u063a\u0631\u0628 \u0625\u0641\u0631\u064a\u0642\u064a\u0627",
+      "NAME_ORIGINAL_SCRIPT": "\u062d\u0631\u0643\u0629 \u0627\u0644\u062a\u0648\u062d\u064a\u062f \u0648\u0627\u0644\u062c\u0647\u0627\u062f \u0641\u064a\\n \u063a\u0631\u0628 \u0625\u0641\u0631\u064a\u0642\u064a\u0627",
       "indiv0OrEnt1": 1,
       "noLongerListed": 0,
       "narrativeFileName": "QDe.134.shtml",
@@ -36118,13 +36118,3 @@ let rawJsonData = `{
     }
   ]
 }
-`
-
-const regex = /\\/g;
-const subst = ``;
-const jsonData = rawJsonData.replace(regex, subst);
-//console.log('Substitution result: ', result);
-// let myJsonData =  rawJsonData.replace(/\\/g, '\\');
-//
-// myJsonData =  rawJsonData.replace(/\/\'/g, "'");
-JSON.parse(jsonData);
