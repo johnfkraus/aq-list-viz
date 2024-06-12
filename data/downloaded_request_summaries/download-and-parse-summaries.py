@@ -1,8 +1,8 @@
 # download summary files, parse out selected content, write to files.
-from urllib.request import urlretrieve
+# from urllib.request import urlretrieve
 import requests
 import csv
-import os
+# import os
 from bs4 import BeautifulSoup
 import sys
 import re
@@ -15,6 +15,7 @@ import re
 # parse all the summary files to extract additional links, add the links to the json.
 # add search by nationality
 # add fields from json: DOB, etc.
+# increase graph window size; more scrolling
 
 with open('summary-links.csv', newline='') as f:
     reader = csv.reader(f)
@@ -30,14 +31,10 @@ for row in link_data:
     if ref_num == "ref_num":
         continue
     url = row[2]
-    # exit()
 
     filename = ref_num + ".shtml"
     print("filename = ", filename)
 
-    # query_parameters = {"downloadformat": "csv"}
-
-    # for url in urls:
     print("url = ", url)
     response = requests.get(url, headers=headers)  # , params=query_parameters)
     # print(response.headers)
@@ -50,12 +47,9 @@ for row in link_data:
     nonBreakSpace = u'\xa0'
     soup = soup.replace(nonBreakSpace, ' ')
 
-
     header_elements = soup.find_all('header')
     for header in header_elements:
         soup.find('header').decompose() # .replace_with(t)
-    # if soup.find('header'):  # .decompose()
-    #     soup.find('header').decompose()
 
     if soup.find('span', class_="submitted"): # .decompose()
         soup.find('span', class_="submitted").decompose()
@@ -86,17 +80,12 @@ for row in link_data:
         t = strong.text
         soup.find('strong').replace_with(t)
 
-
     # addtl_info = soup.find('div', class_="field-name-field-additional-information").prettify()
-    region_content = soup.find('div', class_="region-content") # .prettify()
-
-
-    # region_content.find('span', class_="submitted").decompose()
-    # region_content.submitted.decompose()
+    region_content = soup.find('div', class_="region-content").prettify()
 
     region_content_str = str(region_content)
-    region_content_str = region_content_str.replace('\n', ' ')
-    region_content_str =  re.sub(' +', ' ', region_content_str)
+    # region_content_str = region_content_str.replace('\n', ' ')
+    # region_content_str =  re.sub(' +', ' ', region_content_str)
 
     print("region_content_str = ", region_content_str)
     # exit()
@@ -105,4 +94,3 @@ for row in link_data:
     with open(filepath, mode="w") as file:
         file.write(region_content_str)
         file.close()
-
