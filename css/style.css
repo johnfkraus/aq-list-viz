@@ -243,3 +243,24 @@ span.oscr {
     font-size: 18px;
     color: green;
 }
+div.field-label {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+div.field-item p {
+    padding-left: 10px;
+    margin-bottom: 4px;
+}
+div.field-item.even {
+    padding-bottom: 20px;
+}
+
+
+#doc-container {
+    margin-bottom: 20px;
+}
+
+.field-name-field-relate {
+    padding-bottom: 20px;
+}

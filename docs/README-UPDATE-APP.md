@@ -22,7 +22,6 @@ sudo npm i pm2 -g
 
 sudo service nginx restart
 
-
 ## Minor update: deploy the data.js file
 
 scp data.js root@al-qaida-sanctions.son:/root

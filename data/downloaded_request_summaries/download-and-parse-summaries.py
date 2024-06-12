@@ -1,4 +1,4 @@
-
+# download summary files, parse out selected content, write to files.
 from urllib.request import urlretrieve
 import requests
 import csv
@@ -6,9 +6,12 @@ import os
 from bs4 import BeautifulSoup
 import sys
 import re
-
-
 # https://realpython.com/python-download-file-from-url/
+
+# todo: remove all <p>&nbsp</p>
+# give each field label an id so they can be styled separately
+# give each div class="field-items" an id so they can be styled separately
+# if local script name == name, delete local script name.
 
 
 with open('summary-links.csv', newline='') as f:
@@ -18,29 +21,19 @@ with open('summary-links.csv', newline='') as f:
 print(link_data[1:4])
 
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'}
-# result = requests.get(url, headers=headers)
-
 
 for row in link_data:
-    # row = link_data[1]
     ref_num = row[0]
+    # skip header row
     if ref_num == "ref_num":
         continue
     url = row[2]
     # exit()
 
-    filename = ref_num + ".html"
+    filename = ref_num + ".shtml"
     print("filename = ", filename)
 
-    # # urlretrieve(url, filename)
-    #
-    # # ('gdp_by_country.zip', <http.client.HTTPMessage object at 0x7f06ee7527d0>)
-    # # path, headers = urlretrieve(url, filename)
-    # # urls = ["https://api.worldbank.org/v2/en/indicator/NY.GDP.MKTP.CD",   "https://www.un.org/securitycouncil/content/sultan-aziz-azam"]
-    # urls = ["https://www.un.org/securitycouncil/content/sultan-aziz-azam"]
-
     # query_parameters = {"downloadformat": "csv"}
-
 
     # for url in urls:
     print("url = ", url)
@@ -51,6 +44,17 @@ for row in link_data:
     # print("response.text = ", response.text)
 
     soup = BeautifulSoup(response.text, 'html.parser')
+
+    nonBreakSpace = u'\xa0'
+    soup = soup.replace(nonBreakSpace, ' ')
+
+
+    header_elements = soup.find_all('header')
+    for header in header_elements:
+        soup.find('header').decompose() # .replace_with(t)
+    # if soup.find('header'):  # .decompose()
+    #     soup.find('header').decompose()
+
     if soup.find('span', class_="submitted"): # .decompose()
         soup.find('span', class_="submitted").decompose()
     if soup.find('footer'):  # .decompose()
@@ -82,26 +86,21 @@ for row in link_data:
 
 
     # addtl_info = soup.find('div', class_="field-name-field-additional-information").prettify()
-    region_content = soup.find('div', class_="region-content").prettify()
+    region_content = soup.find('div', class_="region-content") # .prettify()
 
 
     # region_content.find('span', class_="submitted").decompose()
     # region_content.submitted.decompose()
 
+    region_content_str = str(region_content)
+    region_content_str = region_content_str.replace('\n', ' ')
+    region_content_str =  re.sub(' +', ' ', region_content_str)
 
-    print(region_content)
+    print("region_content_str = ", region_content_str)
     # exit()
 
-    # node-1461 > div.field.field-name-field-additional-information.field-type-text-long.field-label-above
-
-
-
-
-    # for k in response.headers.keys(): # .items():
-    #      print(k, ": ", response.headers[k])
     filepath = "/Users/john.kraus/workspaces/aq-list-viz/data/downloaded_request_summaries/" + filename
-    # with open("/Users/john.kraus/workspaces/aq-list-viz/data/downloaded_request_summaries/testfile.html", mode="w") as file:
     with open(filepath, mode="w") as file:
-        file.write(str(region_content))
+        file.write(region_content_str)
         file.close()
 

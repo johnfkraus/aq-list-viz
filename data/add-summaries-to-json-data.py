@@ -4,7 +4,7 @@
 # manually replace all \' and \\m
 import json
 
-# Opening JSON file
+# Opening JSON string file
 f = open('data.json')
 
 # returns JSON object as
@@ -17,7 +17,7 @@ f.close()
 new_nodes = []
 for node in data['nodes']:
     print(node['id'])
-    filename = node['id'] + ".html"
+    filename = node['id'] + ".shtml"
     try:
         f2 = open("downloaded_request_summaries/" + filename)
         node['summary'] = f2.read()
@@ -28,14 +28,17 @@ for node in data['nodes']:
 data['nodes'] = new_nodes
 
 # Closing file
-f2.close()
+try:
+    f2.close()
+except:
+    print("can't close f2")
 
 # f = open('data.json')
 
 # returns JSON object as
 # a dictionary
 
-with open("data2.json", "w") as outfile:
+with open("data-with-summaries-2.json", "w") as outfile:
     json.dump(data, outfile)
 
 # json.write load(f)
