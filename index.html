@@ -303,7 +303,6 @@
     </footer>
 </div>
 <!--! end of #container -->
-
 <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> -->
 <script type="text/javascript" src="js/libs/jquery-1.7.2.js"></script>
 <script type="text/javascript" defer src="js/plugins.js"></script>
@@ -317,13 +316,6 @@
         'use strict';
         var blob = new Blob([jsonData], {type: 'text/javascript'});
         var blobUrl = URL.createObjectURL(blob);
-        /*        <!-- $.get(blobUrl, function (jsonData) {
-                    var geoLayer = L.geoCsv(csvContents, { firstLineTitles: true, fieldSeparator: ';' });
-                    map.addLayer(geoLayer);
-                });  */
-        // console.log(jsonData);
-        // console.log(blob);
-        // console.log(blobUrl);
     })();
 </script>
 
@@ -337,11 +329,11 @@
     });
 </script>
 
-<!--[if lt IE 7 ]>
-<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
-<script>window.attachEvent('onload', function () {
-    CFInstall.check({mode: 'overlay'})
-})</script>
-<![endif]-->
+<!--&lt;!&ndash;[if lt IE 7 ]>-->
+<!--<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>-->
+<!--<script>window.attachEvent('onload', function () {-->
+<!--    CFInstall.check({mode: 'overlay'})-->
+<!--})</script>-->
+<!--<![endif]&ndash;&gt;-->
 </body>
 </html>
