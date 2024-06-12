@@ -5,7 +5,7 @@
 import json
 
 # Opening JSON string file
-f = open('data.json')
+f = open('data-input.json')
 
 # returns JSON object as
 # a dictionary
@@ -14,7 +14,7 @@ f.close()
 
 # Iterating through the json
 # list
-new_nodes = []
+revised_nodes = []
 for node in data['nodes']:
     print(node['id'])
     filename = node['id'] + ".shtml"
@@ -23,9 +23,9 @@ for node in data['nodes']:
         node['summary'] = f2.read()
     except:
         print("no file for " + filename)
-    new_nodes.append(node)
+    revised_nodes.append(node)
 
-data['nodes'] = new_nodes
+data['nodes'] = revised_nodes
 
 # Closing file
 try:

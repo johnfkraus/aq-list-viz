@@ -676,15 +676,15 @@ Network = function () {
           console.log('filename: viz.js, line approx. 676; Error null target id where l.source.id = ', l.source.id, '; l.source = ', JSON.stringify(l.source));
         }
       } catch (err) {
-        console.log('filename: viz.js, line approx. 679;  Error: ', err, '; null target id where l.source.id = ', l.source.id, '; l.source = ', JSON.stringify(l.source).substring(0, 100));
+        console.log('filename: viz.js, line approx. 679;  Error: ', err, '; null target id where l.source.id = ', l.source.id, '; l.source = ', JSON.stringify(l.source).substring(0, 1000), "l.target = ", l.target );
       }
       try {
         if ((typeof curNodes.get(l.target.id) !== 'undefined') && (curNodes.get(l.target.id) !== null)) {
           return curNodes.get(l.source.id) && curNodes.get(l.target.id);
-          return curNodes.get(l.source.id).substring(0, 100) && curNodes.get(l.target.id).substring(0, 100);
+          return curNodes.get(l.source.id).substring(0, 1000) && curNodes.get(l.target.id).substring(0, 1000);
         }
       } catch (err) {
-        console.log('filename: viz.js, line approx. 623;  Error: ', err.toString().substring(0, 100));
+        console.log('filename: viz.js, line approx. 687;  Error: ', err.toString().substring(0, 10000));
 
       }
     });

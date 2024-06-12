@@ -51,6 +51,23 @@ for row in link_data:
     for header in header_elements:
         soup.find('header').decompose() # .replace_with(t)
 
+    divFieldReasonForListingOuter = soup.find("div", {"class": "field-name-field-reason-for-listing"})
+    # print(divFieldReasonForListingOuter)
+    for div1 in divFieldReasonForListingOuter.find_all("div"):  # ,{"class": "field-items"})
+        div2 = div1.find("div")
+        print(div2)
+
+        # new_tag.string = txt
+        # divFieldLabel.replace_with(new_tag)
+        # txt = divFieldReasonForListingOuter.text
+        # if "Reason for listing" in txt:
+        #     new_tag = soup.new_tag("div", attrs={"class": "field-label", "id": "reasonForListing"})
+        #     new_tag.string = txt
+        #     divFieldLabel.replace_with(new_tag)
+
+
+
+
     # create id for div.field-name
     for divFieldLabel in soup.findAll("div", {"class": "field-label"}):
         txt = divFieldLabel.text

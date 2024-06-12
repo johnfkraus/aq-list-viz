@@ -26,7 +26,7 @@ a, a:visited {
 #svg {
     /*max-height: 960px;*/
     /*max-height: 1300px;*/
-    height: 3vh;
+    height: 300vh;
     overflow: scroll;
 }
 
@@ -190,7 +190,7 @@ span#nameOriginalScript {
 }
 
 span#narrative, span#longNarrative {
-    font-size: 12px;
+    font-size: 13px;
 }
 
 div.line2, div.line3 {
@@ -250,11 +250,13 @@ div.field-label {
 }
 div.field-item p {
     padding-left: 10px;
-    margin-bottom: 4px;
+    margin-bottom: 0;
+    padding-bottom: 2px;
+    line-height: 15px;
 }
-div.field-item.even {
-    padding-bottom: 20px;
-}
+/*div.field-item.even {*/
+/*    padding-bottom: 20px;*/
+/*}*/
 
 
 #doc-container {
@@ -263,4 +265,20 @@ div.field-item.even {
 
 .field-name-field-relate {
     padding-bottom: 20px;
+}
+/*div.field-label div.field-items div.field-item p {*/
+div.field-name-field-reason-for-listing div.field-item {
+    /*background-color: red;*/
+    padding-bottom: 10px;
+}
+
+div.field-name-field-additional-information div.field-item {
+    /*background-color: #9999ff;*/
+    padding-bottom: 10px;
+}
+
+div.field-name-field-related-listed-individuals div.field-item {
+    /*background-color: #99ff99;*/
+    padding-bottom: 10px;
+    margin-bottom: 30px;
 }
