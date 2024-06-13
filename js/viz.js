@@ -113,6 +113,7 @@ Network = function () {
     }
     svgHeight = 960; //= window.innerHeight - docHeight - topStuffHeight;
     if (consoleLog) {
+      console.log("svgHeight = ", window.innerHeight - docHeight - topStuffHeight);
       console.log("; window.innerHeight = ", window.innerHeight, "; desiredDocsHeight = ", desiredDocsHeight, "; topStuffHeight = ", topStuffHeight, "; svgHeight = ", svgHeight);
       console.log("; window.innerWidth = ", window.innerWidth);
     }
@@ -464,10 +465,10 @@ Network = function () {
       // determine radius of each node circle
 
       var circleRadiusResult = circleRadius(Math.pow(n.linkCount * 3, 0.9));
-      console.log("456 circleRadiusResult = ", circleRadiusResult);
+      // console.log("456 circleRadiusResult = ", circleRadiusResult);
       // uncomment for debugging d3
 
-       console.log('n.id = ', n.id, '; n.linkCount = ', n.linkCount, '; circleRadius(Math.pow(n.linkCount * 3, 0.9)) = ', circleRadius(Math.pow(n.linkCount * 3, 0.9)));
+      // console.log('n.id = ', n.id, '; n.linkCount = ', n.linkCount, '; circleRadius(Math.pow(n.linkCount * 3, 0.9)) = ', circleRadius(Math.pow(n.linkCount * 3, 0.9)));
 
       return n.radius = circleRadius(Math.pow(n.linkCount * 3, 0.9));
     });

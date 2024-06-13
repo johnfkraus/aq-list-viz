@@ -28,7 +28,24 @@ npm start
 ```
 Browse to localhost:3000
 
+## References
+
+[United Nations Security Council Committee pursuant to resolutions 1267 (1999) 1989 (2011) and 2253 (2015) concerning Islamic State in Iraq and the Levant (Da’esh), Al-Qaida and associated individuals, groups, undertakings and entities](https://www.un.org/securitycouncil/sanctions/1267)
 
 
+[ISIL (Da'esh) & Al-Qaida Sanctions List (HTML version)](
+https://scsanctions.un.org/kh3uqen-al-qaida.html
+)
+
+[ISIL (Da'esh) & Al-Qaida Sanctions List (XML version)](
+https://scsanctions.un.org/1z134en-al-qaida.xml
+)
+
+
+
+[Narrative Summaries of Reasons for Listing](
+https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries?type=All&page=4&order=field_posted_on&sort=desc)
+
+https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries?type=All&page=0&order=field_posted_on&sort=desc
 
 

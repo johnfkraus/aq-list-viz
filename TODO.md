@@ -19,3 +19,7 @@ add search by nationality
 show fields from json: DOB, etc.
 
 increase graph window size; more scrolling
+
+Where is this summary for QDi.150
+
+https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/al-azhar-ben-khalifa-ben-ahmed-rouine
