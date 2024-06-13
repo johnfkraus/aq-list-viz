@@ -1,6 +1,6 @@
 # al-qaida-sanctions
 
-## United Nations Al-Qaida Sanctions D3 Force-Directed Graph Visualization
+## United Nations ISIL and Al-Qaida Sanctions D3 Force-Directed Graph Visualization
 
 Deployed Website: https://al-qaida-sanctions.com/
 
