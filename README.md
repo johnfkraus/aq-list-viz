@@ -13,7 +13,7 @@ Hover over a graph node to view data on a sanctioned individual or organization:
 
 Click on a graph node to see additional details regarding the sanction entity at the bottom of the screen:
 
-![Click on a node](./images/al-qaida-in-iraq.png)
+![Click on a node](./images/al-qaida-sanctions-rouine.png)
 
 To run this app on your local machine, follow these steps:
 
