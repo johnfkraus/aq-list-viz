@@ -129,7 +129,9 @@ for row in link_data:
     print("region_content_str = ", region_content_str)
     # exit()
 
-    filepath = "/Users/john.kraus/workspaces/aq-list-viz/data/downloaded_request_summaries/" + filename
+    # filepath = "/Users/john.kraus/workspaces/aq-list-viz/data/downloaded_request_summaries/" + filename
+    filepath = "/Users/john.kraus/workspaces/aq-list-viz/data/narrative_summary_preparation/downloaded_summaries/" + filename
+
     with open(filepath, mode="w") as file:
         file.write(region_content_str)
         file.close()

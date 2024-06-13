@@ -5,7 +5,12 @@ import sys
 import csv
 from os import listdir
 
-my_path = '/Users/john.kraus/workspaces/aq-list-viz/data/narrative_summaries_2/'
+my_path = "/Users/john.kraus/workspaces/aq-list-viz/data/narrative_summary_preparation/splitting_narrative_summaries/"
+
+for file_name in listdir(my_path):
+    if file_name == "links.csv":   # .endswith('.csv'):
+        os.remove(my_path + file_name)
+
 
 # list of manually downloaded pages containing links to summaries
 filenames = ["01-Narrative Summaries of Reasons for Listing _ United Nations Security Council.html",
@@ -22,9 +27,6 @@ filenames = ["01-Narrative Summaries of Reasons for Listing _ United Nations Sec
              "12-Narrative Summaries of Reasons for Listing _ United Nations Security Council.html"
              ]
 
-for file_name in listdir(my_path):
-    if file_name.endswith('.csv'):
-        os.remove(my_path + file_name)
 
 
 csv_header = ["ref_num", "name", "link", "posted_on"]
@@ -41,15 +43,22 @@ for filename in filenames:
         html_doc = f.read()
 
     soup = BeautifulSoup(html_doc, 'html.parser')
-
     table = soup.find('table')
     tbody = table.find('tbody')
     trows = tbody.find_all('tr')
     print(len(trows))
 
     for row in trows:
-        ref_num = row.find('td', class_="views-field views-field-field-reference-number").get_text().strip()
-        print(ref_num)
+        try:
+            ref_num = row.find('td', class_="views-field-field-reference-number").get_text().strip()
+            print(ref_num)
+        except:
+            print("filename = ", filename)
+            print("row = ", row, " END OF ROW")
+            print("row.find ... = ", row.find('td', class_="views-field-field-reference-number")) # .get_text().strip()
+
+            raise Exception("NoneType has no attribute get_text")
+
 
         td_name_link = row.find('td', class_="views-field-title")
         td_name_link_a = td_name_link.find('a')
@@ -70,7 +79,7 @@ for filename in filenames:
         # csv_row.append(name)
         # csv_row.append(link)
         # csv_row.append(posted_on)
-        print(csv_row)
+        print("csv_row = ", csv_row)
 
         with open('links.csv', 'a', newline='') as csvfile:
             writer = csv.writer(csvfile, delimiter=',',
