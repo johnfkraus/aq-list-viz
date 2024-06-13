@@ -1,4 +1,4 @@
-# aq-list-viz
+# al-qaida-sanctions
 
 ## United Nations Al-Qaida Sanctions D3 Force-Directed Graph Visualization
 
