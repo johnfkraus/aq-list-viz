@@ -1,0 +1,27 @@
+ python first-item-in-each-html-page.py
+filename:  01-Narrative Summaries of Reasons for Listing _ United Nations Security Council.html  has #trows =  30
+starts with:  QDe.001
+filename:  02-Narrative Summaries of Reasons for Listing _ United Nations Security Council.html  has #trows =  30
+starts with:  QDe.101
+filename:  03-Narrative Summaries of Reasons for Listing _ United Nations Security Council.html  has #trows =  30
+starts with:  QDe.141
+filename:  04-Narrative Summaries of Reasons for Listing _ United Nations Security Council.html  has #trows =  30
+starts with:  QDi.002
+filename:  05-Narrative Summaries of Reasons for Listing _ United Nations Security Council.html  has #trows =  30
+starts with:  QDi.074
+filename:  06-Narrative Summaries of Reasons for Listing _ United Nations Security Council.html  has #trows =  30
+starts with:  QDi.149
+filename:  07-Narrative Summaries of Reasons for Listing _ United Nations Security Council.html  has #trows =  30
+starts with:  QDi.232
+filename:  08-Narrative Summaries of Reasons for Listing _ United Nations Security Council.html  has #trows =  30
+starts with:  QDi.280
+filename:  09-Narrative Summaries of Reasons for Listing _ United Nations Security Council.html  has #trows =  30
+starts with:  QDi.319
+filename:  10-Narrative Summaries of Reasons for Listing _ United Nations Security Council.html  has #trows =  30
+starts with:  QDi.387
+filename:  11-Narrative Summaries of Reasons for Listing _ United Nations Security Council.html  has #trows =  15
+starts with:  QDi.421
+filename:  12-Narrative Summaries of Reasons for Listing _ United Nations Security Council.html  has #trows =  15
+starts with:  QDi.421
+trow_count =  330
+(base)  ✝  data/narrative_summary_preparation/splitting_narrative_summaries   cleanup-061224± 
