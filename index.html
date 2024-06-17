@@ -236,9 +236,13 @@
       </circle>
       -->
     <div id="svg"></div>
+<!--    The following div id="doc-container" contains the descriptive content that pops up when you click on a node.-->
     <div id="doc-container">
-        <a id="doc-close" style="display: inline; margin-right: 20px; margin-top: 5px;" href="#">&times;</a>
-
+        <div id="closelink">
+            <a id="doc-close" style="display: inline; margin-right: 10px; margin-top: 5px;" href="#">
+                <image alt="Close" src="images/x-round.256x256.png" style="width: 18px; opacity: 0.5">
+            </a>
+        </div>
         <div id="doc" class="doc">
             <div id="line1">
                 <span id="name">
@@ -249,7 +253,19 @@
                 <span>&nbsp;&nbsp;</span>
                 <span id="id"></span>
             </div>
-            <div class="line2">
+            <div id="narrativeShort">
+                <span id="narrative">
+
+                </span>
+            </div>
+            <div id="dateOfBirthDiv">
+                <span>Date of birth: </span>
+                <span id="indivDob">
+
+                </span>
+            </div>
+
+            <div class="line2 longNarrativeDiv">
 <!--                <span><b>Narrative Summary of the Reasons for Listing:</b></span>-->
 <!--                <span>&nbsp;&nbsp;</span>-->
                 <span id="longNarrative"></span>
@@ -284,7 +300,6 @@
                 <span id="dateListed">
                 </span>
             </div>
-
             <div id="datesUpdatedDiv">
                 <span style="display: none; font-weight: bold;">Date(s) updated: </span>
                 <span id="dateUpdated">
