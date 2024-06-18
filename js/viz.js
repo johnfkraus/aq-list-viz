@@ -925,7 +925,14 @@ Network = function () {
           if (l.source === d || l.target === d) {
             return 1.0;
           } else {
-            return 0.5;
+            return 0.4;
+          }
+        })
+        .attr("z-index", function (l) { // not sure this code actually does anything
+          if (l.source === d || l.target === d) {
+            return 100;
+          } else {
+            return 0;
           }
         });
     }
@@ -935,7 +942,7 @@ Network = function () {
     console.log("viz.js 1006, showTheDoc(d, i), this = ", this, "; d.id = ", d.id, "; i = ", i);
     var aNode = this;
     console.log("typeof aNode = ", typeof aNode);
-    var longNarrative;
+    // let longNarrative;
     //  $("button#getNarrative").click(function () {
     var fileName = d.narrativeFileName;
     // var fileName = "NSQE01101E.shtml";
@@ -1014,6 +1021,30 @@ Network = function () {
     } else {
       $("div#dateUpdatedDiv").css("display", "none");
     }
+
+
+
+
+
+    srnl = $("span.refNumLink");
+    console.log("1028 ", srnl, srnl.length); //. .innerHTML);
+    // for item in snrl
+    //   console.log("1030 ", item.innerHTML);
+    for (var i = 0, l = srnl.length; i < l; i++) {
+      searchTermId = srnl[i].innerHTML;
+      console.log(searchTermId);
+      srnl.mouseover(function () {
+        //xyz.showLinkedNode(searchTermId);
+          // searchTermId = innerh;
+          return Network.updateSearchId(searchTermId);
+        });
+
+    }
+
+
+
+
+
 
     $("#doc-container").show();
     $("#doc-close").css('display', 'inline');
@@ -1144,12 +1175,18 @@ $(function () {
         activate("layouts", "force");
         return myNetwork.toggleLayout("force");
       });
-    $("#max_radius_select")
-      .on("change", function (e) {
-        activate("layouts", "force");
-        return myNetwork.toggleLayout("force");
-      });
-    if (false) {
+    // $("#max_radius_select")
+    //   .on("change", function (e) {
+    //     activate("layouts", "force");
+    //     return myNetwork.toggleLayout("force");
+    //   });
+
+
+
+
+
+
+    if (true) {
       var intervalID = setInterval(function () {
         wiggle();
       }, 20000);
@@ -1159,6 +1196,10 @@ $(function () {
       activate("layouts", "force");
       return myNetwork.toggleLayout("force", 0);
     };
+
+
+
+
 
     $("#link_distance_select")
       .on("change", function (e) {
@@ -1214,7 +1255,17 @@ $(function () {
         return myNetwork.updateSearchName(searchTermName);
       });
 
-    // "No Longer Listed" checkbox, (OBE as of 2024)
+    function onMouseoverLink(x) {
+      var searchTermId;
+      searchTermId = x.innerHTML;
+      console.log("searchTermId: " + searchTermId);
+      return myNetwork.updateSearchId(searchTermId);
+    }
+
+
+
+
+  // "No Longer Listed" checkbox, (OBE as of 2024)
     $("input[name='noLongerListed']").change(function (e) {
       // e = jQuery.Event
       if (myNetwork.consoleLog) {

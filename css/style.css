@@ -1,8 +1,5 @@
 body {
     font-family: Arial, sans-serif;
-}
-
-html.lt-ie9, html.lt-ie9 body {
     width: auto;
     height: 100px;
 }
@@ -13,7 +10,8 @@ html {
 
 a, a:visited {
     color: #4d4d4d;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
+    text-decoration: none;
 }
 
 /* 940px;  match value in js */
@@ -33,7 +31,13 @@ a, a:visited {
 #mainTitleTd {
     padding: 5px;
     max-width: 300px;
+    width: 22%;
 }
+
+div#mainTitleTd a {
+    text-decoration: none;
+}
+
 
 .mainTitleDiv {
     display: inline;
@@ -57,12 +61,12 @@ form {
 }
 
 table, tbody, tr, td, a, form, td.div, td.div.form {
-    background-color: transparent !important
+    /*background-color: transparent !important*/
 }
 
 .tableRow {
     display: table-row;
-    background-color: transparent !important
+    /*background-color: transparent !important*/
 }
 
 .searchIdsNames {
@@ -103,14 +107,14 @@ table, tbody, tr, td, a, form, td.div, td.div.form {
     text-decoration: none;
 }
 
-.control a:hover {
-    text-decoration: underline;
-}
+/*.control a:hover {*/
+/*    text-decoration: underline;*/
+/*}*/
 
-.control a.active {
-    color: white;
-    background: #555;
-}
+/*.control a.active {*/
+/*    color: white;*/
+/*    background: #555;*/
+/*}*/
 
 #searchDiv {
     padding-top: 0;
@@ -197,12 +201,18 @@ div.line2, div.line3 {
     margin-top: 4px;
 }
 
-div#line2 {
-    margin-top: 4px;
+td#unLogo {
+    horiz-align: center;
+    width:107px!important;
+    max-width: 110px;
 }
 
-td#unLogo {
-    /*width: 90px;*/
+td#unLogo a {
+    padding: 5px;
+}
+
+td#unLogo img {
+    horiz-align: center;
 }
 
 #top-stuff {
@@ -263,9 +273,9 @@ div.field-item p {
     margin-bottom: 20px;
 }
 
-.field-name-field-relate {
-    padding-bottom: 20px;
-}
+/*.field-name-field-relate {*/
+/*    padding-bottom: 20px;*/
+/*}*/
 /*div.field-label div.field-items div.field-item p {*/
 div.field-name-field-reason-for-listing div.field-item {
     /*background-color: red;*/
@@ -289,4 +299,34 @@ div#narrativeShort {
     padding-top: 5px;
     padding-bottom: 2px;
     line-height: 15px;
+}
+
+body {
+    /*background-image: url('../webflow/images/yuriy-kovalev-nN1HSDtKdlw-unsplash.jpg');*/
+    /*background-size: cover;*/
+    background-color: rgba(200,200,255,1);
+    /*background-blend-mode: lighten;*/
+}
+
+div#doc-container {
+    /*background-size: cover;*/
+    background-color: rgba(220,220,255,1);
+    /*background-blend-mode: lighten;*/
+}
+
+div#closelink {
+
+}
+
+a#doc-close {
+    /*display: inline;*/
+    margin-right: 10px;
+    margin-top: 5px;
+    background-color: transparent;
+
+}
+
+img#close {
+    width: 18px;
+    opacity: 0.5
 }

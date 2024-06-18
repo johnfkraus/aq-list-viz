@@ -51,15 +51,15 @@ function Document() { // }, width) {
       docContainer = $('#doc-container'),
       docClose = $('#doc-close');
 
-    if (typeof showDoc == 'boolean') {
-      showingDoc = showDoc;
-      docContainer[showDoc ? 'show' : 'hide']();
-      docClose[showDoc ? 'show' : 'hide']();
-    }
-    if (showingDoc) {
-      docHeight = desiredDocsHeight;
-      $('#doc-container').css('height', docHeight + 'px');
-    }
+    // if (typeof showDoc == 'boolean') {
+    //   showingDoc = showDoc;
+    //   docContainer[showDoc ? 'show' : 'hide']();
+    //   docClose[showDoc ? 'show' : 'hide']();
+    // }
+    // if (showingDoc) {
+    //   docHeight = desiredDocsHeight;
+    //   $('#doc-container').css('height', docHeight + 'px');
+    // }
     svgHeight = window.innerHeight - docHeight - $('#top-stuff').height() + topStuffNegativeMargin;
     $('#svg').css('height', svgHeight + 'px');
     if (window.innerWidth < 900) {

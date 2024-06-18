@@ -1,13 +1,4 @@
 <!doctype html>
-<!--&lt;!&ndash;[if lt IE 7]>-->
-<!--<html class="no-js ie6 oldie" lang="en"> <![endif]&ndash;&gt;-->
-<!--&lt;!&ndash;[if IE 7]>-->
-<!--<html class="no-js ie7 oldie" lang="en"> <![endif]&ndash;&gt;-->
-<!--&lt;!&ndash;[if IE 8]>-->
-<!--<html class="no-js ie8 oldie" lang="en"> <![endif]&ndash;&gt;-->
-<!--&lt;!&ndash;[if gt IE 8]>&lt;!&ndash;>-->
-<!--<html class="no-js" lang="en">-->
-<!--&lt;!&ndash;<![endif]&ndash;&gt;-->
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>U.N. ISIL and Al-Qaida Sanctions Visualization</title>
@@ -37,24 +28,26 @@
     <script src="js/libs/underscore.js"></script>
     <script src="js/libs/backbone.js"></script>
     <script src="js/config.js"></script>
+
     <!--    <script src="js/objects.js"></script>-->
 </head>
-<body style="background-color: transparent !important">
+<!--<body style="background-color: transparent !important">-->
+<body>
 <div id="container" class="container">
     <table id="top-stuff">
         <!--        style="display: none;">-->
-        <colgroup>
-            <col span="1" style="width: 110px;">
-            <!--            <col span="1" style="width: 70%;">-->
-            <!--            <col span="1" style="width: 15%;">-->
-        </colgroup>
+<!--        <colgroup>-->
+<!--            <col span="1" style="width: 110px;">-->
+<!--            &lt;!&ndash;            <col span="1" style="width: 70%;">&ndash;&gt;-->
+<!--            &lt;!&ndash;            <col span="1" style="width: 15%;">&ndash;&gt;-->
+<!--        </colgroup>-->
         <thead></thead>
         <tbody>
         <tr id="rowOfControls">
-            <td id="unLogo" style="horiz-align: center; width:107px!important;">
-                <div style="max-width: 110px;">
-                    <a style="padding: 5px;" id="un-logo-link" target="_blank" href="https://www.un.org/securitycouncil/sanctions/1267">
-                        <img alt="U.N. Logo" style="horiz-align: center;" src="images/un-logo-103x89.gif"/>
+            <td id="unLogo">
+                <div>
+                    <a id="un-logo-link" target="_blank" href="https://www.un.org/securitycouncil/sanctions/1267">
+                        <img alt="U.N. Logo" src="images/un-logo-103x89.gif"/>
                     </a>
                 </div>
             </td>
@@ -241,8 +234,8 @@
     <!--    The following div id="doc-container" contains the descriptive text that pops up when user clicks on a node.-->
     <div id="doc-container">
         <div id="closelink">
-            <a id="doc-close" style="display: inline; margin-right: 10px; margin-top: 5px;" href="#">
-                <image alt="Close" src="images/x-round.256x256.png" style="width: 18px; opacity: 0.5">
+            <a id="doc-close" href="#">
+                <img id="close" alt="Close" src="images/x-round.256x256.png">
             </a>
         </div>
         <div id="doc" class="doc">
@@ -323,6 +316,7 @@
 <script type="text/javascript" src="js/Tooltip.js"></script>
 <script type="text/javascript" src="js/Document.js"></script>
 <script type="text/javascript" src="data.js"></script>
+<!--<script src="js/mouseover.js"></script>-->
 <script type="text/javascript" src="js/viz.js"></script>
 <script>
     (function () {
