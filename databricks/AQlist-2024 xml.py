@@ -1,199 +1,24 @@
 # Databricks notebook source
 # MAGIC %md
-# MAGIC /Volumes/main/default/example-data/AQList.xml
+# MAGIC ## Al Qaida sanctions list processing for D3 visualization
+# MAGIC
+# MAGIC Generates a JSON string to download and add to the application.
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC
+# MAGIC Input data: 
 # MAGIC
 # MAGIC /Volumes/main/default/example-data/7v9bhen-al-qaida.xml
 # MAGIC
+# MAGIC /Volumes/main/default/example-data/links.csv
+# MAGIC
 
 # COMMAND ----------
 
-class Link:
-    def __init__(self, ref1, ref2):
-        if ref1 != ref2:
-            self.linkset = set((ref1, ref2  ))
-        else:
-            raise SyntaxError("error ref1 equals ref2")
-
-    def __eq__(self, other):
-        if not isinstance(other, Link):
-            # don't attempt to compare against unrelated types
-            return NotImplemented
-
-        return self.linkset == other.linkset
-
-l1 = Link("abc", "def")
-l2 = Link("def", "abc")
-# l2 = Link("def", "def")
-
-print(l1==l2)
-
-# COMMAND ----------
-
-class Link:
-    def __init__(self, ref1, ref2):
-        if ref1 != ref2:
-            self.linkset = set((ref1, ref2  ))
-        else:
-            raise SyntaxError("error ref1 equals ref2")
-
-    def __eq__(self, other):
-        if not isinstance(other, Link):
-            # don't attempt to compare against unrelated types
-            return NotImplemented
-
-        return self.linkset == other.linkset
-
-    def __str__(self) -> str:
-        stringreplist = []
-        for item in self.linkset:
-            stringreplist.append(item)
-        
-        return ",".join (stringreplist)
-      
-      
-l1 = Link("abc", "def")
-print('l1 = ', l1)
-l2 = Link("def", "abc")
-print('l2 = ', l2)
-print(l1==l2)
-
-l3 = Link("def", "ckz")
-print('l3 = ', l3)
-print(l2==l3)
-
-# l4 = Link("def", "def")  # should fail
-
-# COMMAND ----------
-
-# linkset = set((l1, l2, l3))
-# print(type(linkset))
-# print(linkset)
-
-# COMMAND ----------
-
-import json
-class Link:
-    def __init__(self, ref1, ref2):
-        if ref1 != ref2:
-            self.linkset =  frozenset((ref1, ref2  ))
-        else:
-            raise SyntaxError("error ref1 equals ref2")
-
-    def __eq__(self, other):
-        if not isinstance(other, Link):
-            # don't attempt to compare against unrelated types
-            return NotImplemented
-
-        return self.linkset == other.linkset
-
-    def __str__(self) -> str:
-        # stringreplist = []
-        # for item in self.linkset:
-        #    stringreplist.append(item)
-        # return ",".join (stringreplist)
-        # tuple = (*self.linkset,)
-        # return str(tuple)
-        return str(self.linkset)
-
-    def __hash__(self):
-        # test_tuple = (*self.linkset,)
-        # return hash(test_tuple)
-        return 42
-
-    def get_link_object(self):
-        link_object = {}
-        link_tuple = (*self.linkset,)
-        link_object['source'] = link_tuple[0]
-        link_object['target'] = link_tuple[1]
-        return link_object
-
-    def get_json(self):
-        return json.dumps(self.get_link_object())
-      
-
-def test_link():
-    l1 = Link("abc", "def")
-    print('l1 = ', l1)
-    print('str(l1) = ',str(l1))
-    l2 = Link("def", "abc")
-    print('l2 = ', l2)
-    print(l1==l2)
-
-    l3 = Link("def", "ckz")
-    print('l3 = ', l3)
-    print(l2==l3)
-
-    #l4 = Link("def", "def")  # should fail
-    l5 = Link("qqq", "uuu")
-    print(l1.get_link_object())
-    print(l1.get_json())
-    
-test_link()
-
-# COMMAND ----------
-
-# allsets = set((l1,l2))
-
-# COMMAND ----------
-
-import json
-# from dataclasses import dataclass
-# @dataclass(frozen=True)
-class Link:
-    def __init__(self, ref1, ref2):
-        if ref1 != ref2:
-            if ref1 < ref2:
-                self.__link_tuple = tuple([ref1, ref2])
-            else:
-                self.__link_tuple = tuple([ref2, ref1 ])
-
-        else:
-            raise SyntaxError("error ref1 equals ref2")
-
-    def __eq__(self, other):
-        if not isinstance(other, Link):
-            # don't attempt to compare against unrelated types
-            return NotImplemented
-        return self.__link_tuple ==other.__link_tuple
-
-    def __str__(self) -> str:
-        return str(self.__link_tuple)
-
-    def __hash__(self):
-        return (hash(self.__link_tuple[0])+ hash(self.__link_tuple[1]))
-
-    def get_link_object(self):
-        link_object = {}
-        link_object['source'] =self.__link_tuple[0]
-        link_object['target'] = self.__link_tuple[1]
-        return link_object
-
-    def get_json(self):
-        return json.dumps(self.get_link_object())
-      
-
-def test_link():
-    l1 = Link("abc", "def")
-    print('l1 = ', l1)
-    print('str(l1) = ',str(l1))
-    l2 = Link("def", "abc")
-    print('l2 = ', l2)
-    print(l1==l2)
-
-    l3 = Link("def", "ckz")
-    print('l3 = ', l3)
-    print(l2==l3)
-
-    #l4 = Link("def", "def")  # should fail
-    l5 = Link("qqq", "uuu")
-    print(l1.get_link_object())
-    print(l1.get_json())
-    
-test_link()
-
-# COMMAND ----------
-
-# allsets = set((l1,l2))
+# MAGIC %sh
+# MAGIC tcpdump -c 5
 
 # COMMAND ----------
 
@@ -266,20 +91,86 @@ test_link()
 
 # COMMAND ----------
 
-# read xml file
-# spark.read.format("json").load("/Volumes/my_catalog/my_schema/my_volume/data.json").show()
+# DBTITLE 1,Load XML data into Spark dataframes
+# read xml file (1) individuals and (2) entities
+
 volpath = "/Volumes/main/default/example-data/7v9bhen-al-qaida.xml"
-indiv_sdf = spark.read.option("rowTag", "INDIVIDUAL").format("xml").load(volpath) # .show()
-ent_sdf = spark.read.option("rowTag", "ENTITY").format("xml").load(volpath) # .show()
+indiv_sdf = spark.read.option("rowTag", "INDIVIDUAL").format("xml").load(volpath) 
+ent_sdf = spark.read.option("rowTag", "ENTITY").format("xml").load(volpath)
 
 # COMMAND ----------
 
+# DBTITLE 1,Load a separately-generated CSV file contains links to narrative summaries of reasons for listing
+import csv
+from pyspark.sql.functions import col
+# links to the summary html pages on the web; these links get added to the JSON data that drives the D3 visualization.
+csv_filepath = "/Volumes/main/default/example-data/links.csv"
+
+link_sdf = spark.read.csv(csv_filepath, header=True)
+link_sdf.createOrReplaceTempView("links_table")
+
+link_sdf.show(link_sdf.count(), False)
+
+reference_number = 'QDi.001'
+query = "SELECT link from links_table WHERE ref_num='{}'".format(reference_number)
+summary_link = spark.sql(query)
+
+print(summary_link.first()[0])
+
+link_sdf.toPandas()
+
+# COMMAND ----------
+
+# MAGIC %sh
+# MAGIC pip install bs4
+
+# COMMAND ----------
+
+import httplib2
+from bs4 import BeautifulSoup, SoupStrainer
+
+url_list = [] # looks like we don't actually use this list.
+for i in link_sdf.collect():
+    # display
+    url_list.append(i["link"])
+
+print(url_list)
+
+# http = httplib2.Http()
+# status, response = http.request(url_list[0])   # user agent needed to make this work
+# print(response)
+
+# for link in BeautifulSoup(response, parse_only=SoupStrainer('a')):
+#     if link.has_attr('href'):
+#         print(link['href'])
+
+# COMMAND ----------
+
+
 indiv_coll = indiv_sdf.collect()
 print(type(indiv_coll))
-print(len(indiv_coll))
-# print(indiv_coll)
-ent_coll= ent_sdf.collect()
-print(len(ent_coll))
+print("len(indiv_coll) = ", len(indiv_coll))
+ent_coll = ent_sdf.collect()
+print("len(ent_coll) = ", len(ent_coll))
+
+# COMMAND ----------
+
+# given a link object, creates a unique string combining source and target nodes.
+def make_link_string(link):
+    # print(link)
+    source = link['source']
+    target = link['target']
+    nodestring = ""
+    if source < target: # str(link['source']) < str(link['target']):
+        nodestring = source + ","+  target #  str(link['source']) + str(link['target'])
+    else:
+        nodestring = target + "," + source  # str(link['target']) + str(link['source'])
+    return nodestring
+
+# test the make_link_string() method:
+link_obj1 = {"source": "QDi.123", "target": "QDi.012"}
+link_obj2 = {"source": "QDi.012", "target": "QDi.123"}
+assert(make_link_string(link_obj1) == make_link_string(link_obj2))
 
 # COMMAND ----------
 
@@ -287,13 +178,13 @@ import re
 links = None
 count = 0
 data = {}
-# data['comments'] = {}
 all_the_links = []
 sourceTarget = {}
 link_count_dict = {}
 total_links = 0
 findall = ''
 nodes = []
+
 # sourceTarget['QDi.9999'] = ['TEST FAKE DATA'] # for testing only; to be deleted
 for collection in [indiv_coll, ent_coll]:
     for row in collection:  # indiv_coll:
@@ -303,14 +194,13 @@ for collection in [indiv_coll, ent_coll]:
         has_nat2 = False
         node = {}
         if row['DATAID']:
-            node['DATAID'] = str(row['DATAID'])
+            node['DATAID'] = (row['DATAID'])
         else:
             print("No DATAID!")
         node['linkCount'] = 0
 
         count += 1
-        # if count > 13:
-        #     break;
+
         full_name = ''
         if 'SECOND_NAME' in rowAsDict.keys():
             for name in [row['FIRST_NAME'], row['SECOND_NAME'],row['THIRD_NAME'], row['FOURTH_NAME']]:
@@ -320,27 +210,85 @@ for collection in [indiv_coll, ent_coll]:
         else:
             full_name = row['FIRST_NAME']
 
+        if 'INDIVIDUAL_DATE_OF_BIRTH' in rowAsDict.keys():
+            for dob_row in row['INDIVIDUAL_DATE_OF_BIRTH']:
+                if dob_row['DATE']:
+                    date_string = dob_row['DATE'].strftime("%m-%d-%Y")
+                    print("date = ", dob_row['DATE'], ", date_string = ", date_string)
+                    node['indiv_dob'] = date_string  
+
+        if 'INDIVIDUAL_PLACE_OF_BIRTH' in rowAsDict.keys():
+            placeOfBirth = ''
+            for pob_row in row['INDIVIDUAL_PLACE_OF_BIRTH']:
+                if pob_row['CITY']:
+                    placeOfBirth += pob_row['CITY']
+                if pob_row['STATE_PROVINCE']:
+                    placeOfBirth += ", "
+                    placeOfBirth += pob_row['STATE_PROVINCE']
+                if pob_row['COUNTRY']:
+                    placeOfBirth += ", "
+                    placeOfBirth += pob_row['COUNTRY']
+
+            node['indiv_place_of_birth'] = placeOfBirth
+
         reference_number = row['REFERENCE_NUMBER'].rstrip('.')
-        node['REFERENCE_NUMBER'] = reference_number
+        node['REFERENCE_NUMBER'] = reference_number.strip()
         node['id'] = reference_number        
+
+        # print("reference_number:", reference_number)
+        query = "SELECT link from links_table WHERE ref_num='{}'".format(reference_number)
+        link_result = spark.sql(query)
+        if link_result.isEmpty():
+            node['summary_link'] = "None"
+        else:
+            summary_link = spark.sql(query).first()[0]
+            # print("summary_link: ", summary_link)
+            node['summary_link'] = summary_link
+ 
+
+        # print(summary_link.first()[0])
+        # summary_link = spark.sql("SELECT link FROM links WHERE ref_num = reference_number")
+
+        full_name = full_name.replace('\n', ' ')
+        full_name = re.sub(' +', ' ', full_name)
+
         node['name'] = full_name
+
+        name_original_script = row['NAME_ORIGINAL_SCRIPT']
+        if name_original_script:
+            name_original_script.replace('\n', ' ')
+            name_original_script = re.sub(' +', ' ', name_original_script)
+            node['NAME_ORIGINAL_SCRIPT'] = name_original_script #  row['NAME_ORIGINAL_SCRIPT']
+        else:
+            node['NAME_ORIGINAL_SCRIPT'] = ''
+
+        if reference_number.startswith("QDi"):
+            node['indiv0OrEnt1'] = 0 
+        elif reference_number.startswith("QDe"):
+            node['indiv0OrEnt1'] = 1
+        else:
+            raise Exception("indiv0OrEnt1")
+
+        node['noLongerListed'] = 0
 
         node['narrativeFileName'] = reference_number.strip() + ".shtml"
 
         comments1 = row['COMMENTS1']
+        comments1 = comments1.replace('\n', ' ').replace('  ', ' ')
+
+        comments1 = re.sub(' +', ' ', comments1)
+
+        node['COMMENTS1'] = comments1.replace('"', "'").replace("INTERPOL-UN Security Council Special Notice web link:https://www.interpol.int/en/How-we-work/Notices/View-UN-Notices-Individuals", "")
         # regex = r"(Q[I|E]\..\.\d+\.\d+)" old reference number convention
-        regex = r"(QD[Ii|Ee]\.\d+)"
+        regex = r"(QD[Ii|Ee]\.\d+)"  # new reference number format
         if comments1:
             findall = re.findall(regex, comments1)
-        # if count < 13:
-        #     print("findall = ", findall) #  re.findall(regex, comments1))
 
-        if reference_number == "QDe.115":
-            print(">>>>>>>>>>>>found ", reference_number)
+        # if reference_number == "QDe.115":
+        #     print(">>>>>>>>>>>>found ", reference_number)
         if reference_number in sourceTarget.keys():
-
             link_list = sourceTarget[reference_number]
-            print("link list pre-existing source = ", link_list)
+            # print("link list pre-existing source = ", link_list)
         else:
             link_list = []
             sourceTarget[reference_number] = link_list
@@ -356,90 +304,8 @@ for collection in [indiv_coll, ent_coll]:
                 link_list.append(other_ref_num)
                 sourceTarget[reference_number] = link_list
 
-        if len(link_list) > 0:
-            print("current links ", link_list)
-
-
-
-
-        # <INDIVIDUAL_DATE_OF_BIRTH>
-        #     <TYPE_OF_DATE>EXACT</TYPE_OF_DATE>
-        #     <DATE>1972-06-01</DATE>
-        # </INDIVIDUAL_DATE_OF_BIRTH>
-
-        # ADDED DATE OF BIRTH
-        indivDateOfBirth = ''
-        try:
-            if 'INDIVIDUAL_DATE_OF_BIRTH' in rowAsDict.keys():
-                indivDateOfBirth = row['INDIVIDUAL_DATE_OF_BIRTH']
-                print("individDateOfBirth = ", indivDateOfBirth)
-                # print(type(nationality))
-                if indivDateOfBirth:
-                    if indivDateOfBirth['DATE']:
-                        # print (nationality['VALUE'])
-                        indivDateOfBirth =  ",".join(indivDateOfBirth['DATE'])
-                        print("individDateOfBirth = ", indivDateOfBirth)
-                else:
-                    indivDateOfBirth = "Not reported"
-
-            node["indivDateOfBirth"] = indivDateOfBirth
-        except:
-            print("Exception: date of birth = " +  indivDateOfBirth )
-            raise Exception("indivDateOfBirth")
-
-
-
-
-        # <INDIVIDUAL_PLACE_OF_BIRTH>
-        #     <CITY>Ghardaia</CITY>
-        #     <COUNTRY>Algeria</COUNTRY>
-        # </INDIVIDUAL_PLACE_OF_BIRTH>
-
-        indivPlaceOfBirth = ''
-        try:
-            if 'INDIVIDUAL_PLACE_OF_BIRTH' in rowAsDict.keys():
-                indivPlaceOfBirth = row['INDIVIDUAL_PLACE_OF_BIRTH']
-                print("individDateOfBirth = ", indivPlaceOfBirth)
-                # print(type(nationality))
-                if indivPlaceOfBirth:
-                    if indivPlaceOfBirth['CITY']:
-                        # print (nationality['VALUE'])
-                        indivPlaceOfBirth =  ",".join(indivPlaceOfBirth['CITY'])
-                        print("individDateOfBirth city = ", indivPlaceOfBirth)
-                    if indivPlaceOfBirth['COUNTRY']:
-                        # print (nationality['VALUE'])
-                        indivPlaceOfBirth =  ",".join(indivPlaceOfBirth['COUNTRY'])
-                        print("individDateOfBirth country = ", indivPlaceOfBirth)
-                else:
-                    indivPlaceOfBirth = "Not reported"
-
-            node["indivPlaceOfBirth"] = indivPlaceOfBirth
-        except:
-            print("Exception: indiv place of birth = " +  indivPlaceOfBirth )
-            raise Exception("indivPlaceOfBirth")
-
-
-
-        # <INDIVIDUAL_ALIAS>
-        #                 <QUALITY>Good</QUALITY>
-        #                 <ALIAS_NAME>Abou Abbes Khaled</ALIAS_NAME>
-        #             </INDIVIDUAL_ALIAS>
-        #             <INDIVIDUAL_ALIAS>
-        #                 <QUALITY>Good</QUALITY>
-        #                 <ALIAS_NAME>Belaouar Khaled Abou El Abass</ALIAS_NAME>
-        #             </INDIVIDUAL_ALIAS>
-
-        # for tag in collection:
-        #     if
-        # indiv_sdf = spark.read.option("rowTag", "INDIVIDUAL").format("xml").load(volpath)  # .show()
-
-        if "INDIVIDUAL_ALIAS" in rowAsDict.keys();
-            indivAlias = rowAsDict['INDIVIDUAL_ALIAS']
-
-
-
-
-
+        # if len(link_list) > 0:
+        #     print("current links ", link_list)
 
         nationality = ''
         try:
@@ -458,7 +324,7 @@ for collection in [indiv_coll, ent_coll]:
                 # if row['NATIONALITY2']:
                 has_nat2 = True
                 nat2 = row['NATIONALITY2']
-                print('NATIONALITY2 = ', nat2, ', nationality = ', nationality) 
+                # print('NATIONALITY2 = ', nat2, ', nationality = ', nationality) 
                 if len(nationality) == 0:
                     nationality = nat2
                 else:
@@ -470,12 +336,10 @@ for collection in [indiv_coll, ent_coll]:
             print("Exception: nationality =", nationality )
             raise Exception("nationality")
 
-
-
         node['linksTo'] = link_list
         num_node_links = len(sourceTarget[reference_number])
         link_count_dict[reference_number] = num_node_links # len(sourceTarget[reference_number])
-        node['linkCount'] = node['linkCount'] + num_node_links # + len(sourceTarget[reference_number])
+        # node['oldLinkCount'] = node['oldLinkCount'] + num_node_links # + len(sourceTarget[reference_number])
         node_link_object_list = []
         for link_ref_id in link_list:
             link_object = {}
@@ -484,79 +348,145 @@ for collection in [indiv_coll, ent_coll]:
             node_link_object_list.append(link_object)    
             all_the_links.append(link_object)
 
-        if len(node_link_object_list) > 0:
-            print('node_link_object_list = ', node_link_object_list)
-        if (links is not None and len(links) > 0):
-            print("links = ", links)
         node['links'] = node_link_object_list
-        # all_the_links.append(links)
-        if count < 13:
-            print('all_the_links = ', all_the_links)
         total_links = total_links + num_node_links #  len(sourceTarget[reference_number])
-
         nodes.append(node)
-        # if has_nat2:
-        #     print('has_nat2 node = ', node)
 
 
 
 for node in nodes:
+    new_link_list = []
+    links_to_len = len(node['linksTo'])
+    # print('links_to_len = ', links_to_len)
     node_link_count = 0
     # print('node.id = ', node['id'])
     for link in all_the_links:
         # print(link['source'])
+        if link['source'] == link['target']:
+            raise Exception("link source == link target!!")
         if node['id'] == link['source'] or node['id'] == link['target']:
+            new_link_list.append(link)
             node_link_count += 1
+    node['oldLinkCount'] = len(new_link_list) # node_link_count
+    node['newLinkList'] = new_link_list
+    # replacing old links value
+    node['links'] = new_link_list
+    # print(node['id'], " link count = ", node_link_count, " newLinkList len = ", len(node['newLinkList']))
+
+
+
+
+global_nodestring_list = []
+global_link_list = []
+global_linkcount = 0
+for node in nodes:
+    links = node['links'].copy()
+    orig_len = len(links)
+    # print("starting links len = ", len(links))
+    nodestring_list = []
+    unique_link_list = []
+    for link in links:
+        link_string = make_link_string(link)
+        if link_string  not in nodestring_list:
+            nodestring_list.append(link_string)
+            unique_link_list.append(link)
+        if link_string not in global_nodestring_list:
+            global_nodestring_list.append(link_string)
+            global_link_list.append(link)
+
+    node['links'] = unique_link_list
+    node['nodeStrings'] = nodestring_list
+    # if len(new_link_list)  != orig_len:
+    #     print("orig len ", orig_len, " new len ", len(new_link_list))
+
+
+for node in nodes:
+    node_link_count = 0
+    id = node['id']
+    for str in global_nodestring_list:
+        if id in str:
+            node_link_count += 1
+
     node['linkCount'] = node_link_count
-    print(node['id'], " link count = ", node_link_count)
 
-
-
-
-
-for node in nodes[:5]:
-    print('node = ', node)
+# print('global_linkcount = ', global_linkcount)
 
 data['nodes'] = nodes
+data['globalLinks'] = global_link_list
+data['globalLinkStrings'] = global_nodestring_list
 
 print('len(all_the_links) = ', len(all_the_links))
 #data['comments']['links'] = all_the_links
-data['links'] = all_the_links
-
+# data['links'] = all_the_links
+data['links'] = global_link_list
 # print("link_count_dict = ", str(link_count_dict)[:300], ", total_links = ", total_links)
 # print(count)
-print('data.keys() = ', data.keys())
+# print('data.keys() = ', data.keys())
 all_links_1 = data['links']
 print('len(all_links_1) = ', len(all_links_1))
-print('al-qaida links = ', link_count_dict['QDe.115'])
+# print('al-qaida links = ', link_count_dict['QDe.115'])
 # print('data.links = ', data['links'])
+print("len(global_nodestring_list) = ", len(global_nodestring_list))
+
 
 # COMMAND ----------
 
-link_count_dict
+# MAGIC %md
+# MAGIC ## To do: delete duplicate links from data links and data newLinkList.
+# MAGIC
+# MAGIC
 
 # COMMAND ----------
 
+def make_link_string(link):
+    # print(link)
+    source = link['source']
+    target = link['target']
+    # print("source", source, "target", target)
+    nodestring = ""
+    if source < target: # str(link['source']) < str(link['target']):
+        nodestring = source + ","+  target #  str(link['source']) + str(link['target'])
+    else:
+        nodestring = target + "," + source  # str(link['target']) + str(link['source'])
+    return nodestring
+
+
+global_nodestring_list = []
+global_link_list = []
+for node in nodes:
+    links = node['links'].copy()
+    orig_len = len(links)
+    # print("starting links len = ", len(links))
+    nodestring_list = []
+    new_link_list = []
+    for link in links:
+        link_string = make_link_string(link)
+        if link_string  not in nodestring_list:
+            nodestring_list.append(link_string)
+            new_link_list.append(link)
+        if link_string  not in global_nodestring_list:
+            global_nodestring_list.append(link_string)
+            global_link_list.append(link)
+
+    node['links'] = new_link_list
+    node['oldLinkCount'] = len(new_link_list)
+    if len(new_link_list)  != orig_len:
+        print("orig len ", orig_len, " new len ", len(new_link_list))
+
+
+# COMMAND ----------
+
+# display(link_result)
+
+# COMMAND ----------
+
+# copy this to local machine
 json.dumps(data, ensure_ascii=False)  # , ensure_ascii=False, indent=4)
 
 # COMMAND ----------
 
 # MAGIC %fs
 # MAGIC ls
-
-# COMMAND ----------
-
-# path = "/Volumes/main/default/example-data/data.json"
-# path = "/Volumes/incidents/bronze/data.json"
-# path = "/dbfs/mnt/data.json"
-#path = "/dbfs/user/hive/warehouse/default/data.json"
-path = "/Volumes/dbacademy_john_f_kraus19_ctr_mail_mil/example/bronze/data.json"
-
-import json
-with open(path, 'w', encoding='utf-8') as f:
-    json.dump(data, f, ensure_ascii=False, indent=4)
-
-
 
 # COMMAND ----------
 
@@ -571,10 +501,6 @@ with open('data.json', 'w', encoding='utf-8') as f:
 # MAGIC pwd
 # MAGIC # ls -lahtr
 # MAGIC cat /Workspace/Users/john.f.kraus19.ctr@mail.mil/data.json
-
-# COMMAND ----------
-
-
 
 # COMMAND ----------
 
@@ -602,13 +528,6 @@ print(ent_sdf)
 # COMMAND ----------
 
 indiv_sdf.printSchema()
-
-# COMMAND ----------
-
-# ddfcoll = indiv_sdf.collect()
-# type(ddfcoll)
-# print(len(ddfcoll))
-# # print(ddfcoll)
 
 # COMMAND ----------
 
