@@ -1014,15 +1014,15 @@ Network = function () {
     $("span#longNarrative").html(content);
 
     $("span#narrative").html(d.COMMENTS1);
-    if (d.indiv0OrEnt1 == 0 && (typeof d.indivDobString !== 'undefined') && d.indivDobString !== "") {
-      $("span#indivDateOfBirth").html(d.indivDobString);
+    if (d.indiv0OrEnt1 == 0 && (typeof d.indiv_dob !== 'undefined') && d.indiv_dob !== "") {
+      $("span#indivDob").html(d.indiv_dob);
       $("div#dateOfBirthDiv").css("display", "block");
     } else {
       $("div#dateOfBirthDiv").css("display", "none");
     }
-    if (d.indiv0OrEnt1 == 0 && (typeof d.indivPlaceOfBirthString !== 'undefined') && d.indivPlaceOfBirthString !== "") {
+    if (d.indiv0OrEnt1 == 0 && (typeof d.indiv_place_of_birth !== 'undefined') && d.indiv_place_of_birth !== "") {
       $("div#placeOfBirthDiv").css("display", "block");
-      $("span#indivPlaceOfBirth").html(d.indivPlaceOfBirthString);
+      $("span#indivPlaceOfBirth").html(d.indiv_place_of_birth);
     } else {
       $("div#placeOfBirthDiv").css("display", "none");
     }

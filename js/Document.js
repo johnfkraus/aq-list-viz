@@ -26,11 +26,12 @@ function Document() { // }, width) {
     $('span#id').html(d.id);
     $('span#nameOriginalScript').html(d.NAME_ORIGINAL_SCRIPT);
     $('span#narrative').html(d.COMMENTS1);
-    if (d.indiv0OrEnt1 == 0 && d.INDIVIDUAL_DATE_OF_BIRTH !== 'undefined') {
-      $('span#indivDob').html(d.INDIVIDUAL_DATE_OF_BIRTH);
+    if (d.indiv0OrEnt1 == 0 && d.indiv_dob !== 'undefined') {
+      $('span#indivDob').html(d.indiv_dob);
     } else {
-      $('div#dateOfBirthDiv').css('display', 'none');
+      $('div#indivDob').css('display', 'none');
     }
+    console.log("d.indiv_dob = ", d.indiv_dob);
 
     $('#doc-container').show();
     $('#doc-close').css('display', 'inline');
