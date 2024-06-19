@@ -221,6 +221,8 @@ td#unLogo img {
     width: 100%;
     margin-bottom: 0;
     background-color: transparent !important;
+    font-family: Arial, sans-serif;
+    /*display: none;*/
 }
 
 #top-stuff td {
@@ -293,13 +295,13 @@ div.field-name-field-related-listed-individuals div.field-item {
     margin-bottom: 30px;
 }
 
-div#narrativeShort {
-    padding-left: 10px;
-    margin-bottom: 0;
-    padding-top: 5px;
-    padding-bottom: 2px;
-    line-height: 15px;
-}
+/*div#narrativeShort {*/
+/*    padding-left: 10px;*/
+/*    margin-bottom: 0;*/
+/*    padding-top: 5px;*/
+/*    padding-bottom: 2px;*/
+/*    line-height: 15px;*/
+/*}*/
 
 body {
     /*background-image: url('../webflow/images/yuriy-kovalev-nN1HSDtKdlw-unsplash.jpg');*/
@@ -329,4 +331,22 @@ a#doc-close {
 img#close {
     width: 18px;
     opacity: 0.5
+}
+
+div.bioData {
+    padding-left: 10px;
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    line-height: 15px;
+}
+
+#unhideNavbar {
+    display: none;
+
+}
+
+a#AQList\.xml {
+    text-decoration: none;
+
 }

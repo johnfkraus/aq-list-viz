@@ -7,7 +7,9 @@ function Document() { // }, width) {
     desiredDocsHeight = 200,
     topStuffNegativeMargin = 10,
     docContainer,
-    topStuffHeight = $('#top-stuff').height();
+    topStuffHeight = 85;
+
+    // topStuffHeight = $('#top-stuff').height();
 
     //  this.elementId = elementId;
     //  console.log('Document.js topStuffHeight = ', topStuffHeight);
@@ -60,7 +62,23 @@ function Document() { // }, width) {
     //   docHeight = desiredDocsHeight;
     //   $('#doc-container').css('height', docHeight + 'px');
     // }
-    svgHeight = window.innerHeight - docHeight - $('#top-stuff').height() + topStuffNegativeMargin;
+    var topStuffDisplay = $("#top-stuff").css("display"); // .style(); // .getAttribute("display");
+    // console.log($("#top-stuff").css("display")); // none or ?
+    if (topStuffDisplay == "none") {
+      console.log("topstuff display = none, ", topStuffDisplay);
+      topStuffHeight = 0;
+    } else {
+      console.log("topstuff display = ", topStuffDisplay);
+      topStuffHeight = 85; // $("#top-stuff").height();
+    }
+
+
+
+
+    svgHeight = window.innerHeight - docHeight - topStuffHeight - topStuffNegativeMargin;
+    console.log("svgHeight: ", svgHeight, " = window.innerHeight: ", window.innerHeight, " - docHeight: ", docHeight, " - topStuffHeight: ", topStuffHeight, ", - topStuffNegativeMargin: ", topStuffNegativeMargin );
+
+    // svgHeight = window.innerHeight - docHeight - $('#top-stuff').height() + topStuffNegativeMargin;
     $('#svg').css('height', svgHeight + 'px');
     if (window.innerWidth < 900) {
       $('.mainTitleDiv').css('font-size', '14px');
@@ -69,7 +87,9 @@ function Document() { // }, width) {
       //  right: window.innerWidth - $('#doc-container')[0].clientWidth + docClosePadding + 'px'
     });
     if (consoleLogDocument) {
-      console.log('Document.js window.innerHeight = ', window.innerHeight, '; desiredDocsHeight = ', desiredDocsHeight, '; topStuffHeight = ', $('#top-stuff').height(), '; svgHeight = ', svgHeight, '\nwindow.innerWidth = ', window.innerWidth, '; docHeight = ', docHeight);
+      // console.log('Document.js window.innerHeight = ', window.innerHeight, '; desiredDocsHeight = ', desiredDocsHeight, '; topStuffHeight = ', $('#top-stuff').height(), '; svgHeight = ', svgHeight, '\nwindow.innerWidth = ', window.innerWidth, '; docHeight = ', docHeight);
+
+      console.log('Document.js window.innerHeight = ', window.innerHeight, '; desiredDocsHeight = ', desiredDocsHeight, '; topStuffHeight = ', topStuffHeight, '; svgHeight = ', svgHeight, '\nwindow.innerWidth = ', window.innerWidth, '; docHeight = ', docHeight);
     }
   }
 

@@ -97,11 +97,21 @@ Network = function () {
     var docHeight = 0,
       docContainer = $('#doc-container'),
       docClose = $('#doc-close'),
-      showingDoc = false,
-      topStuffHeight = $("#top-stuff").height();
-    if (consoleLog) {
-      console.log("viz.js setSize(), topStuffHeight = ", topStuffHeight);
+      showingDoc = false;
+
+
+    var topStuffDisplay = $("#top-stuff").css("display"); // .style(); // .getAttribute("display");
+      // console.log($("#top-stuff").css("display")); // none or ?
+    let topStuffHeight;
+    if (topStuffDisplay == "none") {
+      console.log("topstuff display = none, ", topStuffDisplay);
+      topStuffHeight = 0;
+    } else {
+      console.log("topstuff display = ", topStuffDisplay);
+      //topStuffHeight = $("#top-stuff").height();
+      topStuffHeight = 85;
     }
+
     if (typeof showDoc == 'boolean') {
       showingDoc = showDoc;
       docContainer[showDoc ? 'show' : 'hide']();
@@ -113,6 +123,9 @@ Network = function () {
     }
     svgHeight = 960; //= window.innerHeight - docHeight - topStuffHeight;
     if (consoleLog) {
+      console.log("116 vis.js window.innerHeight = ", window.innerHeight);
+      console.log("117 docHeight = ", docHeight);
+      console.log("118 topStuffHeight = ", topStuffHeight );
       console.log("svgHeight = ", window.innerHeight - docHeight - topStuffHeight);
       console.log("; window.innerHeight = ", window.innerHeight, "; desiredDocsHeight = ", desiredDocsHeight, "; topStuffHeight = ", topStuffHeight, "; svgHeight = ", svgHeight);
       console.log("; window.innerWidth = ", window.innerWidth);
@@ -237,6 +250,18 @@ Network = function () {
 
   network.resize = function (showDoc) {
     console.log("viz.js 1120 resize(showDoc = ", showDoc, ")");
+    var topStuffDisplay = $("#top-stuff").css("display");
+    let topStuffHeight;
+    if (topStuffDisplay == "none") {
+      console.log("topstuff display = none, ", topStuffDisplay);
+      topStuffHeight = 0;
+    } else {
+      console.log("topstuff display = ", topStuffDisplay);
+      topStuffHeight = $("#top-stuff").height();
+    }
+
+
+
     var docHeight = 0,
       svgHeight = 0,
       docContainer = $('#doc-container'),
@@ -258,7 +283,8 @@ Network = function () {
       docHeight = 0;
       $('#doc-container').css('height', 0 + 'px');
     }
-    svgHeight = window.innerHeight - docHeight - $("#top-stuff").height() + topStuffNegativeMargin;
+    // svgHeight = window.innerHeight - docHeight - $("#top-stuff").height() + topStuffNegativeMargin;
+    svgHeight = window.innerHeight - docHeight - topStuffHeight + topStuffNegativeMargin;
     if (consoleLog) {
       console.log("viz.js 1143 window.innerHeight = ", window.innerHeight, "; svgHeight = ", svgHeight, "; window.innerWidth = ", window.innerWidth);
     }
@@ -447,7 +473,7 @@ Network = function () {
       .range([3, parseInt($('#max_radius_select').val())])
       .domain(countExtent);
 
-    console.log("438 circleRadius = ", circleRadius);
+    // console.log("438 circleRadius = ", circleRadius);
 // countExtent is an Array with value 1 = minimum link count (0) and value 2 = maximum link count;
 //    console.log('$(\'#max_radius_select\').val() = ', $('#max_radius_select').val());
 //    console.log('circleRadius = ', circleRadius);
@@ -677,7 +703,7 @@ Network = function () {
           console.log('filename: viz.js, line approx. 676; Error null target id where l.source.id = ', l.source.id, '; l.source = ', JSON.stringify(l.source));
         }
       } catch (err) {
-        console.log('filename: viz.js, line approx. 679;  Error: ', err, '; null target id where l.source.id = ', l.source.id, '; l.source = ', JSON.stringify(l.source).substring(0, 1000), "l.target = ", l.target );
+        // console.log('filename: viz.js, line approx. 679;  Error: ', err, '; null target id where l.source.id = ', l.source.id, '; l.source = ', JSON.stringify(l.source).substring(0, 1000), "l.target = ", l.target );
       }
       try {
         if ((typeof curNodes.get(l.target.id) !== 'undefined') && (curNodes.get(l.target.id) !== null)) {
@@ -685,7 +711,7 @@ Network = function () {
           return curNodes.get(l.source.id).substring(0, 1000) && curNodes.get(l.target.id).substring(0, 1000);
         }
       } catch (err) {
-        console.log('filename: viz.js, line approx. 687;  Error: ', err.toString().substring(0, 10000));
+        // console.log('691 viz.js, line approx. 687;  Error: ', err.toString().substring(0, 10000));
 
       }
     });
@@ -941,7 +967,7 @@ Network = function () {
   showTheDoc = function (d, i) {
     console.log("viz.js 1006, showTheDoc(d, i), this = ", this, "; d.id = ", d.id, "; i = ", i);
     var aNode = this;
-    console.log("typeof aNode = ", typeof aNode);
+    // console.log("typeof aNode = ", typeof aNode);
     // let longNarrative;
     //  $("button#getNarrative").click(function () {
     var fileName = d.narrativeFileName;
@@ -1069,6 +1095,18 @@ Network = function () {
 
   function resize(showDoc) {
     // console.log("viz.js 1120 resize(showDoc = ", showDoc, ")");
+    var topStuffDisplay = $("#top-stuff").css("display");
+    let topStuffHeight;
+    if (topStuffDisplay == "none") {
+      console.log("topstuff display = none, ", topStuffDisplay);
+      topStuffHeight = 0;
+    } else {
+      console.log("topstuff display = ", topStuffDisplay);
+      topStuffHeight = $("#top-stuff").height();
+    }
+
+
+
     var docHeight = 0,
       svgHeight = 0,
       docContainer = $('#doc-container'),
@@ -1091,7 +1129,12 @@ Network = function () {
       docHeight = 0;
       $('#doc-container').css('height', 0 + 'px');
     }
-    svgHeight = window.innerHeight - docHeight - $("#top-stuff").height() + topStuffNegativeMargin;
+    //svgHeight = window.innerHeight - docHeight - $("#top-stuff").height() + topStuffNegativeMargin;
+    svgHeight = window.innerHeight - docHeight - topStuffHeight + topStuffNegativeMargin;
+
+    // svgHeight = window.innerHeight - docHeight + topStuffNegativeMargin;
+
+
     if (consoleLog) {
       console.log("viz.js 1143 window.innerHeight = ", window.innerHeight, "; svgHeight = ", svgHeight, "; window.innerWidth = ", window.innerWidth);
     }
@@ -1226,7 +1269,30 @@ $(function () {
     });
 
 
-    $('#doc-close')
+  $('#unhideNavbar')
+    .on('click', function() {
+      $("#top-stuff").css("display", "table");
+      $('#unhideNavbar').css("display", "none");
+      return myNetwork.resize(false);
+    });
+
+
+  $('#hideNavbar')
+    .on('click', function () {
+      // deselectObject();
+      let topStuff = $("#top-stuff");
+      topStuff.css("display", "none");
+      console.log("#hideNavbar clicked");
+      $('#unhideNavbar').css("display", "table");
+      return myNetwork.resize(false);
+      // return false;
+    });
+
+
+
+
+
+  $('#doc-close')
       .on('click', function () {
         // deselectObject();
         console.log("viz.js 1114 #doc-close clicked");

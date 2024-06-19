@@ -5,6 +5,7 @@ let rawJsonData = `{
       "linkCount": 7,
       "REFERENCE_NUMBER": "QDi.001",
       "id": "QDi.001",
+      "indivDobString": "July 1, 1966",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/sayf-al-adl",
       "name": "MOHAMMED SALAHALDIN ABD EL HALIM ZIDANE",
       "NAME_ORIGINAL_SCRIPT": "\u0645\u062d\u0645\u062f \u0635\u0644\u0627\u062d \u0627\u0644\u062f\u064a\u0646 \u0639\u0628\u062f\u0627\u0644\u062d\u0644\u064a\u0645 \u0632\u064a\u062f\u0627\u0646",
