@@ -1,0 +1,15 @@
+
+
+No narrative for QDi.356:
+
+Summary exists:
+
+https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/aqsa-mahmood
+
+Not found on summary page: https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries
+
+Link to missing summary added to:
+
+data/narrative_summary_preparation/downloaded_summaries/summary-links-addendum.csv
+
+

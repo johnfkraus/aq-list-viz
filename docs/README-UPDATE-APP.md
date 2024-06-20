@@ -7,7 +7,7 @@ ssh root@aq-qaida-sanctions.com
 
 Clone the git repo:
 
-git clone https://github.com/johnfkraus/aq-list-viz.git
+git clone https://github.com/johnfkraus/al-qaida-sanctions.git
 
 cd into project
 
@@ -19,6 +19,8 @@ wait..wait..wait
 
 ??
 sudo npm i pm2 -g
+
+pm2 start index.js
 
 sudo service nginx restart
 
