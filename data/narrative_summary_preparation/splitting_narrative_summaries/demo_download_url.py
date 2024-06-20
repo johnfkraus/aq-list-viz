@@ -1,12 +1,11 @@
-
 from urllib.request import urlretrieve
 import requests
 
 # https://realpython.com/python-download-file-from-url/
 
-url = (
-    "https://www.un.org/securitycouncil/content/sultan-aziz-azam"
- )
+# url = (
+#     "https://www.un.org/securitycouncil/content/sultan-aziz-azam"
+# )
 
 filename = "sultan-aziz-azam.html"
 

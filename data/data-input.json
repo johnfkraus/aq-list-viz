@@ -3,6 +3,8 @@
     {
       "DATAID": 113219,
       "linkCount": 0,
+      "indiv_dob": "04-11-1963",
+      "indiv_place_of_birth": ", Monufia Governate, Egypt",
       "REFERENCE_NUMBER": "QDi.001",
       "id": "QDi.001",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/sayf-al-adl",
@@ -22,6 +24,7 @@
     {
       "DATAID": 111497,
       "linkCount": 0,
+      "indiv_place_of_birth": ", Nangarhar Province, Afghanistan",
       "REFERENCE_NUMBER": "QDi.002",
       "id": "QDi.002",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/amin-muhammad-ul-haq-saam-khan",
@@ -41,6 +44,7 @@
     {
       "DATAID": 111919,
       "linkCount": 0,
+      "indiv_place_of_birth": "Al-Mukalla, YemenAI-Mukala, Yemen",
       "REFERENCE_NUMBER": "QDi.003",
       "id": "QDi.003",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/salim-ahmad-salim-hamdan",
@@ -60,6 +64,8 @@
     {
       "DATAID": 111923,
       "linkCount": 9,
+      "indiv_dob": "06-19-1951",
+      "indiv_place_of_birth": "Giza, Egypt",
       "REFERENCE_NUMBER": "QDi.006",
       "id": "QDi.006",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/aiman-muhammed-rabi-al-zawahiri",
@@ -112,7 +118,7 @@
           "target": "QDi.006"
         }
       ],
-      "oldLinkCount": 10,
+      "oldLinkCount": 9,
       "newLinkList": [
         {
           "source": "QDi.006",
@@ -170,6 +176,7 @@
     {
       "DATAID": 111942,
       "linkCount": 0,
+      "indiv_place_of_birth": "",
       "REFERENCE_NUMBER": "QDi.009",
       "id": "QDi.009",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/bilal-bin-marwan",
@@ -189,6 +196,7 @@
     {
       "DATAID": 111900,
       "linkCount": 1,
+      "indiv_place_of_birth": "Mosul, Iraq",
       "REFERENCE_NUMBER": "QDi.012",
       "id": "QDi.012",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/nashwan-abd-al-razzaq-abd-al-baqi",
@@ -222,6 +230,8 @@
     {
       "DATAID": 111498,
       "linkCount": 0,
+      "indiv_dob": "03-15-1963",
+      "indiv_place_of_birth": "Alexandria, Egypt",
       "REFERENCE_NUMBER": "QDi.014",
       "id": "QDi.014",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/tariq-anwar-el-sayed-ahmed",
@@ -241,6 +251,8 @@
     {
       "DATAID": 112026,
       "linkCount": 0,
+      "indiv_dob": "01-01-1975",
+      "indiv_place_of_birth": ", Mauritania",
       "REFERENCE_NUMBER": "QDi.015",
       "id": "QDi.015",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/mahfouz-ould-al-walid",
@@ -260,6 +272,8 @@
     {
       "DATAID": 111782,
       "linkCount": 0,
+      "indiv_dob": "06-29-1960",
+      "indiv_place_of_birth": ", Egypt",
       "REFERENCE_NUMBER": "QDi.017",
       "id": "QDi.017",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/tharwat-salah-shihata",
@@ -279,6 +293,7 @@
     {
       "DATAID": 111514,
       "linkCount": 0,
+      "indiv_place_of_birth": "",
       "REFERENCE_NUMBER": "QDi.018",
       "id": "QDi.018",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/abdul-manan-agha",
@@ -298,6 +313,8 @@
     {
       "DATAID": 111947,
       "linkCount": 0,
+      "indiv_dob": "06-06-1963",
+      "indiv_place_of_birth": "Gharbia, Egypt",
       "REFERENCE_NUMBER": "QDi.019",
       "id": "QDi.019",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/abdullah-ahmed-abdullah-el-alfi",
@@ -317,6 +334,8 @@
     {
       "DATAID": 111660,
       "linkCount": 1,
+      "indiv_dob": "11-19-1971",
+      "indiv_place_of_birth": "Medina, Saudi Arabia",
       "REFERENCE_NUMBER": "QDi.020",
       "id": "QDi.020",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/mohammad-hamdi-mohammad-sadiq-al-ahdal",
@@ -350,6 +369,8 @@
     {
       "DATAID": 112044,
       "linkCount": 0,
+      "indiv_dob": "03-14-1974",
+      "indiv_place_of_birth": "Zanzibar, United Republic of Tanzania",
       "REFERENCE_NUMBER": "QDi.028",
       "id": "QDi.028",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/ahmed-khalfan-ghailani",
@@ -369,6 +390,8 @@
     {
       "DATAID": 112078,
       "linkCount": 1,
+      "indiv_dob": "12-30-1968",
+      "indiv_place_of_birth": ", California, United States of America",
       "REFERENCE_NUMBER": "QDi.029",
       "id": "QDi.029",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/ri%E2%80%99ad-muhammad-hasan-muhammad-hijazi",
@@ -402,6 +425,8 @@
     {
       "DATAID": 112283,
       "linkCount": 0,
+      "indiv_dob": "12-30-1960",
+      "indiv_place_of_birth": "Bethlehem, West Bank, State of Palestine",
       "REFERENCE_NUMBER": "QDi.031",
       "id": "QDi.031",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/omar-mahmoud-uthman",
@@ -421,6 +446,8 @@
     {
       "DATAID": 113328,
       "linkCount": 0,
+      "indiv_dob": "04-10-1960",
+      "indiv_place_of_birth": "Bloomington, Indiana, United States of America",
       "REFERENCE_NUMBER": "QDi.037",
       "id": "QDi.037",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/abdul-rahman-yasin",
@@ -440,6 +467,7 @@
     {
       "DATAID": 111944,
       "linkCount": 1,
+      "indiv_place_of_birth": ", Somalia",
       "REFERENCE_NUMBER": "QDi.042",
       "id": "QDi.042",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/hassan-dahir-aweys",
@@ -459,7 +487,7 @@
           "target": "QDe.002"
         }
       ],
-      "oldLinkCount": 2,
+      "oldLinkCount": 1,
       "newLinkList": [
         {
           "source": "QDi.042",
@@ -477,6 +505,8 @@
     {
       "DATAID": 111449,
       "linkCount": 1,
+      "indiv_dob": "04-15-1939",
+      "indiv_place_of_birth": "",
       "REFERENCE_NUMBER": "QDi.054",
       "id": "QDi.054",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/majeed-abdul-chaudhry",
@@ -508,6 +538,7 @@
     {
       "DATAID": 112032,
       "linkCount": 1,
+      "indiv_place_of_birth": "",
       "REFERENCE_NUMBER": "QDi.055",
       "id": "QDi.055",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/mahmood-sultan-bashir-ud-din",
@@ -539,6 +570,8 @@
     {
       "DATAID": 113440,
       "linkCount": 1,
+      "indiv_dob": "05-05-1930",
+      "indiv_place_of_birth": "",
       "REFERENCE_NUMBER": "QDi.056",
       "id": "QDi.056",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/mohammed-tufail",
@@ -558,7 +591,7 @@
           "target": "QDe.068"
         }
       ],
-      "oldLinkCount": 2,
+      "oldLinkCount": 1,
       "newLinkList": [
         {
           "source": "QDi.056",
@@ -576,6 +609,8 @@
     {
       "DATAID": 111639,
       "linkCount": 3,
+      "indiv_dob": "02-02-1966",
+      "indiv_place_of_birth": "al Aziziyya, Libya",
       "REFERENCE_NUMBER": "QDi.057",
       "id": "QDi.057",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/ibrahim-ali-abu-bakr-tantoush",
@@ -629,6 +664,8 @@
     {
       "DATAID": 111902,
       "linkCount": 3,
+      "indiv_dob": "02-13-1970",
+      "indiv_place_of_birth": "Rouiba, Algiers, Algeria",
       "REFERENCE_NUMBER": "QDi.058",
       "id": "QDi.058",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/abu-bakr-al-jaziri",
@@ -657,7 +694,7 @@
           "target": "QDi.058"
         }
       ],
-      "oldLinkCount": 4,
+      "oldLinkCount": 3,
       "newLinkList": [
         {
           "source": "QDi.058",
@@ -685,6 +722,8 @@
     {
       "DATAID": 111763,
       "linkCount": 0,
+      "indiv_dob": "08-24-1962",
+      "indiv_place_of_birth": ", Kuwait",
       "REFERENCE_NUMBER": "QDi.059",
       "id": "QDi.059",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/khalid-abd-al-rahman-hamd-al-fawaz",
@@ -704,6 +743,8 @@
     {
       "DATAID": 111735,
       "linkCount": 1,
+      "indiv_dob": "12-11-1974",
+      "indiv_place_of_birth": "Tunis, Tunisia",
       "REFERENCE_NUMBER": "QDi.060",
       "id": "QDi.060",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/mohamed-ben-belgacem-ben-abdallah-al-aouadi",
@@ -737,6 +778,8 @@
     {
       "DATAID": 111796,
       "linkCount": 0,
+      "indiv_dob": "02-05-1970",
+      "indiv_place_of_birth": "Tunis, Tunisia",
       "REFERENCE_NUMBER": "QDi.062",
       "id": "QDi.062",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/mohamed-lakhal",
@@ -756,6 +799,8 @@
     {
       "DATAID": 111806,
       "linkCount": 0,
+      "indiv_dob": "02-10-1968",
+      "indiv_place_of_birth": "Menzel Jemil, Bizerte, Tunisia",
       "REFERENCE_NUMBER": "QDi.064",
       "id": "QDi.064",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/sami-ben-khamis-ben-saleh-elsseid",
@@ -775,6 +820,8 @@
     {
       "DATAID": 111805,
       "linkCount": 0,
+      "indiv_dob": "12-26-1962",
+      "indiv_place_of_birth": ", Egypt",
       "REFERENCE_NUMBER": "QDi.065",
       "id": "QDi.065",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/abd-el-kader-mahmoud-mohamed-el-sayed",
@@ -794,6 +841,8 @@
     {
       "DATAID": 112166,
       "linkCount": 0,
+      "indiv_dob": "04-15-1958",
+      "indiv_place_of_birth": "Alexandria, Egypt",
       "REFERENCE_NUMBER": "QDi.067",
       "id": "QDi.067",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/mostafa-kamel-mostafa-ibrahim",
@@ -813,6 +862,8 @@
     {
       "DATAID": 112033,
       "linkCount": 0,
+      "indiv_dob": "07-14-1970",
+      "indiv_place_of_birth": "Tunis, Tunisia",
       "REFERENCE_NUMBER": "QDi.068",
       "id": "QDi.068",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/adel-ben-al-azhar-ben-youssef-hamdi",
@@ -832,6 +883,8 @@
     {
       "DATAID": 111800,
       "linkCount": 0,
+      "indiv_dob": "10-06-1966",
+      "indiv_place_of_birth": "Safi, Morocco",
       "REFERENCE_NUMBER": "QDi.070",
       "id": "QDi.070",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/yassine-chekkouri",
@@ -851,6 +904,8 @@
     {
       "DATAID": 112248,
       "linkCount": 0,
+      "indiv_dob": "04-03-1968",
+      "indiv_place_of_birth": "Tunis, Tunisia",
       "REFERENCE_NUMBER": "QDi.072",
       "id": "QDi.072",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/mehdi-ben-mohamed-ben-mohamed-kammoun",
@@ -870,6 +925,8 @@
     {
       "DATAID": 111920,
       "linkCount": 0,
+      "indiv_dob": "11-23-1965",
+      "indiv_place_of_birth": "Ghardimaou, Tunisia",
       "REFERENCE_NUMBER": "QDi.074",
       "id": "QDi.074",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/tarek-ben-habib-ben-al-toumi-al-maaroufi",
@@ -889,6 +946,8 @@
     {
       "DATAID": 113322,
       "linkCount": 0,
+      "indiv_dob": "04-02-1966",
+      "indiv_place_of_birth": "Biskra, Algeria",
       "REFERENCE_NUMBER": "QDi.075",
       "id": "QDi.075",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/abdelhalim-hafed-abdelfattah-remadna",
@@ -908,6 +967,7 @@
     {
       "DATAID": 113223,
       "linkCount": 0,
+      "indiv_place_of_birth": "Baghdad, Iraq",
       "REFERENCE_NUMBER": "QDi.076",
       "id": "QDi.076",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/isam-ali-mohamed-alouche",
@@ -927,6 +987,8 @@
     {
       "DATAID": 112030,
       "linkCount": 1,
+      "indiv_dob": "07-15-1975",
+      "indiv_place_of_birth": "Haselünne, Lower Saxony, Germany",
       "REFERENCE_NUMBER": "QDi.080",
       "id": "QDi.080",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/said-bahaji",
@@ -960,6 +1022,8 @@
     {
       "DATAID": 111943,
       "linkCount": 0,
+      "indiv_dob": "05-01-1972",
+      "indiv_place_of_birth": "Gheil Bawazir, Hadramawt, Yemen",
       "REFERENCE_NUMBER": "QDi.081",
       "id": "QDi.081",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/ramzi-mohamed-abdullah-binalshibh",
@@ -979,6 +1043,8 @@
     {
       "DATAID": 111951,
       "linkCount": 0,
+      "indiv_dob": "04-03-1974",
+      "indiv_place_of_birth": "Marrakesh, Morocco",
       "REFERENCE_NUMBER": "QDi.082",
       "id": "QDi.082",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/mounir-el-motassadeq",
@@ -998,6 +1064,8 @@
     {
       "DATAID": 112043,
       "linkCount": 0,
+      "indiv_dob": "04-03-1977",
+      "indiv_place_of_birth": "Essaouria, Morocco",
       "REFERENCE_NUMBER": "QDi.083",
       "id": "QDi.083",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/zakarya-essabar",
@@ -1017,6 +1085,8 @@
     {
       "DATAID": 111451,
       "linkCount": 1,
+      "indiv_dob": "08-17-1957",
+      "indiv_place_of_birth": "Korleko-Lombok Timur, Indonesia",
       "REFERENCE_NUMBER": "QDi.086",
       "id": "QDi.086",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/mohamad-iqbal-abdurrahman",
@@ -1048,6 +1118,8 @@
     {
       "DATAID": 112001,
       "linkCount": 2,
+      "indiv_dob": "04-04-1964",
+      "indiv_place_of_birth": "Cianjur, West Java, Indonesia",
       "REFERENCE_NUMBER": "QDi.087",
       "id": "QDi.087",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/nurjaman-riduan-isamuddin",
@@ -1072,7 +1144,7 @@
           "target": "QDi.218"
         }
       ],
-      "oldLinkCount": 3,
+      "oldLinkCount": 2,
       "newLinkList": [
         {
           "source": "QDi.087",
@@ -1095,6 +1167,8 @@
     {
       "DATAID": 111734,
       "linkCount": 0,
+      "indiv_dob": "12-18-1969",
+      "indiv_place_of_birth": "Asima-Tunis, Tunisia",
       "REFERENCE_NUMBER": "QDi.092",
       "id": "QDi.092",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/mehrez-ben-mahmoud-ben-sassi-al-amdouni",
@@ -1114,6 +1188,8 @@
     {
       "DATAID": 112038,
       "linkCount": 0,
+      "indiv_dob": "01-29-1971",
+      "indiv_place_of_birth": "Roubaix, France",
       "REFERENCE_NUMBER": "QDi.095",
       "id": "QDi.095",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/lionel-dumont",
@@ -1133,6 +1209,8 @@
     {
       "DATAID": 112042,
       "linkCount": 0,
+      "indiv_dob": "12-04-1964",
+      "indiv_place_of_birth": "Tabarka, Tunisia",
       "REFERENCE_NUMBER": "QDi.096",
       "id": "QDi.096",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/moussa-ben-omar-ben-ali-essaadi",
@@ -1152,6 +1230,8 @@
     {
       "DATAID": 112039,
       "linkCount": 0,
+      "indiv_dob": "08-11-1964",
+      "indiv_place_of_birth": "Makassar, South Sulawesi, Indonesia",
       "REFERENCE_NUMBER": "QDi.111",
       "id": "QDi.111",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/agus-dwikarna",
@@ -1171,6 +1251,8 @@
     {
       "DATAID": 112007,
       "linkCount": 0,
+      "indiv_dob": "06-20-1967",
+      "indiv_place_of_birth": "Tulay, Jolo Sulu, Philippines",
       "REFERENCE_NUMBER": "QDi.114",
       "id": "QDi.114",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/salim-y-salamuddin-julkipli",
@@ -1190,6 +1272,8 @@
     {
       "DATAID": 113211,
       "linkCount": 0,
+      "indiv_dob": "01-01-1971",
+      "indiv_place_of_birth": "Sambi, Boyolali, Java, Indonesia",
       "REFERENCE_NUMBER": "QDi.119",
       "id": "QDi.119",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/aris-munandar",
@@ -1209,6 +1293,8 @@
     {
       "DATAID": 113313,
       "linkCount": 0,
+      "indiv_dob": "04-11-1968",
+      "indiv_place_of_birth": ", Kuwait",
       "REFERENCE_NUMBER": "QDi.120",
       "id": "QDi.120",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/abdul-hakim-murad",
@@ -1228,6 +1314,8 @@
     {
       "DATAID": 113220,
       "linkCount": 0,
+      "indiv_dob": "04-25-1957",
+      "indiv_place_of_birth": ", Indonesia",
       "REFERENCE_NUMBER": "QDi.122",
       "id": "QDi.122",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/parlindungan-siregar",
@@ -1247,6 +1335,8 @@
     {
       "DATAID": 113222,
       "linkCount": 0,
+      "indiv_dob": "09-03-1962",
+      "indiv_place_of_birth": "Makassar, Indonesia",
       "REFERENCE_NUMBER": "QDi.123",
       "id": "QDi.123",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/yassin-syawal",
@@ -1266,6 +1356,8 @@
     {
       "DATAID": 113439,
       "linkCount": 2,
+      "indiv_dob": "01-20-1964",
+      "indiv_place_of_birth": "Johor, Malaysia",
       "REFERENCE_NUMBER": "QDi.124",
       "id": "QDi.124",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/yazid-sufaat",
@@ -1309,6 +1401,8 @@
     {
       "DATAID": 113442,
       "linkCount": 0,
+      "indiv_dob": "07-07-1966",
+      "indiv_place_of_birth": "Lanao del Sur, Philippines",
       "REFERENCE_NUMBER": "QDi.126",
       "id": "QDi.126",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/yunos-umpara-moklis",
@@ -1328,6 +1422,8 @@
     {
       "DATAID": 112379,
       "linkCount": 0,
+      "indiv_dob": "09-28-1973",
+      "indiv_place_of_birth": "Tiaret, Algeria",
       "REFERENCE_NUMBER": "QDi.129",
       "id": "QDi.129",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/djamel-moustfa",
@@ -1347,6 +1443,8 @@
     {
       "DATAID": 112138,
       "linkCount": 0,
+      "indiv_dob": "12-26-1955",
+      "indiv_place_of_birth": "Kher, Ratnagiri, Maharashtra, India",
       "REFERENCE_NUMBER": "QDi.135",
       "id": "QDi.135",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/dawood-ibrahim-kaskar",
@@ -1366,6 +1464,8 @@
     {
       "DATAID": 111794,
       "linkCount": 6,
+      "indiv_dob": "06-01-1972",
+      "indiv_place_of_birth": "Ghardaia, Algeria",
       "REFERENCE_NUMBER": "QDi.136",
       "id": "QDi.136",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/mokhtar-belmokhtar",
@@ -1408,7 +1508,7 @@
           "target": "QDi.136"
         }
       ],
-      "oldLinkCount": 9,
+      "oldLinkCount": 6,
       "newLinkList": [
         {
           "source": "QDi.136",
@@ -1459,6 +1559,8 @@
     {
       "DATAID": 111922,
       "linkCount": 0,
+      "indiv_dob": "01-15-1973",
+      "indiv_place_of_birth": "Tunis, Tunisia",
       "REFERENCE_NUMBER": "QDi.139",
       "id": "QDi.139",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/imed-ben-mekki-zarkaoui",
@@ -1478,6 +1580,8 @@
     {
       "DATAID": 111916,
       "linkCount": 0,
+      "indiv_dob": "10-21-1977",
+      "indiv_place_of_birth": "Beja, Tunisia",
       "REFERENCE_NUMBER": "QDi.140",
       "id": "QDi.140",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/kamal-ben-maoeldi-ben-hassan-al-hamraoui",
@@ -1497,6 +1601,8 @@
     {
       "DATAID": 112035,
       "linkCount": 0,
+      "indiv_dob": "10-08-1974",
+      "indiv_place_of_birth": "Kismaayo, Somalia",
       "REFERENCE_NUMBER": "QDi.141",
       "id": "QDi.141",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/maxamed-cabdullaah-ciise",
@@ -1516,6 +1622,8 @@
     {
       "DATAID": 112040,
       "linkCount": 0,
+      "indiv_dob": "01-02-1972",
+      "indiv_place_of_birth": "El Gharbia Governorate, Egypt",
       "REFERENCE_NUMBER": "QDi.142",
       "id": "QDi.142",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/radi-abd-el-samie-abou-el-yazid-el-ayashi",
@@ -1535,6 +1643,8 @@
     {
       "DATAID": 111799,
       "linkCount": 0,
+      "indiv_dob": "05-29-1966",
+      "indiv_place_of_birth": "Tunis, Tunisia",
       "REFERENCE_NUMBER": "QDi.143",
       "id": "QDi.143",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/hamadi-ben-abdul-aziz-ben-ali-bouyehia",
@@ -1554,6 +1664,8 @@
     {
       "DATAID": 111810,
       "linkCount": 0,
+      "indiv_dob": "11-01-1975",
+      "indiv_place_of_birth": "Poshok, Iraq",
       "REFERENCE_NUMBER": "QDi.144",
       "id": "QDi.144",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/mohammad-tahir-hammid",
@@ -1573,6 +1685,8 @@
     {
       "DATAID": 112378,
       "linkCount": 0,
+      "indiv_dob": "10-11-1975",
+      "indiv_place_of_birth": "Kirkuk, Iraq",
       "REFERENCE_NUMBER": "QDi.147",
       "id": "QDi.147",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/mohamed-amin-mostafa",
@@ -1592,6 +1706,8 @@
     {
       "DATAID": 111837,
       "linkCount": 0,
+      "indiv_dob": "04-30-1964",
+      "indiv_place_of_birth": "Tunis, Tunisia",
       "REFERENCE_NUMBER": "QDi.149",
       "id": "QDi.149",
       "summary_link": "None",
@@ -1611,6 +1727,8 @@
     {
       "DATAID": 113436,
       "linkCount": 0,
+      "indiv_dob": "11-20-1975",
+      "indiv_place_of_birth": "Sfax, Tunisia",
       "REFERENCE_NUMBER": "QDi.150",
       "id": "QDi.150",
       "summary_link": "None",
@@ -1630,6 +1748,8 @@
     {
       "DATAID": 112028,
       "linkCount": 1,
+      "indiv_dob": "04-23-1968",
+      "indiv_place_of_birth": "Kef Rih, Algeria",
       "REFERENCE_NUMBER": "QDi.152",
       "id": "QDi.152",
       "summary_link": "None",
@@ -1663,6 +1783,8 @@
     {
       "DATAID": 111496,
       "linkCount": 0,
+      "indiv_dob": "12-14-1965",
+      "indiv_place_of_birth": ", Kuwait",
       "REFERENCE_NUMBER": "QDi.154",
       "id": "QDi.154",
       "summary_link": "None",
@@ -1682,6 +1804,8 @@
     {
       "DATAID": 112494,
       "linkCount": 0,
+      "indiv_dob": "02-01-1962",
+      "indiv_place_of_birth": "Algiers, Algeria",
       "REFERENCE_NUMBER": "QDi.155",
       "id": "QDi.155",
       "summary_link": "None",
@@ -1701,6 +1825,7 @@
     {
       "DATAID": 111924,
       "linkCount": 0,
+      "indiv_place_of_birth": ", Yemen",
       "REFERENCE_NUMBER": "QDi.156",
       "id": "QDi.156",
       "summary_link": "None",
@@ -1720,6 +1845,8 @@
     {
       "DATAID": 112037,
       "linkCount": 1,
+      "indiv_dob": "10-12-1965",
+      "indiv_place_of_birth": "Oum el Bouaghi, Algeria",
       "REFERENCE_NUMBER": "QDi.167",
       "id": "QDi.167",
       "summary_link": "None",
@@ -1753,6 +1880,8 @@
     {
       "DATAID": 111785,
       "linkCount": 0,
+      "indiv_dob": "11-17-1961",
+      "indiv_place_of_birth": "Manzal Tmim, Nabul, Tunisia",
       "REFERENCE_NUMBER": "QDi.177",
       "id": "QDi.177",
       "summary_link": "None",
@@ -1772,6 +1901,8 @@
     {
       "DATAID": 111704,
       "linkCount": 0,
+      "indiv_dob": "04-24-1981",
+      "indiv_place_of_birth": ", Kuwait",
       "REFERENCE_NUMBER": "QDi.184",
       "id": "QDi.184",
       "summary_link": "None",
@@ -1791,6 +1922,8 @@
     {
       "DATAID": 113215,
       "linkCount": 1,
+      "indiv_dob": "08-16-1960",
+      "indiv_place_of_birth": "Kudus, Central Java, Indonesia",
       "REFERENCE_NUMBER": "QDi.186",
       "id": "QDi.186",
       "summary_link": "None",
@@ -1824,6 +1957,8 @@
     {
       "DATAID": 113444,
       "linkCount": 0,
+      "indiv_dob": "04-19-1963",
+      "indiv_place_of_birth": "Gebang village, Masaran, Sragen, Central Java, Indonesia",
       "REFERENCE_NUMBER": "QDi.187",
       "id": "QDi.187",
       "summary_link": "None",
@@ -1843,6 +1978,8 @@
     {
       "DATAID": 111798,
       "linkCount": 0,
+      "indiv_dob": "10-28-1966",
+      "indiv_place_of_birth": "Tunis, Tunisia",
       "REFERENCE_NUMBER": "QDi.188",
       "id": "QDi.188",
       "summary_link": "None",
@@ -1862,6 +1999,8 @@
     {
       "DATAID": 112483,
       "linkCount": 0,
+      "indiv_dob": "04-23-1966",
+      "indiv_place_of_birth": "Casablanca, Morocco",
       "REFERENCE_NUMBER": "QDi.190",
       "id": "QDi.190",
       "summary_link": "None",
@@ -1881,6 +2020,8 @@
     {
       "DATAID": 111533,
       "linkCount": 1,
+      "indiv_dob": "11-03-1957",
+      "indiv_place_of_birth": "Kafr Al-Shaykh, Egypt",
       "REFERENCE_NUMBER": "QDi.192",
       "id": "QDi.192",
       "summary_link": "None",
@@ -1914,6 +2055,8 @@
     {
       "DATAID": 111641,
       "linkCount": 1,
+      "indiv_dob": "04-21-1960",
+      "indiv_place_of_birth": "Sharqiyah, Egypt",
       "REFERENCE_NUMBER": "QDi.193",
       "id": "QDi.193",
       "summary_link": "None",
@@ -1947,6 +2090,8 @@
     {
       "DATAID": 113212,
       "linkCount": 2,
+      "indiv_dob": "04-18-1966",
+      "indiv_place_of_birth": ", Beni-Suef, Egypt",
       "REFERENCE_NUMBER": "QDi.196",
       "id": "QDi.196",
       "summary_link": "None",
@@ -1990,6 +2135,8 @@
     {
       "DATAID": 112021,
       "linkCount": 0,
+      "indiv_dob": "03-01-1961",
+      "indiv_place_of_birth": "Qaylubiyah, Egypt",
       "REFERENCE_NUMBER": "QDi.198",
       "id": "QDi.198",
       "summary_link": "None",
@@ -2009,6 +2156,8 @@
     {
       "DATAID": 111953,
       "linkCount": 0,
+      "indiv_dob": "07-01-1971",
+      "indiv_place_of_birth": "Arbil, Iraq",
       "REFERENCE_NUMBER": "QDi.203",
       "id": "QDi.203",
       "summary_link": "None",
@@ -2028,6 +2177,8 @@
     {
       "DATAID": 112075,
       "linkCount": 3,
+      "indiv_dob": "03-18-1966",
+      "indiv_place_of_birth": "Bulanza, Lantawan, Basilan, Philippines",
       "REFERENCE_NUMBER": "QDi.204",
       "id": "QDi.204",
       "summary_link": "None",
@@ -2080,6 +2231,7 @@
     {
       "DATAID": 113323,
       "linkCount": 1,
+      "indiv_place_of_birth": "Kaunayan, Patikul, Jolo Island, Philippines",
       "REFERENCE_NUMBER": "QDi.208",
       "id": "QDi.208",
       "summary_link": "None",
@@ -2111,6 +2263,7 @@
     {
       "DATAID": 111790,
       "linkCount": 1,
+      "indiv_place_of_birth": "Pacitan, East Java, Indonesia",
       "REFERENCE_NUMBER": "QDi.216",
       "id": "QDi.216",
       "summary_link": "None",
@@ -2144,6 +2297,8 @@
     {
       "DATAID": 111792,
       "linkCount": 4,
+      "indiv_dob": "08-17-1938",
+      "indiv_place_of_birth": "Jombang, East Java, Indonesia",
       "REFERENCE_NUMBER": "QDi.217",
       "id": "QDi.217",
       "summary_link": "None",
@@ -2175,7 +2330,7 @@
           "target": "QDi.217"
         }
       ],
-      "oldLinkCount": 5,
+      "oldLinkCount": 4,
       "newLinkList": [
         {
           "source": "QDi.217",
@@ -2208,6 +2363,8 @@
     {
       "DATAID": 111952,
       "linkCount": 1,
+      "indiv_dob": "07-06-1977",
+      "indiv_place_of_birth": "Cianjur, West Java, Indonesia",
       "REFERENCE_NUMBER": "QDi.218",
       "id": "QDi.218",
       "summary_link": "None",
@@ -2227,7 +2384,7 @@
           "target": "QDi.218"
         }
       ],
-      "oldLinkCount": 2,
+      "oldLinkCount": 1,
       "newLinkList": [
         {
           "source": "QDi.087",
@@ -2245,6 +2402,8 @@
     {
       "DATAID": 113435,
       "linkCount": 0,
+      "indiv_dob": "08-19-1974",
+      "indiv_place_of_birth": "Dacusuman Surakarta, Central Java, Indonesia",
       "REFERENCE_NUMBER": "QDi.219",
       "id": "QDi.219",
       "summary_link": "None",
@@ -2264,6 +2423,8 @@
     {
       "DATAID": 2758395,
       "linkCount": 0,
+      "indiv_dob": "08-03-1973",
+      "indiv_place_of_birth": "Bizerta, Tunisia",
       "REFERENCE_NUMBER": "QDi.222",
       "id": "QDi.222",
       "summary_link": "None",
@@ -2283,6 +2444,8 @@
     {
       "DATAID": 2758288,
       "linkCount": 1,
+      "indiv_dob": "04-04-1969",
+      "indiv_place_of_birth": "Bengasi, Libya",
       "REFERENCE_NUMBER": "QDi.223",
       "id": "QDi.223",
       "summary_link": "None",
@@ -2316,6 +2479,8 @@
     {
       "DATAID": 2762998,
       "linkCount": 1,
+      "indiv_dob": "07-07-1956",
+      "indiv_place_of_birth": "Olaqloo Sharbajer, Al-Sulaymaniyah Governorate, Iraq",
       "REFERENCE_NUMBER": "QDi.226",
       "id": "QDi.226",
       "summary_link": "None",
@@ -2347,6 +2512,8 @@
     {
       "DATAID": 2760967,
       "linkCount": 0,
+      "indiv_dob": "06-01-1980",
+      "indiv_place_of_birth": "Damascus, Syrian Arab Republic",
       "REFERENCE_NUMBER": "QDi.228",
       "id": "QDi.228",
       "summary_link": "None",
@@ -2366,6 +2533,7 @@
     {
       "DATAID": 2786469,
       "linkCount": 1,
+      "indiv_place_of_birth": "Tripoli, Libya",
       "REFERENCE_NUMBER": "QDi.229",
       "id": "QDi.229",
       "summary_link": "None",
@@ -2399,6 +2567,7 @@
     {
       "DATAID": 2786246,
       "linkCount": 2,
+      "indiv_place_of_birth": "Tripoli, Libya",
       "REFERENCE_NUMBER": "QDi.231",
       "id": "QDi.231",
       "summary_link": "None",
@@ -2442,6 +2611,8 @@
     {
       "DATAID": 2785476,
       "linkCount": 3,
+      "indiv_dob": "04-20-1970",
+      "indiv_place_of_birth": "Meftah, Wilaya of Blida, Algeria",
       "REFERENCE_NUMBER": "QDi.232",
       "id": "QDi.232",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/abdelmalek-droukdel",
@@ -2469,7 +2640,7 @@
           "target": "QDi.232"
         }
       ],
-      "oldLinkCount": 4,
+      "oldLinkCount": 3,
       "newLinkList": [
         {
           "source": "QDi.232",
@@ -2497,6 +2668,8 @@
     {
       "DATAID": 2797951,
       "linkCount": 0,
+      "indiv_dob": "01-20-1960",
+      "indiv_place_of_birth": ", Kuwait",
       "REFERENCE_NUMBER": "QDi.236",
       "id": "QDi.236",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/hamid-abdallah-ahmad-al-ali",
@@ -2516,6 +2689,8 @@
     {
       "DATAID": 2797952,
       "linkCount": 0,
+      "indiv_dob": "09-24-1959",
+      "indiv_place_of_birth": ", Al-Khitan area, Kuwait",
       "REFERENCE_NUMBER": "QDi.237",
       "id": "QDi.237",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/jaber-abdallah-jaber-ahmad-al-jalahmah",
@@ -2535,6 +2710,8 @@
     {
       "DATAID": 2797841,
       "linkCount": 0,
+      "indiv_dob": "10-01-1961",
+      "indiv_place_of_birth": ", Kuwait",
       "REFERENCE_NUMBER": "QDi.238",
       "id": "QDi.238",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/mubarak-mushakhas-sanad-mubarak-al-bathali",
@@ -2554,6 +2731,8 @@
     {
       "DATAID": 2813362,
       "linkCount": 3,
+      "indiv_dob": "03-20-1978",
+      "indiv_place_of_birth": "Gattaran, Cagayan Province, Philippines",
       "REFERENCE_NUMBER": "QDi.241",
       "id": "QDi.241",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/angelo-ramirez-trinidad",
@@ -2607,6 +2786,8 @@
     {
       "DATAID": 2812923,
       "linkCount": 1,
+      "indiv_dob": "07-19-1981",
+      "indiv_place_of_birth": "Cebu City, Philippines",
       "REFERENCE_NUMBER": "QDi.242",
       "id": "QDi.242",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/dinno-amor-rosalejos-pareja",
@@ -2640,6 +2821,8 @@
     {
       "DATAID": 2813147,
       "linkCount": 1,
+      "indiv_dob": "11-04-1963",
+      "indiv_place_of_birth": "Arco, Lamitan, Basilan, Philippines",
       "REFERENCE_NUMBER": "QDi.243",
       "id": "QDi.243",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/feliciano-semborio-delos-reyes-jr.",
@@ -2673,6 +2856,8 @@
     {
       "DATAID": 2813148,
       "linkCount": 2,
+      "indiv_dob": "03-12-1966",
+      "indiv_place_of_birth": "686 A. Mabini Street, Sangandaan, Caloocan City, Philippines",
       "REFERENCE_NUMBER": "QDi.244",
       "id": "QDi.244",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/hilarion-del-rosario-santos",
@@ -2697,7 +2882,7 @@
           "target": "QDe.001"
         }
       ],
-      "oldLinkCount": 3,
+      "oldLinkCount": 2,
       "newLinkList": [
         {
           "source": "QDi.244",
@@ -2720,6 +2905,8 @@
     {
       "DATAID": 2813149,
       "linkCount": 3,
+      "indiv_dob": "12-19-1969",
+      "indiv_place_of_birth": "Bagac, Bagamanok, Catanduanes, Philippines",
       "REFERENCE_NUMBER": "QDi.245",
       "id": "QDi.245",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/pio-abogne-de-vera",
@@ -2773,6 +2960,8 @@
     {
       "DATAID": 2813036,
       "linkCount": 2,
+      "indiv_dob": "05-15-1972",
+      "indiv_place_of_birth": "Punta, Santa Ana, Manila, Philippines",
       "REFERENCE_NUMBER": "QDi.246",
       "id": "QDi.246",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/redendo-cain-dellosa",
@@ -2816,6 +3005,8 @@
     {
       "DATAID": 2813150,
       "linkCount": 1,
+      "indiv_dob": "10-04-1972",
+      "indiv_place_of_birth": "Sitio Banga Maiti, Barangay Tranghawan, Lambunao, Iloilo, Philippines",
       "REFERENCE_NUMBER": "QDi.247",
       "id": "QDi.247",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/ruben-pestano-lavilla%2C-jr.",
@@ -2849,6 +3040,8 @@
     {
       "DATAID": 2813253,
       "linkCount": 1,
+      "indiv_dob": "09-15-1973",
+      "indiv_place_of_birth": "24 Paraiso Street, Barangay Poblacion, Mandaluyong City, Philippines",
       "REFERENCE_NUMBER": "QDi.248",
       "id": "QDi.248",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/ricardo-perez-ayeras",
@@ -2882,6 +3075,8 @@
     {
       "DATAID": 2816344,
       "linkCount": 1,
+      "indiv_dob": "01-01-1967",
+      "indiv_place_of_birth": "M’Hamid, Wilaya (province) of Sidi Bel Abbes, Algeria",
       "REFERENCE_NUMBER": "QDi.249",
       "id": "QDi.249",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/yahia-djouadi",
@@ -2915,6 +3110,7 @@
     {
       "DATAID": 2816565,
       "linkCount": 1,
+      "indiv_place_of_birth": "Deb-Deb, Amenas, Wilaya (province) of Illizi, Algeria",
       "REFERENCE_NUMBER": "QDi.250",
       "id": "QDi.250",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/amor-mohamed-ghedeir",
@@ -2948,6 +3144,8 @@
     {
       "DATAID": 2816345,
       "linkCount": 2,
+      "indiv_dob": "04-13-1971",
+      "indiv_place_of_birth": "Zeribet El Oued, Wilaya (province) of Biskra, Algeria",
       "REFERENCE_NUMBER": "QDi.251",
       "id": "QDi.251",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/salah-eddine-gasmi",
@@ -2991,6 +3189,8 @@
     {
       "DATAID": 2816243,
       "linkCount": 1,
+      "indiv_dob": "01-17-1967",
+      "indiv_place_of_birth": "Anser, Wilaya (province) of Jijel, Algeria",
       "REFERENCE_NUMBER": "QDi.252",
       "id": "QDi.252",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/ahmed-deghdegh",
@@ -3024,6 +3224,8 @@
     {
       "DATAID": 2830354,
       "linkCount": 1,
+      "indiv_dob": "11-04-1978",
+      "indiv_place_of_birth": "Bayburt, Türkiye",
       "REFERENCE_NUMBER": "QDi.261",
       "id": "QDi.261",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/adem-yilmaz",
@@ -3057,6 +3259,8 @@
     {
       "DATAID": 2830919,
       "linkCount": 0,
+      "indiv_dob": "12-20-1969",
+      "indiv_place_of_birth": "Casablanca, Morocco",
       "REFERENCE_NUMBER": "QDi.262",
       "id": "QDi.262",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/redouane-el-habhab",
@@ -3076,6 +3280,8 @@
     {
       "DATAID": 2833107,
       "linkCount": 3,
+      "indiv_dob": "06-05-1950",
+      "indiv_place_of_birth": "Sargodha, Punjab, Pakistan",
       "REFERENCE_NUMBER": "QDi.263",
       "id": "QDi.263",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/hafiz-muhammad-saeed",
@@ -3103,7 +3309,7 @@
           "target": "QDi.263"
         }
       ],
-      "oldLinkCount": 4,
+      "oldLinkCount": 3,
       "newLinkList": [
         {
           "source": "QDi.263",
@@ -3131,6 +3337,8 @@
     {
       "DATAID": 2832887,
       "linkCount": 1,
+      "indiv_dob": "12-30-1960",
+      "indiv_place_of_birth": "Okara, Pakistan",
       "REFERENCE_NUMBER": "QDi.264",
       "id": "QDi.264",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/zaki-ur-rehman-lakhvi",
@@ -3164,6 +3372,8 @@
     {
       "DATAID": 2832890,
       "linkCount": 1,
+      "indiv_dob": "03-01-1965",
+      "indiv_place_of_birth": "Faisalabad, Pakistan",
       "REFERENCE_NUMBER": "QDi.265",
       "id": "QDi.265",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/haji-muhammad-ashraf",
@@ -3197,6 +3407,8 @@
     {
       "DATAID": 2832991,
       "linkCount": 1,
+      "indiv_dob": "08-17-1943",
+      "indiv_place_of_birth": ", India",
       "REFERENCE_NUMBER": "QDi.266",
       "id": "QDi.266",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/mahmoud-mohammad-ahmed-bahaziq",
@@ -3230,6 +3442,8 @@
     {
       "DATAID": 2854925,
       "linkCount": 1,
+      "indiv_dob": "10-10-1971",
+      "indiv_place_of_birth": ", Hetian Area, Xinjiang Uighur Autonomous Region, China",
       "REFERENCE_NUMBER": "QDi.268",
       "id": "QDi.268",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/abdul-haq",
@@ -3263,6 +3477,7 @@
     {
       "DATAID": 2863362,
       "linkCount": 2,
+      "indiv_place_of_birth": ", Pakistan",
       "REFERENCE_NUMBER": "QDi.271",
       "id": "QDi.271",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/arif-qasmani",
@@ -3306,6 +3521,8 @@
     {
       "DATAID": 2863574,
       "linkCount": 1,
+      "indiv_dob": "03-12-1961",
+      "indiv_place_of_birth": "Lahore, Punjab Province, Pakistan",
       "REFERENCE_NUMBER": "QDi.272",
       "id": "QDi.272",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/mohammed-yahya-mujahid",
@@ -3339,6 +3556,7 @@
     {
       "DATAID": 2863393,
       "linkCount": 1,
+      "indiv_place_of_birth": ", Shunkrai village, Sarkani District, Konar Province, Afghanistan",
       "REFERENCE_NUMBER": "QDi.273",
       "id": "QDi.273",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/fazeel-a-tul-shaykh-abu-mohammed-ameen-al",
@@ -3372,6 +3590,7 @@
     {
       "DATAID": 2892251,
       "linkCount": 2,
+      "indiv_place_of_birth": "",
       "REFERENCE_NUMBER": "QDi.276",
       "id": "QDi.276",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/akram-turki-hishan-al-mazidih",
@@ -3396,7 +3615,7 @@
           "target": "QDe.115"
         }
       ],
-      "oldLinkCount": 3,
+      "oldLinkCount": 2,
       "newLinkList": [
         {
           "source": "QDi.276",
@@ -3419,6 +3638,7 @@
     {
       "DATAID": 2892252,
       "linkCount": 2,
+      "indiv_place_of_birth": "",
       "REFERENCE_NUMBER": "QDi.277",
       "id": "QDi.277",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/ghazy-fezza-hishan-al-mazidih",
@@ -3443,7 +3663,7 @@
           "target": "QDe.115"
         }
       ],
-      "oldLinkCount": 3,
+      "oldLinkCount": 2,
       "newLinkList": [
         {
           "source": "QDi.276",
@@ -3466,6 +3686,8 @@
     {
       "DATAID": 2894441,
       "linkCount": 1,
+      "indiv_dob": "06-16-1969",
+      "indiv_place_of_birth": ", Iraq",
       "REFERENCE_NUMBER": "QDi.278",
       "id": "QDi.278",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/muthanna-harith-al-dari",
@@ -3499,6 +3721,8 @@
     {
       "DATAID": 2902221,
       "linkCount": 2,
+      "indiv_dob": "12-19-1969",
+      "indiv_place_of_birth": "Hussein Dey, Algiers, Algeria",
       "REFERENCE_NUMBER": "QDi.279",
       "id": "QDi.279",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/mohamed-belkalem",
@@ -3542,6 +3766,7 @@
     {
       "DATAID": 2901762,
       "linkCount": 2,
+      "indiv_place_of_birth": "Faidh El Batma, Djelfa, Algeria",
       "REFERENCE_NUMBER": "QDi.280",
       "id": "QDi.280",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/tayeb-nail",
@@ -3585,6 +3810,8 @@
     {
       "DATAID": 2903810,
       "linkCount": 4,
+      "indiv_dob": "06-05-1978",
+      "indiv_place_of_birth": "Raymah village, Sanaa Governorate (ريمة), Yemen",
       "REFERENCE_NUMBER": "QDi.282",
       "id": "QDi.282",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/qasim-yahya-mahdi-al-rimi",
@@ -3617,7 +3844,7 @@
           "target": "QDi.282"
         }
       ],
-      "oldLinkCount": 5,
+      "oldLinkCount": 4,
       "newLinkList": [
         {
           "source": "QDi.282",
@@ -3650,6 +3877,8 @@
     {
       "DATAID": 2913655,
       "linkCount": 1,
+      "indiv_dob": "04-21-1971",
+      "indiv_place_of_birth": "Las Cruces, New Mexico, United States of America",
       "REFERENCE_NUMBER": "QDi.283",
       "id": "QDi.283",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/anwar-nasser-abdulla-al-aulaqi",
@@ -3681,6 +3910,8 @@
     {
       "DATAID": 2959427,
       "linkCount": 1,
+      "indiv_dob": "02-05-1981",
+      "indiv_place_of_birth": "",
       "REFERENCE_NUMBER": "QDi.289",
       "id": "QDi.289",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/said-jan-%E2%80%98abd-al-salam",
@@ -3714,6 +3945,8 @@
     {
       "DATAID": 2960872,
       "linkCount": 1,
+      "indiv_dob": "04-13-1964",
+      "indiv_place_of_birth": "Kharsenoy Village, Shatoyskiy (Sovetskiy) District, Chechenskaya Respublika, Russian Federation",
       "REFERENCE_NUMBER": "QDi.290",
       "id": "QDi.290",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/doku-khamatovich-umarov",
@@ -3745,6 +3978,8 @@
     {
       "DATAID": 2962519,
       "linkCount": 3,
+      "indiv_dob": "04-19-1982",
+      "indiv_place_of_birth": "Riyadh, Saudi Arabia",
       "REFERENCE_NUMBER": "QDi.291",
       "id": "QDi.291",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/ibrahim-hassan-tali-al-asiri",
@@ -3798,6 +4033,8 @@
     {
       "DATAID": 2968403,
       "linkCount": 2,
+      "indiv_dob": "05-27-1979",
+      "indiv_place_of_birth": ", Saudi Arabia",
       "REFERENCE_NUMBER": "QDi.292",
       "id": "QDi.292",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/othman-ahmed-othman-al-ghamdi",
@@ -3841,6 +4078,8 @@
     {
       "DATAID": 2971675,
       "linkCount": 4,
+      "indiv_dob": "11-16-1977",
+      "indiv_place_of_birth": "Solo, Indonesia",
       "REFERENCE_NUMBER": "QDi.293",
       "id": "QDi.293",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/abdul-rahim-ba%E2%80%99asyir",
@@ -3902,6 +4141,8 @@
     {
       "DATAID": 2971762,
       "linkCount": 2,
+      "indiv_dob": "07-20-1966",
+      "indiv_place_of_birth": ", Central Java, Indonesia",
       "REFERENCE_NUMBER": "QDi.294",
       "id": "QDi.294",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/umar-patek",
@@ -3945,6 +4186,8 @@
     {
       "DATAID": 2972739,
       "linkCount": 2,
+      "indiv_dob": "05-28-1984",
+      "indiv_place_of_birth": "East Lombok, West Nusa Tenggara, Indonesia",
       "REFERENCE_NUMBER": "QDi.295",
       "id": "QDi.295",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/muhammad-jibril-abdul-rahman",
@@ -3988,6 +4231,7 @@
     {
       "DATAID": 2973988,
       "linkCount": 2,
+      "indiv_place_of_birth": "Chak number 36/DNB, Rajkan, Madina Colony, Bahawalpur District, Punjab Province, Pakistan",
       "REFERENCE_NUMBER": "QDi.296",
       "id": "QDi.296",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/mati-ur-rehman-ali-muhammad",
@@ -4031,6 +4275,7 @@
     {
       "DATAID": 2974555,
       "linkCount": 2,
+      "indiv_place_of_birth": ", Saudi Arabia",
       "REFERENCE_NUMBER": "QDi.298",
       "id": "QDi.298",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/abd-al-rahman-ould-muhammad-al-husayn-ould",
@@ -4074,6 +4319,7 @@
     {
       "DATAID": 2975516,
       "linkCount": 7,
+      "indiv_place_of_birth": ", Iraq",
       "REFERENCE_NUMBER": "QDi.299",
       "id": "QDi.299",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/ibrahim-awwad-ibrahim-ali-al-badri-al-samarrai",
@@ -4161,6 +4407,8 @@
     {
       "DATAID": 2982105,
       "linkCount": 2,
+      "indiv_dob": "07-30-1981",
+      "indiv_place_of_birth": "Bonn, Germany",
       "REFERENCE_NUMBER": "QDi.300",
       "id": "QDi.300",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/monir-chouka",
@@ -4185,7 +4433,7 @@
           "target": "QDi.301"
         }
       ],
-      "oldLinkCount": 3,
+      "oldLinkCount": 2,
       "newLinkList": [
         {
           "source": "QDi.300",
@@ -4208,6 +4456,8 @@
     {
       "DATAID": 2981652,
       "linkCount": 2,
+      "indiv_dob": "12-11-1984",
+      "indiv_place_of_birth": "Bonn, Germany",
       "REFERENCE_NUMBER": "QDi.301",
       "id": "QDi.301",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/yassin-chouka",
@@ -4232,7 +4482,7 @@
           "target": "QDe.010"
         }
       ],
-      "oldLinkCount": 3,
+      "oldLinkCount": 2,
       "newLinkList": [
         {
           "source": "QDi.300",
@@ -4255,6 +4505,8 @@
     {
       "DATAID": 2983791,
       "linkCount": 3,
+      "indiv_dob": "01-05-1974",
+      "indiv_place_of_birth": "Kabul, Afghanistan",
       "REFERENCE_NUMBER": "QDi.303",
       "id": "QDi.303",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/fazal-rahim",
@@ -4307,6 +4559,8 @@
     {
       "DATAID": 2983821,
       "linkCount": 4,
+      "indiv_dob": "05-04-1948",
+      "indiv_place_of_birth": "Tulungagung, Indonesia",
       "REFERENCE_NUMBER": "QDi.304",
       "id": "QDi.304",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/mochammad-achwan",
@@ -4370,6 +4624,8 @@
     {
       "DATAID": 2983638,
       "linkCount": 4,
+      "indiv_dob": "01-31-1974",
+      "indiv_place_of_birth": "Sukoharjo, Indonesia",
       "REFERENCE_NUMBER": "QDi.305",
       "id": "QDi.305",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/abdul-rosyid-ridho-ba%E2%80%99asyir",
@@ -4433,6 +4689,7 @@
     {
       "DATAID": 2983746,
       "linkCount": 1,
+      "indiv_place_of_birth": "Al-Madinah, Saudi Arabia",
       "REFERENCE_NUMBER": "QDi.306",
       "id": "QDi.306",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/mustafa-hajji-muhammad-khan",
@@ -4466,6 +4723,7 @@
     {
       "DATAID": 2983834,
       "linkCount": 2,
+      "indiv_place_of_birth": "Gujranwala, Punjab Province, Pakistan",
       "REFERENCE_NUMBER": "QDi.307",
       "id": "QDi.307",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/hafiz-abdul-salam-bhuttavi",
@@ -4509,6 +4767,8 @@
     {
       "DATAID": 2983973,
       "linkCount": 1,
+      "indiv_dob": "10-04-1953",
+      "indiv_place_of_birth": "",
       "REFERENCE_NUMBER": "QDi.308",
       "id": "QDi.308",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/zafar-iqbal",
@@ -4542,6 +4802,8 @@
     {
       "DATAID": 2983651,
       "linkCount": 4,
+      "indiv_dob": "10-03-1965",
+      "indiv_place_of_birth": "Mirpur Khas, Pakistan",
       "REFERENCE_NUMBER": "QDi.309",
       "id": "QDi.309",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/abdur-rehman",
@@ -4605,6 +4867,7 @@
     {
       "DATAID": 2999481,
       "linkCount": 2,
+      "indiv_place_of_birth": "",
       "REFERENCE_NUMBER": "QDi.311",
       "id": "QDi.311",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/ayyub-bashir",
@@ -4648,6 +4911,8 @@
     {
       "DATAID": 2999482,
       "linkCount": 1,
+      "indiv_dob": "08-03-1986",
+      "indiv_place_of_birth": "",
       "REFERENCE_NUMBER": "QDi.312",
       "id": "QDi.312",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/aamir-ali-chaudhry",
@@ -4681,6 +4946,8 @@
     {
       "DATAID": 3002734,
       "linkCount": 1,
+      "indiv_dob": "05-09-1978",
+      "indiv_place_of_birth": "Rouiba, Algiers, Algeria",
       "REFERENCE_NUMBER": "QDi.313",
       "id": "QDi.313",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/djamel-akkacha",
@@ -4714,6 +4981,7 @@
     {
       "DATAID": 3012888,
       "linkCount": 3,
+      "indiv_place_of_birth": "Tabankort, Mali",
       "REFERENCE_NUMBER": "QDi.314",
       "id": "QDi.314",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/abderrahmane-ould-el-amar",
@@ -4767,6 +5035,7 @@
     {
       "DATAID": 3013119,
       "linkCount": 2,
+      "indiv_place_of_birth": "Nouakchott, Mauritania",
       "REFERENCE_NUMBER": "QDi.315",
       "id": "QDi.315",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/hamada-ould-mohamed-el-khairy",
@@ -4810,6 +5079,7 @@
     {
       "DATAID": 3012677,
       "linkCount": 3,
+      "indiv_place_of_birth": "Abeibara, Kidal Region, Mali",
       "REFERENCE_NUMBER": "QDi.316",
       "id": "QDi.316",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/iyad-ag-ghali",
@@ -4839,7 +5109,7 @@
           "target": "QDe.134"
         }
       ],
-      "oldLinkCount": 4,
+      "oldLinkCount": 3,
       "newLinkList": [
         {
           "source": "QDi.316",
@@ -4867,6 +5137,7 @@
     {
       "DATAID": 3020633,
       "linkCount": 5,
+      "indiv_place_of_birth": ", Syrian Arab Republic",
       "REFERENCE_NUMBER": "QDi.317",
       "id": "QDi.317",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/abu-mohammed-al-jawlani",
@@ -4904,7 +5175,7 @@
           "target": "QDi.317"
         }
       ],
-      "oldLinkCount": 6,
+      "oldLinkCount": 5,
       "newLinkList": [
         {
           "source": "QDi.317",
@@ -4942,6 +5213,8 @@
     {
       "DATAID": 3026942,
       "linkCount": 6,
+      "indiv_dob": "01-01-1964",
+      "indiv_place_of_birth": "Cairo, Egypt",
       "REFERENCE_NUMBER": "QDi.318",
       "id": "QDi.318",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/muhammad-jamal-abd-al-rahim-ahmad-al-kashif",
@@ -4986,7 +5259,7 @@
           "target": "QDe.014"
         }
       ],
-      "oldLinkCount": 7,
+      "oldLinkCount": 6,
       "newLinkList": [
         {
           "source": "QDi.318",
@@ -5029,6 +5302,7 @@
     {
       "DATAID": 3026710,
       "linkCount": 1,
+      "indiv_place_of_birth": ", Mali",
       "REFERENCE_NUMBER": "QDi.319",
       "id": "QDi.319",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/mohamed-lahbous",
@@ -5062,6 +5336,7 @@
     {
       "DATAID": 3029127,
       "linkCount": 0,
+      "indiv_place_of_birth": ", Darnah, Libya",
       "REFERENCE_NUMBER": "QDi.320",
       "id": "QDi.320",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/abd-al-hamid-al-masli",
@@ -5081,6 +5356,7 @@
     {
       "DATAID": 6908425,
       "linkCount": 2,
+      "indiv_place_of_birth": "Shekau Village, Yobe State, Nigeria",
       "REFERENCE_NUMBER": "QDi.322",
       "id": "QDi.322",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/abubakar-mohammed-shekau",
@@ -5123,6 +5399,8 @@
     {
       "DATAID": 6908423,
       "linkCount": 1,
+      "indiv_dob": "05-12-1965",
+      "indiv_place_of_birth": "Oran, Algeria",
       "REFERENCE_NUMBER": "QDi.323",
       "id": "QDi.323",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/said-arif",
@@ -5156,6 +5434,8 @@
     {
       "DATAID": 6908400,
       "linkCount": 2,
+      "indiv_dob": "07-13-1985",
+      "indiv_place_of_birth": "Saqra, Saudi Arabia",
       "REFERENCE_NUMBER": "QDi.324",
       "id": "QDi.324",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/abdul-mohsen-abdallah-ibrahim-al-charekh",
@@ -5199,6 +5479,7 @@
     {
       "DATAID": 6908395,
       "linkCount": 3,
+      "indiv_place_of_birth": "Binnish, Syrian Arab Republic",
       "REFERENCE_NUMBER": "QDi.325",
       "id": "QDi.325",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/abou-mohamed-al-adnani",
@@ -5252,6 +5533,8 @@
     {
       "DATAID": 6908398,
       "linkCount": 4,
+      "indiv_dob": "11-17-1960",
+      "indiv_place_of_birth": ", Kuwait",
       "REFERENCE_NUMBER": "QDi.326",
       "id": "QDi.326",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/hamid-hamad-hamid-al-%E2%80%98ali",
@@ -5315,6 +5598,8 @@
     {
       "DATAID": 6908424,
       "linkCount": 1,
+      "indiv_dob": "12-04-1971",
+      "indiv_place_of_birth": "Kharj, Saudi Arabia",
       "REFERENCE_NUMBER": "QDi.327",
       "id": "QDi.327",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/abdelrahman-mouhamad-zafir-al-dabidi-al-jahani",
@@ -5348,6 +5633,8 @@
     {
       "DATAID": 6908396,
       "linkCount": 1,
+      "indiv_dob": "08-10-1987",
+      "indiv_place_of_birth": ", Kuwait",
       "REFERENCE_NUMBER": "QDi.328",
       "id": "QDi.328",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/hajjaj-bin-fahd-al-ajmi",
@@ -5381,6 +5668,8 @@
     {
       "DATAID": 6908407,
       "linkCount": 1,
+      "indiv_dob": "09-15-1978",
+      "indiv_place_of_birth": "Dammam, Saudi Arabia",
       "REFERENCE_NUMBER": "QDi.329",
       "id": "QDi.329",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/ahmed-abdullah-saleh-al-khazmari-al-zahrani",
@@ -5414,6 +5703,8 @@
     {
       "DATAID": 6908408,
       "linkCount": 1,
+      "indiv_dob": "04-12-1976",
+      "indiv_place_of_birth": "Al Baraka, Saudi Arabia",
       "REFERENCE_NUMBER": "QDi.330",
       "id": "QDi.330",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/azzam-abdullah-zureik-al-maulid-al-subhi",
@@ -5447,6 +5738,8 @@
     {
       "DATAID": 6908411,
       "linkCount": 1,
+      "indiv_dob": "10-19-1978",
+      "indiv_place_of_birth": "Oslo, Norway",
       "REFERENCE_NUMBER": "QDi.331",
       "id": "QDi.331",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/anders-cameroon-ostensvig-dale",
@@ -5480,6 +5773,8 @@
     {
       "DATAID": 6908401,
       "linkCount": 1,
+      "indiv_dob": "12-17-1984",
+      "indiv_place_of_birth": "Buraidah, Saudi Arabia",
       "REFERENCE_NUMBER": "QDi.332",
       "id": "QDi.332",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/ibrahim-suleiman-hamad-al-hablain",
@@ -5513,6 +5808,8 @@
     {
       "DATAID": 6908413,
       "linkCount": 2,
+      "indiv_dob": "11-08-1965",
+      "indiv_place_of_birth": "Tunis, Tunisia",
       "REFERENCE_NUMBER": "QDi.333",
       "id": "QDi.333",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/seifallah-ben-omar-ben-mohamed-ben-hassine",
@@ -5537,7 +5834,7 @@
           "target": "QDe.143"
         }
       ],
-      "oldLinkCount": 3,
+      "oldLinkCount": 2,
       "newLinkList": [
         {
           "source": "QDi.333",
@@ -5560,6 +5857,7 @@
     {
       "DATAID": 6908414,
       "linkCount": 2,
+      "indiv_place_of_birth": "Doha, Qatar",
       "REFERENCE_NUMBER": "QDi.334",
       "id": "QDi.334",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/%27abd-al-rahman-bin-%27umayr-al-nu%27aymi",
@@ -5603,6 +5901,8 @@
     {
       "DATAID": 6908399,
       "linkCount": 2,
+      "indiv_dob": "03-06-1973",
+      "indiv_place_of_birth": "",
       "REFERENCE_NUMBER": "QDi.335",
       "id": "QDi.335",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/%E2%80%98abd-al-rahman-khalaf-%E2%80%98ubayd-juday%E2%80%99-al-%E2%80%98anizi",
@@ -5646,6 +5946,8 @@
     {
       "DATAID": 6908416,
       "linkCount": 1,
+      "indiv_dob": "04-07-1986",
+      "indiv_place_of_birth": "Damascus, Syrian Arab Republic",
       "REFERENCE_NUMBER": "QDi.336",
       "id": "QDi.336",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/anas-hasan-khattab",
@@ -5679,6 +5981,8 @@
     {
       "DATAID": 6908417,
       "linkCount": 1,
+      "indiv_dob": "06-01-1976",
+      "indiv_place_of_birth": "Al-Shura, Mosul, Iraq",
       "REFERENCE_NUMBER": "QDi.337",
       "id": "QDi.337",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/maysar-ali-musa-abdallah-al-juburi",
@@ -5712,6 +6016,8 @@
     {
       "DATAID": 6908397,
       "linkCount": 1,
+      "indiv_dob": "01-01-1973",
+      "indiv_place_of_birth": "Warah, Kuwait",
       "REFERENCE_NUMBER": "QDi.338",
       "id": "QDi.338",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/shafi-sultan-mohammed-al-ajmi",
@@ -5745,6 +6051,7 @@
     {
       "DATAID": 6908419,
       "linkCount": 2,
+      "indiv_place_of_birth": "Mosul, Ninawa Province, Iraq",
       "REFERENCE_NUMBER": "QDi.339",
       "id": "QDi.339",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/%E2%80%98abd-al-rahman-muhammad-mustafa-al-qaduli",
@@ -5788,6 +6095,8 @@
     {
       "DATAID": 6908420,
       "linkCount": 2,
+      "indiv_dob": "12-09-1984",
+      "indiv_place_of_birth": "Ploemeur, France",
       "REFERENCE_NUMBER": "QDi.340",
       "id": "QDi.340",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/emilie-konig",
@@ -5831,6 +6140,8 @@
     {
       "DATAID": 6908421,
       "linkCount": 2,
+      "indiv_dob": "03-12-1993",
+      "indiv_place_of_birth": "Paris, France",
       "REFERENCE_NUMBER": "QDi.341",
       "id": "QDi.341",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/kevin-jordan-axel-guiavarch",
@@ -5874,6 +6185,8 @@
     {
       "DATAID": 6908422,
       "linkCount": 1,
+      "indiv_dob": "08-05-1975",
+      "indiv_place_of_birth": "Dakar, Senegal",
       "REFERENCE_NUMBER": "QDi.342",
       "id": "QDi.342",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/oumar-diaby",
@@ -5907,6 +6220,7 @@
     {
       "DATAID": 6908440,
       "linkCount": 3,
+      "indiv_place_of_birth": ", Iraq",
       "REFERENCE_NUMBER": "QDi.343",
       "id": "QDi.343",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/ashraf-muhammad-yusuf-%27uthman-%27abd-al-salam",
@@ -5960,6 +6274,8 @@
     {
       "DATAID": 6908441,
       "linkCount": 1,
+      "indiv_dob": "07-12-1977",
+      "indiv_place_of_birth": ", Qatar",
       "REFERENCE_NUMBER": "QDi.344",
       "id": "QDi.344",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/ibrahim-%E2%80%98isa-hajji-muhammad-al-bakr",
@@ -5993,6 +6309,8 @@
     {
       "DATAID": 6908442,
       "linkCount": 1,
+      "indiv_dob": "01-11-1986",
+      "indiv_place_of_birth": "Akhmeta, Village Birkiani, Georgia",
       "REFERENCE_NUMBER": "QDi.345",
       "id": "QDi.345",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/tarkhan-tayumurazovich-batirashvili",
@@ -6026,6 +6344,8 @@
     {
       "DATAID": 6908445,
       "linkCount": 2,
+      "indiv_dob": "03-04-1985",
+      "indiv_place_of_birth": "Jakarta, Indonesia",
       "REFERENCE_NUMBER": "QDi.348",
       "id": "QDi.348",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/angga-dimas-pershada",
@@ -6069,6 +6389,8 @@
     {
       "DATAID": 6908446,
       "linkCount": 2,
+      "indiv_dob": "04-05-1975",
+      "indiv_place_of_birth": ", Indonesia",
       "REFERENCE_NUMBER": "QDi.349",
       "id": "QDi.349",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/bambang-sukirno",
@@ -6112,6 +6434,8 @@
     {
       "DATAID": 6908447,
       "linkCount": 2,
+      "indiv_dob": "07-14-1975",
+      "indiv_place_of_birth": "Rembang, Jawa Tengah, Indonesia",
       "REFERENCE_NUMBER": "QDi.350",
       "id": "QDi.350",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/wiji-joko-santoso",
@@ -6155,6 +6479,7 @@
     {
       "DATAID": 6908452,
       "linkCount": 2,
+      "indiv_place_of_birth": "Kuza Bandai village, Swat Valley, Khyber Pakhtunkhawa Province, Pakistan",
       "REFERENCE_NUMBER": "QDi.352",
       "id": "QDi.352",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/maulana-fazlullah",
@@ -6178,7 +6503,7 @@
           "target": "QDi.352"
         }
       ],
-      "oldLinkCount": 3,
+      "oldLinkCount": 2,
       "newLinkList": [
         {
           "source": "QDi.352",
@@ -6201,6 +6526,8 @@
     {
       "DATAID": 6908453,
       "linkCount": 1,
+      "indiv_dob": "03-09-1986",
+      "indiv_place_of_birth": "Ariana, Tunisia",
       "REFERENCE_NUMBER": "QDi.353",
       "id": "QDi.353",
       "summary_link": "None",
@@ -6234,6 +6561,8 @@
     {
       "DATAID": 6908454,
       "linkCount": 2,
+      "indiv_dob": "05-03-1982",
+      "indiv_place_of_birth": "Tunis, Tunisia",
       "REFERENCE_NUMBER": "QDi.354",
       "id": "QDi.354",
       "summary_link": "None",
@@ -6277,6 +6606,8 @@
     {
       "DATAID": 6908468,
       "linkCount": 1,
+      "indiv_dob": "06-26-1959",
+      "indiv_place_of_birth": "Derna, Libya",
       "REFERENCE_NUMBER": "QDi.355",
       "id": "QDi.355",
       "summary_link": "None",
@@ -6310,6 +6641,8 @@
     {
       "DATAID": 6908473,
       "linkCount": 1,
+      "indiv_dob": "05-11-1994",
+      "indiv_place_of_birth": "Glasgow, Scotland, United Kingdom of Great Britain and Northern Ireland",
       "REFERENCE_NUMBER": "QDi.356",
       "id": "QDi.356",
       "summary_link": "None",
@@ -6343,6 +6676,8 @@
     {
       "DATAID": 6908484,
       "linkCount": 1,
+      "indiv_dob": "11-22-1996",
+      "indiv_place_of_birth": "Cardiff, United Kingdom of Great Britain and Northern Ireland",
       "REFERENCE_NUMBER": "QDi.357",
       "id": "QDi.357",
       "summary_link": "None",
@@ -6376,6 +6711,8 @@
     {
       "DATAID": 6908474,
       "linkCount": 1,
+      "indiv_dob": "04-29-1994",
+      "indiv_place_of_birth": "Heath, Cardiff, United Kingdom of Great Britain and Northern Ireland",
       "REFERENCE_NUMBER": "QDi.358",
       "id": "QDi.358",
       "summary_link": "None",
@@ -6409,6 +6746,8 @@
     {
       "DATAID": 6908475,
       "linkCount": 1,
+      "indiv_dob": "03-21-1987",
+      "indiv_place_of_birth": "High Wycombe, Buckinghamshire, United Kingdom of Great Britain and Northern Ireland",
       "REFERENCE_NUMBER": "QDi.359",
       "id": "QDi.359",
       "summary_link": "None",
@@ -6442,6 +6781,8 @@
     {
       "DATAID": 6908476,
       "linkCount": 1,
+      "indiv_dob": "11-17-1968",
+      "indiv_place_of_birth": "Greenwich, Greater London, United Kingdom of Great Britain and Northern Ireland",
       "REFERENCE_NUMBER": "QDi.360",
       "id": "QDi.360",
       "summary_link": "None",
@@ -6475,6 +6816,7 @@
     {
       "DATAID": 6908477,
       "linkCount": 1,
+      "indiv_place_of_birth": ", Saudi Arabia",
       "REFERENCE_NUMBER": "QDi.361",
       "id": "QDi.361",
       "summary_link": "None",
@@ -6508,6 +6850,8 @@
     {
       "DATAID": 6908487,
       "linkCount": 1,
+      "indiv_dob": "11-24-1974",
+      "indiv_place_of_birth": "Khadzhalmahi Village, Levashinskiy District, Republic of Dagestan, Russian Federation",
       "REFERENCE_NUMBER": "QDi.363",
       "id": "QDi.363",
       "summary_link": "None",
@@ -6541,6 +6885,8 @@
     {
       "DATAID": 6908488,
       "linkCount": 1,
+      "indiv_dob": "09-29-1983",
+      "indiv_place_of_birth": "Ust-Dzheguta, Republic of Karachayevo- Cherkessia, Russian Federation",
       "REFERENCE_NUMBER": "QDi.364",
       "id": "QDi.364",
       "summary_link": "None",
@@ -6574,6 +6920,8 @@
     {
       "DATAID": 6908489,
       "linkCount": 1,
+      "indiv_dob": "07-04-1980",
+      "indiv_place_of_birth": "Vedeno Village, Vedenskiy District, Republic of Chechnya, Russian Federation",
       "REFERENCE_NUMBER": "QDi.365",
       "id": "QDi.365",
       "summary_link": "None",
@@ -6607,6 +6955,8 @@
     {
       "DATAID": 6908490,
       "linkCount": 1,
+      "indiv_dob": "11-11-1965",
+      "indiv_place_of_birth": "Itum-Kale, Itum-Kalinskiy District, Republic of Chechnya, Russian Federation",
       "REFERENCE_NUMBER": "QDi.366",
       "id": "QDi.366",
       "summary_link": "None",
@@ -6640,6 +6990,8 @@
     {
       "DATAID": 6908492,
       "linkCount": 1,
+      "indiv_dob": "09-07-1975",
+      "indiv_place_of_birth": "Chegem-1 Village, Chegemskiy District, Republic of Kabardino-Balkaria, Russian Federation",
       "REFERENCE_NUMBER": "QDi.367",
       "id": "QDi.367",
       "summary_link": "None",
@@ -6673,6 +7025,8 @@
     {
       "DATAID": 6908493,
       "linkCount": 1,
+      "indiv_dob": "10-29-1980",
+      "indiv_place_of_birth": "Astrakhan, Russian Federation",
       "REFERENCE_NUMBER": "QDi.368",
       "id": "QDi.368",
       "summary_link": "None",
@@ -6706,6 +7060,8 @@
     {
       "DATAID": 6908478,
       "linkCount": 2,
+      "indiv_dob": "01-04-1973",
+      "indiv_place_of_birth": "Jeddah, Saudi Arabia",
       "REFERENCE_NUMBER": "QDi.369",
       "id": "QDi.369",
       "summary_link": "None",
@@ -6749,6 +7105,8 @@
     {
       "DATAID": 6908479,
       "linkCount": 1,
+      "indiv_dob": "11-20-1979",
+      "indiv_place_of_birth": ", Iraq",
       "REFERENCE_NUMBER": "QDi.370",
       "id": "QDi.370",
       "summary_link": "None",
@@ -6782,6 +7140,8 @@
     {
       "DATAID": 6908525,
       "linkCount": 2,
+      "indiv_dob": "02-07-1966",
+      "indiv_place_of_birth": "Doma, Libya",
       "REFERENCE_NUMBER": "QDi.371",
       "id": "QDi.371",
       "summary_link": "None",
@@ -6825,6 +7185,8 @@
     {
       "DATAID": 6908527,
       "linkCount": 1,
+      "indiv_dob": "05-14-1975",
+      "indiv_place_of_birth": ", Varzob area, Tajikistan",
       "REFERENCE_NUMBER": "QDi.372",
       "id": "QDi.372",
       "summary_link": "None",
@@ -6858,6 +7220,8 @@
     {
       "DATAID": 6908529,
       "linkCount": 1,
+      "indiv_dob": "09-26-1971",
+      "indiv_place_of_birth": "Miljanovci, Kalesija Municipality, Bosnia and Herzegovina",
       "REFERENCE_NUMBER": "QDi.374",
       "id": "QDi.374",
       "summary_link": "None",
@@ -6891,6 +7255,8 @@
     {
       "DATAID": 6908481,
       "linkCount": 1,
+      "indiv_dob": "08-01-1983",
+      "indiv_place_of_birth": "Paris, France",
       "REFERENCE_NUMBER": "QDi.375",
       "id": "QDi.375",
       "summary_link": "None",
@@ -6924,6 +7290,8 @@
     {
       "DATAID": 6908482,
       "linkCount": 1,
+      "indiv_dob": "08-26-1982",
+      "indiv_place_of_birth": "Paris, 20th district, France",
       "REFERENCE_NUMBER": "QDi.376",
       "id": "QDi.376",
       "summary_link": "None",
@@ -6957,6 +7325,8 @@
     {
       "DATAID": 6908530,
       "linkCount": 1,
+      "indiv_dob": "05-19-1984",
+      "indiv_place_of_birth": "al-Duwadmi, Saudi Arabia",
       "REFERENCE_NUMBER": "QDi.377",
       "id": "QDi.377",
       "summary_link": "None",
@@ -6990,6 +7360,8 @@
     {
       "DATAID": 6908483,
       "linkCount": 1,
+      "indiv_dob": "03-17-1992",
+      "indiv_place_of_birth": "Saint Aubin les Elbeuf, Normandy, France",
       "REFERENCE_NUMBER": "QDi.378",
       "id": "QDi.378",
       "summary_link": "None",
@@ -7023,6 +7395,8 @@
     {
       "DATAID": 6908470,
       "linkCount": 1,
+      "indiv_dob": "09-28-1973",
+      "indiv_place_of_birth": "",
       "REFERENCE_NUMBER": "QDi.380",
       "id": "QDi.380",
       "summary_link": "None",
@@ -7056,6 +7430,8 @@
     {
       "DATAID": 6908472,
       "linkCount": 1,
+      "indiv_dob": "02-15-1972",
+      "indiv_place_of_birth": "",
       "REFERENCE_NUMBER": "QDi.382",
       "id": "QDi.382",
       "summary_link": "None",
@@ -7089,6 +7465,8 @@
     {
       "DATAID": 6908531,
       "linkCount": 1,
+      "indiv_dob": "02-26-1993",
+      "indiv_place_of_birth": ", Morocco",
       "REFERENCE_NUMBER": "QDi.383",
       "id": "QDi.383",
       "summary_link": "None",
@@ -7122,6 +7500,7 @@
     {
       "DATAID": 6908532,
       "linkCount": 1,
+      "indiv_place_of_birth": "Sahl Village, Raqqa Province, Syrian Arab Republic",
       "REFERENCE_NUMBER": "QDi.384",
       "id": "QDi.384",
       "summary_link": "None",
@@ -7155,6 +7534,7 @@
     {
       "DATAID": 6908533,
       "linkCount": 1,
+      "indiv_place_of_birth": "Derna, Libya",
       "REFERENCE_NUMBER": "QDi.385",
       "id": "QDi.385",
       "summary_link": "None",
@@ -7188,6 +7568,8 @@
     {
       "DATAID": 6908534,
       "linkCount": 2,
+      "indiv_dob": "05-10-1983",
+      "indiv_place_of_birth": "Ben Guerdane, Tunisia",
       "REFERENCE_NUMBER": "QDi.386",
       "id": "QDi.386",
       "summary_link": "None",
@@ -7231,6 +7613,8 @@
     {
       "DATAID": 6908535,
       "linkCount": 1,
+      "indiv_dob": "09-22-1988",
+      "indiv_place_of_birth": "Alexandria, Egypt",
       "REFERENCE_NUMBER": "QDi.387",
       "id": "QDi.387",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/mohammed-abdel-halim-hemaida-saleh",
@@ -7264,6 +7648,8 @@
     {
       "DATAID": 6908536,
       "linkCount": 1,
+      "indiv_dob": "07-06-1980",
+      "indiv_place_of_birth": "Bourg la Reine, France",
       "REFERENCE_NUMBER": "QDi.388",
       "id": "QDi.388",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/salim-benghalem",
@@ -7297,6 +7683,8 @@
     {
       "DATAID": 6908537,
       "linkCount": 1,
+      "indiv_dob": "02-07-1969",
+      "indiv_place_of_birth": "Annaba, Algeria",
       "REFERENCE_NUMBER": "QDi.389",
       "id": "QDi.389",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/abu-ubaydah-yusuf-al-anabi",
@@ -7330,6 +7718,8 @@
     {
       "DATAID": 6908542,
       "linkCount": 1,
+      "indiv_dob": "01-19-1986",
+      "indiv_place_of_birth": "",
       "REFERENCE_NUMBER": "QDi.392",
       "id": "QDi.392",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/faysal-ahmad-bin-ali-al-zahrani",
@@ -7363,6 +7753,8 @@
     {
       "DATAID": 6908544,
       "linkCount": 2,
+      "indiv_dob": "05-03-1977",
+      "indiv_place_of_birth": "Nuseirat Refugee Camp, Gaza Strip, State of Palestine",
       "REFERENCE_NUMBER": "QDi.394",
       "id": "QDi.394",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/husayn-juaythini",
@@ -7406,6 +7798,7 @@
     {
       "DATAID": 6908545,
       "linkCount": 2,
+      "indiv_place_of_birth": "Demak, Indonesia",
       "REFERENCE_NUMBER": "QDi.395",
       "id": "QDi.395",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/muhammad-sholeh-ibrahim",
@@ -7449,6 +7842,8 @@
     {
       "DATAID": 6908547,
       "linkCount": 1,
+      "indiv_dob": "10-22-1974",
+      "indiv_place_of_birth": "Kitaevka, Novoselitskiy District, Stavropol Region, Russian Federation",
       "REFERENCE_NUMBER": "QDi.396",
       "id": "QDi.396",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/aslan-avgazarovich-byutukaev",
@@ -7482,6 +7877,8 @@
     {
       "DATAID": 6908548,
       "linkCount": 1,
+      "indiv_dob": "03-27-1977",
+      "indiv_place_of_birth": ", Naberezhnye Chelny, Republic of Tatarstan, Russian Federation",
       "REFERENCE_NUMBER": "QDi.397",
       "id": "QDi.397",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/ayrat-nasimovich-vakhitov",
@@ -7515,6 +7912,8 @@
     {
       "DATAID": 6908574,
       "linkCount": 0,
+      "indiv_dob": "03-09-1981",
+      "indiv_place_of_birth": "Iki-Burul Village, Iki-Burulskiy District, Republic of Kalmykia, Russian Federation",
       "REFERENCE_NUMBER": "QDi.398",
       "id": "QDi.398",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/rustam-magomedovich-aselderov",
@@ -7534,6 +7933,8 @@
     {
       "DATAID": 6908575,
       "linkCount": 1,
+      "indiv_dob": "01-01-1969",
+      "indiv_place_of_birth": "Qalamun, Damascus Province, Syrian Arab Republic",
       "REFERENCE_NUMBER": "QDi.399",
       "id": "QDi.399",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/bassam-ahmad-al-hasri",
@@ -7567,6 +7968,7 @@
     {
       "DATAID": 6908576,
       "linkCount": 1,
+      "indiv_place_of_birth": ", Syrian Arab Republic",
       "REFERENCE_NUMBER": "QDi.400",
       "id": "QDi.400",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/iyad-nazmi-salih-khalil",
@@ -7600,6 +8002,7 @@
     {
       "DATAID": 6908577,
       "linkCount": 1,
+      "indiv_place_of_birth": "Raqqah Region, Marib Governorate, Yemen",
       "REFERENCE_NUMBER": "QDi.401",
       "id": "QDi.401",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/ghalib-abdullah-al-zaidi",
@@ -7633,6 +8036,8 @@
     {
       "DATAID": 6908598,
       "linkCount": 1,
+      "indiv_dob": "02-18-1989",
+      "indiv_place_of_birth": "Bonn, Germany",
       "REFERENCE_NUMBER": "QDi.403",
       "id": "QDi.403",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/fared-saal",
@@ -7666,6 +8071,8 @@
     {
       "DATAID": 6908600,
       "linkCount": 1,
+      "indiv_dob": "09-06-1983",
+      "indiv_place_of_birth": "Surakarta, Indonesia",
       "REFERENCE_NUMBER": "QDi.404",
       "id": "QDi.404",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/muhammad-bahrum-naim-anggih-tamtomo",
@@ -7699,6 +8106,8 @@
     {
       "DATAID": 6908601,
       "linkCount": 1,
+      "indiv_dob": "03-14-1992",
+      "indiv_place_of_birth": "Ordzhonikidzevskaya village, Sunzhenskiy district, Ingushetia, Russian Federation",
       "REFERENCE_NUMBER": "QDi.405",
       "id": "QDi.405",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/malik-ruslanovich-barkhanoev",
@@ -7732,6 +8141,8 @@
     {
       "DATAID": 6908602,
       "linkCount": 1,
+      "indiv_dob": "01-15-1970",
+      "indiv_place_of_birth": "Grozny, Chechen Republic, Russian Federation",
       "REFERENCE_NUMBER": "QDi.406",
       "id": "QDi.406",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/murad-iraklievich-margoshvili",
@@ -7765,6 +8176,8 @@
     {
       "DATAID": 6908603,
       "linkCount": 1,
+      "indiv_dob": "01-05-1972",
+      "indiv_place_of_birth": "Sumedang, Indonesia",
       "REFERENCE_NUMBER": "QDi.407",
       "id": "QDi.407",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/oman-rochman",
@@ -7798,6 +8211,8 @@
     {
       "DATAID": 6908608,
       "linkCount": 1,
+      "indiv_dob": "12-13-1983",
+      "indiv_place_of_birth": "London, United Kingdom of Great Britain and Northern Ireland",
       "REFERENCE_NUMBER": "QDi.408",
       "id": "QDi.408",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/alexanda-amon-kotey",
@@ -7831,6 +8246,8 @@
     {
       "DATAID": 6908609,
       "linkCount": 1,
+      "indiv_dob": "07-16-1988",
+      "indiv_place_of_birth": "London, United Kingdom of Great Britain and Northern Ireland",
       "REFERENCE_NUMBER": "QDi.409",
       "id": "QDi.409",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/elshafee-el-sheikh",
@@ -7864,6 +8281,8 @@
     {
       "DATAID": 6908611,
       "linkCount": 1,
+      "indiv_dob": "02-22-1986",
+      "indiv_place_of_birth": "Mount Hope, Trinidad and Tobago",
       "REFERENCE_NUMBER": "QDi.410",
       "id": "QDi.410",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/shane-dominic-crawford",
@@ -7897,6 +8316,8 @@
     {
       "DATAID": 6908658,
       "linkCount": 1,
+      "indiv_dob": "02-20-1962",
+      "indiv_place_of_birth": "Baghdad, Iraq",
       "REFERENCE_NUMBER": "QDi.411",
       "id": "QDi.411",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/salim-mustafa-muhammad-al-mansur",
@@ -7930,6 +8351,8 @@
     {
       "DATAID": 6908659,
       "linkCount": 2,
+      "indiv_dob": "06-16-1967",
+      "indiv_place_of_birth": "Al-Qaim, Al-Anbar Province, Iraq",
       "REFERENCE_NUMBER": "QDi.412",
       "id": "QDi.412",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/umar-mahmud-irhayyim-al-kubaysi",
@@ -7954,7 +8377,7 @@
           "target": "QDe.157"
         }
       ],
-      "oldLinkCount": 3,
+      "oldLinkCount": 2,
       "newLinkList": [
         {
           "source": "QDi.412",
@@ -7977,6 +8400,8 @@
     {
       "DATAID": 6908700,
       "linkCount": 1,
+      "indiv_dob": "07-11-1991",
+      "indiv_place_of_birth": "",
       "REFERENCE_NUMBER": "QDi.413",
       "id": "QDi.413",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/myrna-ajijul-mabanza",
@@ -8010,6 +8435,8 @@
     {
       "DATAID": 6908701,
       "linkCount": 1,
+      "indiv_dob": "03-03-1965",
+      "indiv_place_of_birth": "Tuburan, Basilan Province, Philippines",
       "REFERENCE_NUMBER": "QDi.414",
       "id": "QDi.414",
       "summary_link": "https://www.un.org/securitycouncil/sanctions/1267/aq_sanctions_list/summaries/individual/abdulpatta-escalon-abubakar",
@@ -8043,6 +8470,8 @@
     {
       "DATAID": 6908718,
       "linkCount": 4,
+      "indiv_dob": "02-16-1973",
+      "indiv_place_of_birth": "",
       "REFERENCE_NUMBER": "QDi.415",
       "id": "QDi.415",
       "summary_link": "https://www.un.org/securitycouncil/content/adnan-abou-walid-al-sahraoui",
@@ -8105,6 +8534,8 @@
     {
       "DATAID": 6908719,
       "linkCount": 1,
+      "indiv_dob": "10-11-1978",
+      "indiv_place_of_birth": ", Indonesia",
       "REFERENCE_NUMBER": "QDi.416",
       "id": "QDi.416",
       "summary_link": "https://www.un.org/securitycouncil/content/mohammed-yusip-karim",
@@ -8138,6 +8569,8 @@
     {
       "DATAID": 6908720,
       "linkCount": 1,
+      "indiv_dob": "06-03-1966",
+      "indiv_place_of_birth": "Negri Sembilan, Malaysia",
       "REFERENCE_NUMBER": "QDi.417",
       "id": "QDi.417",
       "summary_link": "https://www.un.org/securitycouncil/content/mohamad-rafi-bin-udin",
@@ -8171,6 +8604,8 @@
     {
       "DATAID": 6908721,
       "linkCount": 1,
+      "indiv_dob": "03-03-1990",
+      "indiv_place_of_birth": "Zamboanga City, Zamboanga del Sur, Philippines",
       "REFERENCE_NUMBER": "QDi.418",
       "id": "QDi.418",
       "summary_link": "https://www.un.org/securitycouncil/content/muhammed-reza-lahaman-kiram",
@@ -8204,6 +8639,8 @@
     {
       "DATAID": 6908742,
       "linkCount": 1,
+      "indiv_dob": "01-18-1967",
+      "indiv_place_of_birth": "Welling, London, United Kingdom of Great Britain and Northern Ireland",
       "REFERENCE_NUMBER": "QDi.419",
       "id": "QDi.419",
       "summary_link": "https://www.un.org/securitycouncil/content/anjem-choudary",
@@ -8237,6 +8674,7 @@
     {
       "DATAID": 6908757,
       "linkCount": 0,
+      "indiv_place_of_birth": "Tall \'Afar, Iraq",
       "REFERENCE_NUMBER": "QDi.420",
       "id": "QDi.420",
       "summary_link": "https://www.un.org/securitycouncil/content/taha-ibrahim-abdallah-bakr-al-khuwayt",
@@ -8256,6 +8694,8 @@
     {
       "DATAID": 6908767,
       "linkCount": 2,
+      "indiv_dob": "05-09-1989",
+      "indiv_place_of_birth": "Jeddah, Saudi Arabia",
       "REFERENCE_NUMBER": "QDi.421",
       "id": "QDi.421",
       "summary_link": "https://www.un.org/securitycouncil/content/hamza-usama-muhammad-bin-laden",
@@ -8299,6 +8739,8 @@
     {
       "DATAID": 6908769,
       "linkCount": 2,
+      "indiv_dob": "07-10-1968",
+      "indiv_place_of_birth": "Bahawalpur, Punjab Province, Pakistan",
       "REFERENCE_NUMBER": "QDi.422",
       "id": "QDi.422",
       "summary_link": "https://www.un.org/securitycouncil/content/mohammed-masood-azhar-alvi",
@@ -8342,6 +8784,8 @@
     {
       "DATAID": 6908782,
       "linkCount": 3,
+      "indiv_dob": "05-25-1983",
+      "indiv_place_of_birth": "Taza, Morocco",
       "REFERENCE_NUMBER": "QDi.423",
       "id": "QDi.423",
       "summary_link": "https://www.un.org/securitycouncil/content/ali-maychou",
@@ -8395,6 +8839,8 @@
     {
       "DATAID": 6908783,
       "linkCount": 2,
+      "indiv_dob": "01-01-1958",
+      "indiv_place_of_birth": "",
       "REFERENCE_NUMBER": "QDi.424",
       "id": "QDi.424",
       "summary_link": "https://www.un.org/securitycouncil/content/bah-ag-moussa",
@@ -8438,6 +8884,7 @@
     {
       "DATAID": 6908823,
       "linkCount": 2,
+      "indiv_place_of_birth": ", Koufa, Mali",
       "REFERENCE_NUMBER": "QDi.425",
       "id": "QDi.425",
       "summary_link": "https://www.un.org/securitycouncil/content/amadou-koufa",
@@ -8481,6 +8928,8 @@
     {
       "DATAID": 6908841,
       "linkCount": 1,
+      "indiv_dob": "10-05-1976",
+      "indiv_place_of_birth": ", Tall’Afar, Iraq",
       "REFERENCE_NUMBER": "QDi.426",
       "id": "QDi.426",
       "summary_link": "https://www.un.org/securitycouncil/content/amir-muhammad-sa%E2%80%99id-abdal-rahman-al-salbi",
@@ -8514,6 +8963,8 @@
     {
       "DATAID": 6908843,
       "linkCount": 2,
+      "indiv_dob": "06-26-1978",
+      "indiv_place_of_birth": ", Gurguray, Pakistan",
       "REFERENCE_NUMBER": "QDi.427",
       "id": "QDi.427",
       "summary_link": "https://www.un.org/securitycouncil/content/noor-wali-mehsud",
@@ -8557,6 +9008,8 @@
     {
       "DATAID": 6908833,
       "linkCount": 1,
+      "indiv_dob": "08-17-1972",
+      "indiv_place_of_birth": "Benghazi, Libya",
       "REFERENCE_NUMBER": "QDi.428",
       "id": "QDi.428",
       "summary_link": "https://www.un.org/securitycouncil/content/jamal-hussein-hassan-zeiniye",
@@ -8590,6 +9043,8 @@
     {
       "DATAID": 6908857,
       "linkCount": 1,
+      "indiv_dob": "10-01-1983",
+      "indiv_place_of_birth": "Raqqa, Syrian Arab Republic",
       "REFERENCE_NUMBER": "QDi.429",
       "id": "QDi.429",
       "summary_link": "https://www.un.org/securitycouncil/content/mohammad-ali-al-habbo",
@@ -8623,6 +9078,8 @@
     {
       "DATAID": 6908858,
       "linkCount": 1,
+      "indiv_dob": "07-04-1967",
+      "indiv_place_of_birth": ", Rio Claro, Trinidad and Tobago",
       "REFERENCE_NUMBER": "QDi.430",
       "id": "QDi.430",
       "summary_link": "https://www.un.org/securitycouncil/content/emraan-ali",
@@ -8656,6 +9113,8 @@
     {
       "DATAID": 6908866,
       "linkCount": 1,
+      "indiv_dob": "05-24-1990",
+      "indiv_place_of_birth": "Mir Bacha, Kot District, Kabul Province, Afghanistan",
       "REFERENCE_NUMBER": "QDi.431",
       "id": "QDi.431",
       "summary_link": "https://www.un.org/securitycouncil/content/sanaullah-ghafari",
@@ -8689,6 +9148,8 @@
     {
       "DATAID": 6908861,
       "linkCount": 1,
+      "indiv_dob": "10-05-1991",
+      "indiv_place_of_birth": ", Gouazine, Dahmani, Governorate of Le Kef, Tunisia",
       "REFERENCE_NUMBER": "QDi.432",
       "id": "QDi.432",
       "summary_link": "https://www.un.org/securitycouncil/content/ashraf-al-qizani",
@@ -8722,6 +9183,8 @@
     {
       "DATAID": 6908887,
       "linkCount": 2,
+      "indiv_dob": "12-10-1954",
+      "indiv_place_of_birth": "Bahawalpur, Punjab Province, Pakistan",
       "REFERENCE_NUMBER": "QDi.433",
       "id": "QDi.433",
       "summary_link": "https://www.un.org/securitycouncil/content/abdul-rehman-makki%E2%80%AF",
@@ -8765,6 +9228,7 @@
     {
       "DATAID": 6908904,
       "linkCount": 1,
+      "indiv_place_of_birth": ", Afghanistan",
       "REFERENCE_NUMBER": "QDi.434",
       "id": "QDi.434",
       "summary_link": "https://www.un.org/securitycouncil/content/maulawi-rajab",
@@ -8798,6 +9262,7 @@
     {
       "DATAID": 6908905,
       "linkCount": 1,
+      "indiv_place_of_birth": ", Afghanistan",
       "REFERENCE_NUMBER": "QDi.435",
       "id": "QDi.435",
       "summary_link": "https://www.un.org/securitycouncil/content/sultan-aziz-azam",
@@ -8882,7 +9347,7 @@
           "target": "QDe.001"
         }
       ],
-      "oldLinkCount": 10,
+      "oldLinkCount": 9,
       "newLinkList": [
         {
           "source": "QDi.204",
@@ -8973,7 +9438,7 @@
           "target": "QDe.072"
         }
       ],
-      "oldLinkCount": 5,
+      "oldLinkCount": 4,
       "newLinkList": [
         {
           "source": "QDi.042",
@@ -9040,7 +9505,7 @@
           "target": "QDe.003"
         }
       ],
-      "oldLinkCount": 6,
+      "oldLinkCount": 5,
       "newLinkList": [
         {
           "source": "QDi.006",
@@ -9465,7 +9930,7 @@
           "target": "QDe.019"
         }
       ],
-      "oldLinkCount": 3,
+      "oldLinkCount": 2,
       "newLinkList": [
         {
           "source": "QDe.005",
@@ -9587,7 +10052,7 @@
           "target": "QDe.008"
         }
       ],
-      "oldLinkCount": 7,
+      "oldLinkCount": 6,
       "newLinkList": [
         {
           "source": "QDi.422",
@@ -9692,7 +10157,7 @@
           "target": "QDe.131"
         }
       ],
-      "oldLinkCount": 8,
+      "oldLinkCount": 7,
       "newLinkList": [
         {
           "source": "QDi.300",
@@ -9990,7 +10455,7 @@
           "target": "QDe.014"
         }
       ],
-      "oldLinkCount": 36,
+      "oldLinkCount": 34,
       "newLinkList": [
         {
           "source": "QDi.136",
@@ -10254,7 +10719,7 @@
           "target": "QDe.130"
         }
       ],
-      "oldLinkCount": 9,
+      "oldLinkCount": 7,
       "newLinkList": [
         {
           "source": "QDi.309",
@@ -10370,7 +10835,7 @@
           "target": "QDi.054"
         }
       ],
-      "oldLinkCount": 4,
+      "oldLinkCount": 3,
       "newLinkList": [
         {
           "source": "QDi.056",
@@ -10425,7 +10890,7 @@
           "target": "QDe.070"
         }
       ],
-      "oldLinkCount": 5,
+      "oldLinkCount": 3,
       "newLinkList": [
         {
           "source": "QDi.057",
@@ -10484,7 +10949,7 @@
           "target": "QDi.058"
         }
       ],
-      "oldLinkCount": 4,
+      "oldLinkCount": 3,
       "newLinkList": [
         {
           "source": "QDi.057",
@@ -10732,7 +11197,7 @@
           "target": "QDe.092"
         }
       ],
-      "oldLinkCount": 20,
+      "oldLinkCount": 19,
       "newLinkList": [
         {
           "source": "QDi.087",
@@ -10980,7 +11445,7 @@
           "target": "QDe.101"
         }
       ],
-      "oldLinkCount": 4,
+      "oldLinkCount": 2,
       "newLinkList": [
         {
           "source": "QDe.099",
@@ -11039,7 +11504,7 @@
           "target": "QDe.131"
         }
       ],
-      "oldLinkCount": 6,
+      "oldLinkCount": 4,
       "newLinkList": [
         {
           "source": "QDi.396",
@@ -11099,7 +11564,7 @@
           "target": "QDe.101"
         }
       ],
-      "oldLinkCount": 4,
+      "oldLinkCount": 2,
       "newLinkList": [
         {
           "source": "QDe.099",
@@ -11652,7 +12117,7 @@
           "target": "QDe.115"
         }
       ],
-      "oldLinkCount": 81,
+      "oldLinkCount": 79,
       "newLinkList": [
         {
           "source": "QDi.029",
@@ -12144,7 +12609,7 @@
           "target": "QDe.118"
         }
       ],
-      "oldLinkCount": 13,
+      "oldLinkCount": 12,
       "newLinkList": [
         {
           "source": "QDi.263",
@@ -12248,7 +12713,7 @@
           "target": "QDe.119"
         }
       ],
-      "oldLinkCount": 5,
+      "oldLinkCount": 4,
       "newLinkList": [
         {
           "source": "QDi.261",
@@ -12318,7 +12783,7 @@
           "target": "QDe.118"
         }
       ],
-      "oldLinkCount": 6,
+      "oldLinkCount": 5,
       "newLinkList": [
         {
           "source": "QDi.309",
@@ -12412,7 +12877,7 @@
           "target": "QDe.092"
         }
       ],
-      "oldLinkCount": 11,
+      "oldLinkCount": 10,
       "newLinkList": [
         {
           "source": "QDi.241",
@@ -12530,7 +12995,7 @@
           "target": "QDe.129"
         }
       ],
-      "oldLinkCount": 11,
+      "oldLinkCount": 10,
       "newLinkList": [
         {
           "source": "QDi.282",
@@ -12749,7 +13214,7 @@
           "target": "QDe.132"
         }
       ],
-      "oldLinkCount": 7,
+      "oldLinkCount": 6,
       "newLinkList": [
         {
           "source": "QDi.312",
@@ -12836,7 +13301,7 @@
           "target": "QDe.133"
         }
       ],
-      "oldLinkCount": 8,
+      "oldLinkCount": 7,
       "newLinkList": [
         {
           "source": "QDi.217",
@@ -13043,7 +13508,7 @@
           "target": "QDe.135"
         }
       ],
-      "oldLinkCount": 8,
+      "oldLinkCount": 7,
       "newLinkList": [
         {
           "source": "QDi.316",
@@ -13129,7 +13594,7 @@
           "target": "QDe.014"
         }
       ],
-      "oldLinkCount": 6,
+      "oldLinkCount": 5,
       "newLinkList": [
         {
           "source": "QDi.318",
@@ -13307,7 +13772,7 @@
           "target": "QDe.137"
         }
       ],
-      "oldLinkCount": 33,
+      "oldLinkCount": 30,
       "newLinkList": [
         {
           "source": "QDi.317",
@@ -13570,7 +14035,7 @@
           "target": "QDe.014"
         }
       ],
-      "oldLinkCount": 3,
+      "oldLinkCount": 2,
       "newLinkList": [
         {
           "source": "QDi.136",
@@ -13627,7 +14092,7 @@
           "target": "QDe.141"
         }
       ],
-      "oldLinkCount": 7,
+      "oldLinkCount": 4,
       "newLinkList": [
         {
           "source": "QDi.136",
@@ -13717,7 +14182,7 @@
           "target": "QDe.141"
         }
       ],
-      "oldLinkCount": 10,
+      "oldLinkCount": 8,
       "newLinkList": [
         {
           "source": "QDi.136",
@@ -13859,7 +14324,7 @@
           "target": "QDe.143"
         }
       ],
-      "oldLinkCount": 8,
+      "oldLinkCount": 7,
       "newLinkList": [
         {
           "source": "QDi.060",
@@ -13980,7 +14445,7 @@
           "target": "QDe.146"
         }
       ],
-      "oldLinkCount": 5,
+      "oldLinkCount": 4,
       "newLinkList": [
         {
           "source": "QDi.355",
@@ -14046,7 +14511,7 @@
           "target": "QDe.143"
         }
       ],
-      "oldLinkCount": 5,
+      "oldLinkCount": 4,
       "newLinkList": [
         {
           "source": "QDe.145",
@@ -14484,7 +14949,7 @@
           "target": "QDe.115"
         }
       ],
-      "oldLinkCount": 3,
+      "oldLinkCount": 2,
       "newLinkList": [
         {
           "source": "QDi.412",

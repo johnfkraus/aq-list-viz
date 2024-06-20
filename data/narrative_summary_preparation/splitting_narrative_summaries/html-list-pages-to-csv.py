@@ -1,3 +1,4 @@
+# html-list-pages-to-csv.py
 # create list of reference numbers and links from html tables in HTML pages; save as CSV file.
 from bs4 import BeautifulSoup
 import os
@@ -5,10 +6,12 @@ import sys
 import csv
 from os import listdir
 
+output_file_csv = "links-to-summary-pages.csv"
+
 my_path = "/Users/john.kraus/workspaces/aq-list-viz/data/narrative_summary_preparation/splitting_narrative_summaries/"
 
 for file_name in listdir(my_path):
-    if file_name == "links.csv":   # .endswith('.csv'):
+    if file_name == output_file_csv:   # .endswith('.csv'):
         os.remove(my_path + file_name)
 
 
@@ -27,11 +30,9 @@ filenames = ["01-Narrative Summaries of Reasons for Listing _ United Nations Sec
              "12-Narrative Summaries of Reasons for Listing _ United Nations Security Council.html"
              ]
 
+csv_header = ["web_page", "ref_num", "name", "link", "posted_on"]
 
-
-csv_header = ["ref_num", "name", "link", "posted_on"]
-
-with open('links.csv', 'a', newline='') as csvfile:
+with open(output_file_csv, 'w', newline='') as csvfile:
     writer = csv.writer(csvfile, delimiter=',',
                             quotechar='"', quoting=csv.QUOTE_ALL)
     writer.writerow(csv_header)  # ['Spam'] * 5 + ['Baked Beans'])
@@ -74,14 +75,14 @@ for filename in filenames:
         posted_on = row.find('span', class_="date-display-single").get_text().strip()
         print(posted_on)
 
-        csv_row = [ref_num, name, link, posted_on]
+        csv_row = [filename[:3], ref_num, name, link, posted_on]
         # csv_row.append(ref_num)
         # csv_row.append(name)
         # csv_row.append(link)
         # csv_row.append(posted_on)
         print("csv_row = ", csv_row)
 
-        with open('links.csv', 'a', newline='') as csvfile:
+        with open('links-to-summary-pages.csv', 'a', newline='') as csvfile:
             writer = csv.writer(csvfile, delimiter=',',
                                     quotechar='"', quoting=csv.QUOTE_ALL)
             writer.writerow(csv_row)  # ['Spam'] * 5 + ['Baked Beans'])

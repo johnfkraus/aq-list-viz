@@ -17,7 +17,9 @@ import re
 # add fields from json: DOB, etc.
 # increase graph window size; more scrolling
 
-with open('summary-links.csv', newline='') as f:
+input_filename = "links-to-summary-pages.csv"
+
+with open(input_filename, newline='') as f:
     reader = csv.reader(f)
     link_data = list(reader)
 
@@ -25,13 +27,15 @@ print(link_data[1:4])
 
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'}
 
-for row in link_data:
-    ref_num = row[0]
+for index, row in enumerate(link_data):
     # skip header row
-    if ref_num == "ref_num":
+    if index == 0:
         continue
+
+    ref_num = row[1]
+
     # the URL is in the third column
-    url = row[2]
+    url = row[3]
 
     filename = ref_num + ".shtml"
     print("filename = ", filename)

@@ -1,4 +1,4 @@
-
+# make-link-string.py
 # given a link object, creates a unique string combining source and target nodes.
 def make_link_string(link):
     # print(link)

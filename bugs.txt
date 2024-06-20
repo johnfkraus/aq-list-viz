@@ -13,6 +13,13 @@ Link to missing summary added to:
 data/narrative_summary_preparation/downloaded_summaries/summary-links-addendum.csv
 Added no narrative found as temp fix.
 
+
+len( no_summary_file_found_for =  30
+no_summary_file_found_for =  ['QDi.353.shtml', 'QDi.354.shtml', 'QDi.355.shtml', 'QDi.356.shtml', 'QDi.357.shtml', 'QDi.358.shtml', 'QDi.359.shtml', 'QDi.360.shtml', 'QDi.361.shtml', 'QDi.363.shtml', 'QDi.364.shtml', 'QDi.365.shtml', 'QDi.366.shtml', 'QDi.367.shtml', 'QDi.368.shtml', 'QDi.369.shtml', 'QDi.370.shtml', 'QDi.371.shtml', 'QDi.372.shtml', 'QDi.374.shtml', 'QDi.375.shtml', 'QDi.376.shtml', 'QDi.377.shtml', 'QDi.378.shtml', 'QDi.380.shtml', 'QDi.382.shtml', 'QDi.383.shtml', 'QDi.384.shtml', 'QDi.385.shtml', 'QDi.386.shtml']
+DONE
+
+
+
 ===========
 
 
