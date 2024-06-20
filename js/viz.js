@@ -981,23 +981,26 @@ Network = function () {
       contentType: "utf-8"
     });
     $.ajax({
-      url: url, success: function (result) {
+      url: url,
+      success: function (result) {
         longNarrative = result;
         //  $("#div1").html(result);
         //  console.log("longNarrative = \n\n", longNarrative);
-
         var content;
-        if (typeof(longNarrative) !== 'null' && typeof(longNarrative) !== 'undefined') {
+        if (typeof (longNarrative) !== 'null' && typeof (longNarrative) !== 'undefined') {
           content = longNarrative;
         } else {
           content = d.docs;
         }
         showDocument(d, content, d3.event);
-
       }
-
-    });
-
+      }).fail(function (jqXHR, textStatus, errorThrown) {
+        console.log("viz.js ajax failed, textStatus = ", textStatus, "; errorThrown = ", errorThrown);
+        content = '<div class="bioData">No narrative available.</div>';
+        showDocument(d, content, d3.event);
+      });
+    // });
+    // });
     // console.log("content =  ", content, "\nd3.event = ", d3.event + "\n\n");
     //  highlight neighboring nodes
     //  watch out - don't mess with node if search is currently matching
