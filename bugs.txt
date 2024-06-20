@@ -11,5 +11,13 @@ Not found on summary page: https://www.un.org/securitycouncil/sanctions/1267/aq_
 Link to missing summary added to:
 
 data/narrative_summary_preparation/downloaded_summaries/summary-links-addendum.csv
+Added no narrative found as temp fix.
+
+===========
 
 
+if name == NAME_ORIGINAL_SCRIPT, NAME_ORIGINAL_SCRIPT should = ""
+    "summary_link": "https://www.un.org/securitycouncil/content/jamaah-ansharut-daulah",
+      "name": "JAMAAH ANSHARUT DAULAH",
+      "NAME_ORIGINAL_SCRIPT": "JAMAAH ANSHARUT DAULAH",
+      "indiv0OrEnt1": 1,
