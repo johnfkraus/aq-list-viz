@@ -984,8 +984,6 @@ Network = function () {
       url: url,
       success: function (result) {
         longNarrative = result;
-        //  $("#div1").html(result);
-        //  console.log("longNarrative = \n\n", longNarrative);
         var content;
         if (typeof (longNarrative) !== 'null' && typeof (longNarrative) !== 'undefined') {
           content = longNarrative;
@@ -995,15 +993,11 @@ Network = function () {
         showDocument(d, content, d3.event);
       }
       }).fail(function (jqXHR, textStatus, errorThrown) {
-        console.log("viz.js ajax failed, textStatus = ", textStatus, "; errorThrown = ", errorThrown);
+        console.log("failed, textStatus = ", textStatus, "; errorThrown = ", errorThrown);
         content = '<div class="bioData">No narrative available.</div>';
         showDocument(d, content, d3.event);
       });
-    // });
-    // });
-    // console.log("content =  ", content, "\nd3.event = ", d3.event + "\n\n");
-    //  highlight neighboring nodes
-    //  watch out - don't mess with node if search is currently matching
+
     return d3.select(this);
   };
 
@@ -1051,10 +1045,6 @@ Network = function () {
       $("div#dateUpdatedDiv").css("display", "none");
     }
 
-
-
-
-
     srnl = $("span.refNumLink");
     console.log("1028 ", srnl, srnl.length); //. .innerHTML);
     // for item in snrl
@@ -1067,13 +1057,7 @@ Network = function () {
           // searchTermId = innerh;
           return Network.updateSearchId(searchTermId);
         });
-
     }
-
-
-
-
-
 
     $("#doc-container").show();
     $("#doc-close").css('display', 'inline');
@@ -1083,9 +1067,9 @@ Network = function () {
   };
 
   var vizFormatDate = function (dateString) {
-    var m_names = new Array("January", "February", "March",
+    var m_names = ["January", "February", "March",
       "April", "May", "June", "July", "August", "September",
-      "October", "November", "December");
+      "October", "November", "December"];
     var d = new Date(dateString);
     var curr_date = d.getDate();
     var curr_month = d.getMonth();
@@ -1107,8 +1091,6 @@ Network = function () {
       console.log("topstuff display = ", topStuffDisplay);
       topStuffHeight = $("#top-stuff").height();
     }
-
-
 
     var docHeight = 0,
       svgHeight = 0,
@@ -1132,11 +1114,8 @@ Network = function () {
       docHeight = 0;
       $('#doc-container').css('height', 0 + 'px');
     }
-    //svgHeight = window.innerHeight - docHeight - $("#top-stuff").height() + topStuffNegativeMargin;
+
     svgHeight = window.innerHeight - docHeight - topStuffHeight + topStuffNegativeMargin;
-
-    // svgHeight = window.innerHeight - docHeight + topStuffNegativeMargin;
-
 
     if (consoleLog) {
       console.log("viz.js 1143 window.innerHeight = ", window.innerHeight, "; svgHeight = ", svgHeight, "; window.innerWidth = ", window.innerWidth);
@@ -1190,7 +1169,6 @@ $(function () {
     var myNetwork;
     myNetwork = Network();
 
-    // var consoleLog = myNetwork.
     d3.selectAll("#layouts a")
       .on("click", function (d) {
         var newLayout;
@@ -1229,23 +1207,14 @@ $(function () {
 
 
 
-
-
-
-    if (true) {
-      var intervalID = setInterval(function () {
+    var intervalID = setInterval(function () {
         wiggle();
       }, 20000);
-    }
 
     var wiggle = function () {
       activate("layouts", "force");
       return myNetwork.toggleLayout("force", 0);
     };
-
-
-
-
 
     $("#link_distance_select")
       .on("change", function (e) {
@@ -1292,9 +1261,6 @@ $(function () {
     });
 
 
-
-
-
   $('#doc-close')
       .on('click', function () {
         // deselectObject();
@@ -1330,9 +1296,6 @@ $(function () {
       console.log("searchTermId: " + searchTermId);
       return myNetwork.updateSearchId(searchTermId);
     }
-
-
-
 
   // "No Longer Listed" checkbox, (OBE as of 2024)
     $("input[name='noLongerListed']").change(function (e) {
@@ -1423,20 +1386,10 @@ $(function () {
     }
 
     // LOAD THE JSON DATA FILE HERE
-    // return d3.json("data/output/data.json", function (json) {
-    // return myNetwork("#svg", json);
-    // });
-
-    // return (jsonData, function (json) {
     let myJsonData =  jsonData.replace(/\\/g, '\\');
+    // let myJsonData2 = JSON.parse(myJsonData);
+    return myNetwork("#svg", JSON.parse(myJsonData));
 
-    let myJsonData2 = JSON.parse(myJsonData);
-      // let myJsonData2 = myJsonData.replace(/\\/g, '\\');
-      //return myNetwork("#svg", JSON.parse(jsonData));
-      return myNetwork("#svg", myJsonData2);
-
-
-      //});
   }
 );
 // end of function()
