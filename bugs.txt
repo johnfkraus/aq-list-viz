@@ -19,6 +19,9 @@ no_summary_file_found_for =  ['QDi.353.shtml', 'QDi.354.shtml', 'QDi.355.shtml',
 DONE
 
 
+???
+  if (filter === "popular" || filter === "obscure") {
+
 
 ===========
 

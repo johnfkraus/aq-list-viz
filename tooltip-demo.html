@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tooltip demo</title>
+    <link href="css/atooltip.css" rel="stylesheet" />
+    <style>
+        #container {
+            width:600px; margin: 0 auto; padding-top:50px;
+        }
+    </style>
+</head>
+
+<body>
+<div id="container">
+    <p>
+        Lorem ipsum dolor sit amet, cat consectetur adipisicing elit, sed do eiusmod tempor cat incididunt ut labore
+        et dolore magna aliqua. Cat ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo cat consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu cat
+        fugiat nulla pariatur cat. Cat Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum cat, cats and cat.
+    </p>
+    <p>
+        Egyptian Islamic Jihad (QDe.003), listed on 6 October 2001
+    </p>
+    <p>
+        Makhtab al-Khidamat (QDe.012), listed on 6 October 2001
+    </p>
+    <p>
+        The Organization of Al-Qaida in Islamic Maghreb (QDe.014), listed on 6 October 2001
+    </p>
+    <p>
+        Al-Qaida in Iraq (QDe.115), listed on 18 October 2004
+    </p>
+    <p>
+        Al-Qaida in the Arabian Peninsula (AQAP) (QDe.129), 19 January 2010
+    </p>
+    <p>
+        Aiman Muhammed Rabi al-Zawahiri (QDi.006), listed on 25 January 2001
+    </p>
+</div>
+
+<script src="js/libs/jquery-1.7.2.js"></script>
+<script type="text/javascript" src="js/jquery.atooltip.min.js"></script>
+<script>
+    let updateSearchId = function(searchId) {
+        console.log(searchId);
+    };
+    $(function(){
+        $('#container').html(
+                $('#container')
+                        .html()
+                        .replace(
+                                /\b(QD[i|e]\.\d{3})\b/ig,
+                                '<a onmouseover="updateSearchId($1)" href="#" class="normalTip" title="Cats are great!">$1</a>'
+                        )
+        );
+
+        $('a.normalTip').aToolTip();
+    });
+</script>
+</body>
+</html>

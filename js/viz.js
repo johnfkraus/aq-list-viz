@@ -545,13 +545,12 @@ Network = function () {
     circleRadius = d3.scale.sqrt()
       .range([3, $('#max_radius_select').val()])
       .domain(countExtent);
-//      .domain(countExtent);
-    data.nodes.forEach(function (n) {
-//      var randomnumber;
-      //     n.x = randomnumber = Math.floor(Math.random() * width);
-      //     n.y = randomnumber = Math.floor(Math.random() * height);
 
-      //return n.radius = circleRadius(n.linkCount);
+    data.nodes.forEach(function (n) {
+      // var randomnumber;
+      // n.x = randomnumber = Math.floor(Math.random() * width);
+      // n.y = randomnumber = Math.floor(Math.random() * height);
+      // return n.radius = circleRadius(n.linkCount);
       // return n.radius = (n.linkCount);
       // determine radius of each node circle
       return n.radius = circleRadius(Math.pow(n.linkCount * 3, 0.9));
@@ -571,7 +570,7 @@ Network = function () {
     return data;
   };
 
-//  Helper function to map node id's to node objects.
+//  Helper function to map node ids to node objects.
 //  Returns d3.map of ids -> nodes
   mapNodes = function (nodes) {
     var nodesMap;
@@ -581,10 +580,10 @@ Network = function () {
     });
     return nodesMap;
   };
+
 //  Helper function that returns an associative array
 //  with counts of unique attr in nodes
 //  attr is value stored in node, like 'target'
-
   nodeCounts = function (nodes, attr) {
     var counts;
     counts = {};
@@ -597,10 +596,10 @@ Network = function () {
     });
     return counts;
   };
-//  Given two nodes a and b, returns true if
-//  there is a link between them.
-//  Uses linkedByIndex initialized in setupData
 
+  //  Given two nodes a and b, returns true if
+  //  there is a link between them.
+  //  Uses linkedByIndex initialized in setupData
   neighboring = function (a, b) {
     // console.log("viz.js 243 neighboring = ", linkedByIndex[a.id + "," + b.id] || linkedByIndex[b.id + "," + a.id]);
     return linkedByIndex[a.id + "," + b.id] || linkedByIndex[b.id + "," + a.id];
@@ -689,9 +688,6 @@ Network = function () {
 //  Removes links from allLinks whose source or target is not present in curNodes
 //  Returns array of links
 
-//  filterLinks = function (allLinks, curNodes) {
-//    curNodes = mapNodes(curNodes);
-
   filterLinks = function (allLinks, curNodes) {
     curNodes = mapNodes(curNodes);
     return allLinks.filter(function (l) {
@@ -708,7 +704,7 @@ Network = function () {
       try {
         if ((typeof curNodes.get(l.target.id) !== 'undefined') && (curNodes.get(l.target.id) !== null)) {
           return curNodes.get(l.source.id) && curNodes.get(l.target.id);
-          return curNodes.get(l.source.id).substring(0, 1000) && curNodes.get(l.target.id).substring(0, 1000);
+          // return curNodes.get(l.source.id).substring(0, 1000) && curNodes.get(l.target.id).substring(0, 1000);
         }
       } catch (err) {
         // console.log('691 viz.js, line approx. 687;  Error: ', err.toString().substring(0, 10000));
@@ -794,7 +790,7 @@ Network = function () {
     return node.exit()
       .remove();
   };
-//  enter/exit display for links
+  //  enter/exit display for links
   updateLinks = function () {
     link = linksG.selectAll("line.link")
       .data(curLinksData, function (d) {
@@ -931,7 +927,8 @@ Network = function () {
     content = '<p class="main"><span>' + d.name + '</span></p>';
     content += '<hr class="tooltip-hr">';
     content += '<p class="main"><span>ID: ' + d.id + '&nbsp;&nbsp; Links: ' + d.linkCount + '</span></p>';
-    if (d.natnlty && d.natnlty != 0) {
+    if (d.indiv0OrEnt1 === 0 && d.natnlty && d.natnlty !== 0) {
+      // console.log("indiv0OrEnt1 === 0: ", (d.indiv0OrEnt1 === 0), "d.natnlty !=== 0 = ", (d.natnlty !== 0), (d.natnlty != 0))
       content += '<hr class="tooltip-hr">';
       content += '<p class="main"><span>Nationality: ' + d.natnlty;
       content += '</span></p>';
@@ -956,13 +953,15 @@ Network = function () {
         })
         .attr("z-index", function (l) { // not sure this code actually does anything
           if (l.source === d || l.target === d) {
-            return 100;
+            return "100";
           } else {
-            return 0;
+            return "0";
           }
         });
     }
   };
+
+
 //  click node for doc function
   showTheDoc = function (d, i) {
     console.log("viz.js 1006, showTheDoc(d, i), this = ", this, "; d.id = ", d.id, "; i = ", i);
@@ -990,6 +989,7 @@ Network = function () {
         } else {
           content = d.docs;
         }
+        content = addMouseovers(content);
         showDocument(d, content, d3.event);
       }
       }).fail(function (jqXHR, textStatus, errorThrown) {
@@ -1150,6 +1150,12 @@ Network = function () {
         .attr("stroke-opacity", 0.8);
     }
   };
+
+  let addMouseovers= function (content) {
+    return content;
+  }
+
+
 //  Final act of Network() function is to return the inner 'network()' function.
   return network;
 };
@@ -1207,9 +1213,9 @@ $(function () {
 
 
 
-    var intervalID = setInterval(function () {
-        wiggle();
-      }, 20000);
+    // var intervalID = setInterval(function () {
+    //     wiggle();
+    //   }, 20000);
 
     var wiggle = function () {
       activate("layouts", "force");
@@ -1268,6 +1274,19 @@ $(function () {
         return myNetwork.resize(false);
         // return false;
       });
+
+    $('#doc-container').html(
+      $('#doc-container')
+        .html()
+        .replace(
+          /\b(QD[i|e]\.\d{3})\b/ig,
+          '<a onmouseover="updateSearchId($1)" href="#" class="normalTip" title="Cats are great!">$1</a>'
+        )
+    );
+
+    $('a.normalTip').aToolTip();
+
+
 
     function hideDocument() {
       $("#doc-close").css('display', 'none');
@@ -1334,8 +1353,7 @@ $(function () {
       };
     }
 
-    $(document)
-      .on('click', '.select-object', function () {
+    $(document).on('click', '.select-object', function () {
         var obj = data[$(this)
           .data('name')];
         if (obj) {
