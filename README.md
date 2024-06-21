@@ -2,17 +2,17 @@
 
 ## United Nations ISIL and Al-Qaida Sanctions D3 Force-Directed Graph Visualization
 
-Deployed Website: https://al-qaida-sanctions.com/
+The United Nations Security Council imposes sanctions on the Islamic State in Iraq and the Levant (Da’esh), Al-Qaida and associated individuals, groups, undertakings and entities.  The sanctions, which all nations are required to enforce, include asset freezes, travel bans, and arms embargoes.
 
-This application uses the [D3 JavaScript library](https://d3js.org/) to render a force-directed graph showing the relationships between 
-sanctioned individuals and entities from the public [United Nations Al-Qaida Sanctions List](https://www.un.org/securitycouncil/sanctions/1267). The [data](data/AQList.xml)
- is published by the United Nations and is publicly available on a U.N. website.
+This application visualizes the relationships (i.e., "connects the dots") between the targets of these sanctions using a force-directed graph rendered using the [D3 JavaScript library](https://d3js.org/).
 
-By hovering your mouse pointer over a graph node you can view a tooltip identifying the sanctioned individual or organization:
+The deployed [website](https://al-qaida-sanctions.com/) uses publicly-available [data](data/AQList.xml) based on the published [United Nations Al-Qaida Sanctions List](https://www.un.org/securitycouncil/sanctions/1267).
+
+By hovering your mouse pointer over a graph node you can view a tooltip identifying the sanctioned target and its relationships with other sanctioned targets.
 
 ![Hover over a node](./images/nusrat.png)
 
-Click on a graph node to see additional details regarding the sanction entity at the bottom of the screen:
+Click on a graph node to see additional details regarding the sanction entity at the bottom of the screen.
 
 ![Click on a node](./images/al-qaida-sanctions-rouine.png)
 
