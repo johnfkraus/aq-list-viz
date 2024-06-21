@@ -611,6 +611,7 @@ Network = function () {
     var cutoff, filteredNodes, linkCounts;
     filteredNodes = allNodes;
     if (filter === "popular" || filter === "obscure") {
+      alert("hey, popular or obscure!");
       linkCounts = allNodes.map(function (d) {
         return d.linkCount;
       })
@@ -1275,16 +1276,16 @@ $(function () {
         // return false;
       });
 
-    $('#doc-container').html(
-      $('#doc-container')
-        .html()
-        .replace(
-          /\b(QD[i|e]\.\d{3})\b/ig,
-          '<a onmouseover="updateSearchId($1)" href="#" class="normalTip" title="Cats are great!">$1</a>'
-        )
-    );
+    // $('#doc-container').html(
+    //   $('#doc-container')
+    //     .html()
+    //     .replace(
+    //       /\b(QD[i|e]\.\d{3})\b/ig,
+    //       '<a href="#" class="normalTip" title="QD___">$1</a>'
+    //     )
+    // );
 
-    $('a.normalTip').aToolTip();
+    // $('a.normalTip').aToolTip();
 
 
 
@@ -1309,12 +1310,13 @@ $(function () {
         return myNetwork.updateSearchName(searchTermName);
       });
 
-    function onMouseoverLink(x) {
-      var searchTermId;
-      searchTermId = x.innerHTML;
-      console.log("searchTermId: " + searchTermId);
-      return myNetwork.updateSearchId(searchTermId);
-    }
+    // $("#highlightOnMover").mouseover(
+    // function() {
+    //   var searchTermId;
+    //   searchTermId = $(this).val()  //  x.innerHTML;
+    //   console.log("searchTermId: " + searchTermId);
+    //   return myNetwork.updateSearchId(searchTermId);
+    // });
 
   // "No Longer Listed" checkbox, (OBE as of 2024)
     $("input[name='noLongerListed']").change(function (e) {
@@ -1344,8 +1346,6 @@ $(function () {
     for (var i = 0, len = radioNEI.length; i < len; i++) {
       radioNEI[i].onclick = function () { // assign onclick handler function to each
         // put clicked radio button's value in total field
-        // this.form.elements.value = this.value;
-        // console.log(this.value);
         $('input[name="noLongerListed"][value="1"]').prop('checked', false);
         searchTerm = $(this)
           .val();
@@ -1405,9 +1405,7 @@ $(function () {
 
     // LOAD THE JSON DATA FILE HERE
     let myJsonData =  jsonData.replace(/\\/g, '\\');
-    // let myJsonData2 = JSON.parse(myJsonData);
     return myNetwork("#svg", JSON.parse(myJsonData));
-
   }
 );
 // end of function()

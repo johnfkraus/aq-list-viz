@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="en">
+<!--https://hibbard.eu/tooltips-using-jquery-atooltip-and-regular-expressions/-->
 <head>
     <meta charset="UTF-8">
     <title>Tooltip demo</title>
@@ -43,7 +44,7 @@
 <script src="js/libs/jquery-1.7.2.js"></script>
 <script type="text/javascript" src="js/jquery.atooltip.min.js"></script>
 <script>
-    let updateSearchId = function(searchId) {
+    function updateSearchId(searchId) {
         console.log(searchId);
     };
     $(function(){
@@ -52,7 +53,7 @@
                         .html()
                         .replace(
                                 /\b(QD[i|e]\.\d{3})\b/ig,
-                                '<a onmouseover="updateSearchId($1)" href="#" class="normalTip" title="Cats are great!">$1</a>'
+                                '<a onmouseover="updateSearchId("$--1")" href="#" class="normalTip" title="Cats are great!">$1</a>'
                         )
         );
 
