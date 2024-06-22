@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     width: auto;
     height: 100px;
+    background-color: rgba(200,200,255,1);
 }
 
 html {
@@ -10,13 +11,11 @@ html {
 
 a, a:visited {
     color: #4d4d4d;
-    /*text-decoration: underline;*/
     text-decoration: none;
 }
 
 /* 940px;  match value in js */
 #container {
-    /*background-color: transparent !important*/
     width: 100%;
     margin: auto;
 }
@@ -38,7 +37,6 @@ div#mainTitleTd a {
     text-decoration: none;
 }
 
-
 .mainTitleDiv {
     display: inline;
     color: rgb(51, 51, 51);
@@ -49,12 +47,6 @@ div#mainTitleTd a {
     text-rendering: optimizelegibility;
 }
 
-.noPadMar {
-    width: auto;
-    padding: 0;
-    margin: 0;
-    line-height: 11px;
-}
 
 form {
     margin: 0;
@@ -116,11 +108,6 @@ table, tbody, tr, td, a, form, td.div, td.div.form {
 /*    background: #555;*/
 /*}*/
 
-#searchDiv {
-    padding-top: 0;
-    padding-left: 0;
-}
-
 footer {
     display: none;
 }
@@ -178,7 +165,6 @@ line.link {
 
 span#name {
     font-size: 28px;
-
 }
 
 span#id {
@@ -216,13 +202,13 @@ td#unLogo img {
 }
 
 #top-stuff {
-    /*z-index: 10;*/
+
     padding: 5px;
     width: 100%;
     margin-bottom: 0;
     background-color: transparent !important;
     font-family: Arial, sans-serif;
-    /*display: none;*/
+
 }
 
 #top-stuff td {
@@ -255,30 +241,24 @@ span.oscr {
     font-size: 18px;
     color: green;
 }
+
 div.field-label {
     font-weight: bold;
     font-size: 14px;
     margin-bottom: 6px;
 }
+
 div.field-item p {
     padding-left: 10px;
     margin-bottom: 0;
     padding-bottom: 2px;
     line-height: 15px;
 }
-/*div.field-item.even {*/
-/*    padding-bottom: 20px;*/
+
+/*#doc-container {*/
+/*    margin-bottom: 20px;*/
 /*}*/
 
-
-#doc-container {
-    margin-bottom: 20px;
-}
-
-/*.field-name-field-relate {*/
-/*    padding-bottom: 20px;*/
-/*}*/
-/*div.field-label div.field-items div.field-item p {*/
 div.field-name-field-reason-for-listing div.field-item {
     /*background-color: red;*/
     padding-bottom: 10px;
@@ -295,29 +275,11 @@ div.field-name-field-related-listed-individuals div.field-item {
     margin-bottom: 30px;
 }
 
-/*div#narrativeShort {*/
-/*    padding-left: 10px;*/
-/*    margin-bottom: 0;*/
-/*    padding-top: 5px;*/
-/*    padding-bottom: 2px;*/
-/*    line-height: 15px;*/
-/*}*/
-
-body {
-    /*background-image: url('../webflow/images/yuriy-kovalev-nN1HSDtKdlw-unsplash.jpg');*/
-    /*background-size: cover;*/
-    background-color: rgba(200,200,255,1);
-    /*background-blend-mode: lighten;*/
-}
-
 div#doc-container {
+    margin-bottom: 20px;
     /*background-size: cover;*/
     background-color: rgba(220,220,255,1);
     /*background-blend-mode: lighten;*/
-}
-
-div#closelink {
-
 }
 
 a#doc-close {
@@ -325,7 +287,6 @@ a#doc-close {
     margin-right: 10px;
     margin-top: 5px;
     background-color: transparent;
-
 }
 
 img#close {
@@ -343,15 +304,11 @@ div.bioData {
 
 #unhideNavbar {
     display: none;
-
-}
-
-a#AQList\.xml {
-    text-decoration: none;
-
 }
 
 div#searchDiv {
+    padding-top: 0;
+    padding-left: 0;
     font-size: 13px;
     line-height: 18px;
 }
@@ -359,4 +316,13 @@ div#searchDiv {
 form#highlight {
     font-size: 13px;
     line-height: 18px;
+}
+
+.noPadMar {
+    text-decoration: none;
+    font-size: 10px;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    line-height: 11px;
 }
