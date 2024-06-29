@@ -23,7 +23,8 @@ a, a:visited {
 #svg {
     /*max-height: 960px;*/
     /*max-height: 1300px;*/
-    height: 3vh;
+    /*height: 3vh;*/
+    height: 1100px;
     overflow: scroll;
 }
 
@@ -98,15 +99,6 @@ table, tbody, tr, td, a, form, td.div, td.div.form {
     margin-right: 3px;
     text-decoration: none;
 }
-
-/*.control a:hover {*/
-/*    text-decoration: underline;*/
-/*}*/
-
-/*.control a.active {*/
-/*    color: white;*/
-/*    background: #555;*/
-/*}*/
 
 footer {
     display: none;
@@ -183,7 +175,7 @@ span#narrative, span#longNarrative {
     font-size: 13px;
 }
 
-div.line2, div.line3 {
+div.line2 {
     margin-top: 4px;
 }
 

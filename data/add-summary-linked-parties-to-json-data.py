@@ -11,6 +11,8 @@
 
 # june 20, len(nodes):  345 , len(all_links): 1315 , len(globalLinks):  1315 , len(globalLinkStrings): 1315
 
+# june 29  len(nodes):  345 , len(all_links): 1311 , len(globalLinks):  1311 , len(globalLinkStrings): 1311
+
 
 import json
 import re

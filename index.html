@@ -19,16 +19,16 @@
     <meta name="website updated date" content="June 2024">
     <link rel="shortcut icon" type="image/jpg" href="/images/favicon.jpg"/>
     <!-- CSS concatenated and minified via ant build script-->
-    <link rel="stylesheet" href="css/reset.css">
+<!--    <link rel="stylesheet" href="css/reset.css">-->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/graph.css">
     <!-- end of CSS stylesheets -->
-    <script src="js/libs/modernizr.custom.99838.js"></script>
-    <script src="js/utilities.js"></script>
-    <script src="js/libs/underscore.js"></script>
-    <script src="js/libs/backbone.js"></script>
-    <script src="js/config.js"></script>
+<!--    <script src="js/libs/modernizr.custom.99838.js"></script>-->
+<!--    <script src="js/utilities.js"></script>-->
+<!--    <script src="js/libs/underscore.js"></script>-->
+<!--    <script src="js/libs/backbone.js"></script>-->
+<!--    <script src="js/config.js"></script>-->
 
 </head>
 <body>
@@ -260,10 +260,25 @@
             </div>
             <div id="aliasDiv" class="bioData">
                 <span class="boldListing" style="font-weight: bold;">
-                    Aliases (quality)&nbsp;</span>
-                <span class="boldListing" id="aliasCount"></span>
-                <span class="boldListing">:&nbsp;</span>
-                <span id="aliasString">
+                    Aliases / alias quality:&nbsp;</span>
+<!--                <span class="boldListing" id="aliasCount"></span>-->
+<!--                <span class="boldListing">:&nbsp;</span>-->
+                    <span id="aliasesString">
+                </span>
+            </div>
+            <div id="addressesDiv" class="bioData">
+                <span class="boldListing" style="font-weight: bold;">
+                    Addresses:&nbsp;</span>
+                <!--                <span class="boldListing" id="aliasCount"></span>-->
+                <!--                <span class="boldListing">:&nbsp;</span>-->
+                <span id="addressesString">
+                </span>
+            </div>
+
+            <div id="genderDiv" class="bioData">
+                <span class="boldListing" style="font-weight: bold;">
+                    Gender:&nbsp;</span>
+                <span id="genderString">
                 </span>
             </div>
             <div id="dateListedDiv" class="bioData">
@@ -290,18 +305,18 @@
 </div>
 <!--! end of #container -->
 <script type="text/javascript" src="js/libs/jquery-1.7.2.js"></script>
-<script type="text/javascript" defer src="js/plugins.js"></script>
+<!--<script type="text/javascript" defer src="js/plugins.js"></script>-->
 <script type="text/javascript" src="js/libs/d3.v2.js"></script>
 <script type="text/javascript" src="js/Tooltip.js"></script>
 <script type="text/javascript" src="js/Document.js"></script>
 <script type="text/javascript" src="data.js"></script>
 <script type="text/javascript" src="js/viz.js"></script>
 <script>
-    (function () {
-        'use strict';
-        var blob = new Blob([jsonData], {type: 'text/javascript'});
-        var blobUrl = URL.createObjectURL(blob);
-    })();
+    // (function () {
+    //     'use strict';
+    //     var blob = new Blob([jsonData], {type: 'text/javascript'});
+    //     var blobUrl = URL.createObjectURL(blob);
+    // })();
 </script>
 
 <script>

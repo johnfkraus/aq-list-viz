@@ -610,21 +610,21 @@ Network = function () {
   filterNodes = function (allNodes) {
     var cutoff, filteredNodes, linkCounts;
     filteredNodes = allNodes;
-    if (filter === "popular" || filter === "obscure") {
-      alert("hey, popular or obscure!");
-      linkCounts = allNodes.map(function (d) {
-        return d.linkCount;
-      })
-        .sort(d3.ascending);
-      cutoff = d3.quantile(linkCounts, 0.5);
-      filteredNodes = allNodes.filter(function (n) {
-        if (filter === "popular") {
-          return n.linkCount > cutoff;
-        } else if (filter === "obscure") {
-          return n.linkCount <= cutoff;
-        }
-      });
-    }
+    // if (filter === "popular" || filter === "obscure") {
+    //   alert("hey, popular or obscure!");
+    //   linkCounts = allNodes.map(function (d) {
+    //     return d.linkCount;
+    //   })
+    //     .sort(d3.ascending);
+    //   cutoff = d3.quantile(linkCounts, 0.5);
+    //   filteredNodes = allNodes.filter(function (n) {
+    //     if (filter === "popular") {
+    //       return n.linkCount > cutoff;
+    //     } else if (filter === "obscure") {
+    //       return n.linkCount <= cutoff;
+    //     }
+    //   });
+    // }
     return filteredNodes;
   };
 //  Returns array of targets sorted based on
@@ -696,19 +696,24 @@ Network = function () {
         console.log('filename: viz.js, line approx. 672;  Error null target where l.source.id = ', l.source.id, '; l.source = ', JSON.stringify(l.source));
       }
       try {
-        if ((typeof l.target.id === 'undefined') && (l.target.id) === null) {
+        if ((typeof l == 'undefined') && (typeof l.target == 'undefined') && (typeof l.target.id === 'undefined') && (l.target.id === null)) {
+
           console.log('filename: viz.js, line approx. 676; Error null target id where l.source.id = ', l.source.id, '; l.source = ', JSON.stringify(l.source));
+
+          if ((typeof curNodes.get(l.target.id) !== 'undefined') && (curNodes.get(l.target.id) !== null)) {
+            return curNodes.get(l.source.id) && curNodes.get(l.target.id);
+          }
         }
       } catch (err) {
         // console.log('filename: viz.js, line approx. 679;  Error: ', err, '; null target id where l.source.id = ', l.source.id, '; l.source = ', JSON.stringify(l.source).substring(0, 1000), "l.target = ", l.target );
       }
       try {
-        if ((typeof curNodes.get(l.target.id) !== 'undefined') && (curNodes.get(l.target.id) !== null)) {
+        if ( (l.target !== 'undefined')  && (typeof curNodes.get(l.target.id) !== 'undefined') && (curNodes.get(l.target.id) !== null)) {
           return curNodes.get(l.source.id) && curNodes.get(l.target.id);
           // return curNodes.get(l.source.id).substring(0, 1000) && curNodes.get(l.target.id).substring(0, 1000);
         }
       } catch (err) {
-        // console.log('691 viz.js, line approx. 687;  Error: ', err.toString().substring(0, 10000));
+        console.log('691 viz.js, line approx. 687;  Error: ', err.toString().substring(0, 10000));
 
       }
     });
@@ -1008,33 +1013,46 @@ Network = function () {
     //$("span#name").html(d.name);
     $("span#name").html(d.name);
     $("span#id").html(d.id);
-    $("span#nameOriginalScript").html(d.NAME_ORIGINAL_SCRIPT);
+    // $("span#nameOriginalScript").html(d.NAME_ORIGINAL_SCRIPT);
+    $("span#nameOriginalScript").html(d.nameOriginalScript);
     $("span#longNarrative").html(content);
 
     $("span#narrative").html(d.COMMENTS1);
-    if (d.indiv0OrEnt1 == 0 && (typeof d.indiv_dob !== 'undefined') && d.indiv_dob !== "") {
-      $("span#indivDob").html(d.indiv_dob);
+
+    if (d.indiv0OrEnt1 == 0 && (typeof d.indivDateOfBirth !== 'undefined') && d.indivDateOfBirth !== "") {
+      $("span#indivDob").html(d.indivDateOfBirth);
       $("div#dateOfBirthDiv").css("display", "block");
     } else {
       $("div#dateOfBirthDiv").css("display", "none");
     }
-    if (d.indiv0OrEnt1 == 0 && (typeof d.indiv_place_of_birth !== 'undefined') && d.indiv_place_of_birth !== "") {
+    if (d.indiv0OrEnt1 == 0 && (typeof d.indivPlaceOfBirth !== 'undefined') && d.indivPlaceOfBirth !== "") {
       $("div#placeOfBirthDiv").css("display", "block");
-      $("span#indivPlaceOfBirth").html(d.indiv_place_of_birth);
+      $("span#indivPlaceOfBirth").html(d.indivPlaceOfBirth);
     } else {
       $("div#placeOfBirthDiv").css("display", "none");
     }
-    if (d.indiv0OrEnt1 == 0 && (typeof d.indivAliasString !== 'undefined') && d.indivAliasString !== "") {
-      var aliasCount = "(" + d.aliasCount + ")";
-      $("span#aliasCount").html(aliasCount);
-      $("span#aliasString").html(d.indivAliasString);
+
+    if (d.aliasesString !== "") {
+      $("span#aliasesString").html(d.aliasesString);
       $("div#aliasDiv").css("display", "block");
     } else {
       $("div#aliasDiv").css("display", "none");
     }
-    if (typeof d.LISTED_ON !== 'undefined' && d.LISTED_ON !== "") {
+    if (d.addressesString !== "") {
+      $("span#addressesString").html(d.addressesString);
+      $("div#addressesDiv").css("display", "block");
+    } else {
+      $("div#addressesDiv").css("display", "none");
+    }
+    if ((typeof d.gender !== 'undefined') && (d.gender !== "")) {
+      $("span#genderString").html(d.gender);
+      $("div#genderDiv").css("display", "block");
+    } else {
+      $("div#genderDiv").css("display", "none");
+    }
+    if (typeof d.listedOn !== 'undefined' && d.listedOn !== "") {
       $("div#dateListedDiv").css("display", "block");
-      $("span#dateListed").html(vizFormatDate(d.LISTED_ON));
+      $("span#dateListed").html(vizFormatDate(d.listedOn));
     } else {
       $("div#dateListedDiv").css("display", "none");
     }
@@ -1082,7 +1100,7 @@ Network = function () {
   };
 
   function resize(showDoc) {
-    // console.log("viz.js 1120 resize(showDoc = ", showDoc, ")");
+    console.log("viz.js 1120 resize(showDoc = ", showDoc, ")");
     var topStuffDisplay = $("#top-stuff").css("display");
     let topStuffHeight;
     if (topStuffDisplay == "none") {
@@ -1116,6 +1134,9 @@ Network = function () {
       $('#doc-container').css('height', 0 + 'px');
     }
 
+    if (window.innerHeight > 1) {
+      window.resizeTo(400, 1200);
+    }
     svgHeight = window.innerHeight - docHeight - topStuffHeight + topStuffNegativeMargin;
 
     if (consoleLog) {

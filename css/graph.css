@@ -46,9 +46,9 @@
     background: #ccc;
 }
 
-#doc-scroll {
-    overflow-y: scroll;
-}
+/*#doc-scroll {*/
+/*    overflow-y: scroll;*/
+/*}*/
 
 #doc {
     padding: 8px;
@@ -75,8 +75,3 @@
     padding: 4px;
 }
 
-/*
-.doc .select-object.missing {
-    color: #c7254e;
-}
-*/
