@@ -1,5 +1,5 @@
 {
-  "name": "aq-list-viz",
+  "name": "al-qaida-sanctions",
   "version": "1.1.0",
   "description": "Network Visualization of U.N. al-qaida sanctions list\"",
   "main": "index.js",

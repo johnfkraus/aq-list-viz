@@ -5,7 +5,7 @@ ssh into the server:
 
 ssh root@aq-qaida-sanctions.com
 
-Clone the git repo:
+Clone the git repo (using HTTPS):
 
 git clone https://github.com/johnfkraus/al-qaida-sanctions.git
 
